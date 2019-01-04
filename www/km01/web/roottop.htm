@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/shtml; charset=UTF-8">
+<link href="css/top.css" rel="stylesheet" type="text/css" />
+<title>Infinova DVR</title>
+<script language="javascript" src="js/set.js"></script>
+<script language="javascript" src="js/cookie.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function InitTableWidth(){
+	var width = screen.availWidth;
+	document.getElementById("mainTable").width=width;
+}
+//-->
+</script>
+</head>
+<body onLoad="getOperator();InitTableWidth();clearVal();" onUnload="onLogout();" oncontextmenu="return false;">
+<form name="operator" action="/infinova/Logout" method="post">
+<table id="mainTable" width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40" align="center" background="images/one_back.gif"><img src="images/top.jpg" width="466" height="40" border="0"></td>
+  </tr>
+  <tr valign="top">
+    <td height="19" align="center" bgcolor="#800000">
+	<table height="19" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="67" align="center" onClick="onConfig('en');"><div id="a1" style="color:#FFFFFF">Settings</div></td>
+        <td width="15" align="center"><span class="style1" >|</span></td>
+        <td width="86" align="center" onClick="onBrowse();"><div id="a2" style="color:#FF0000">Live Page</div></td>
+        <td width="11" align="center"><span class="style1" >|</span></td>
+        <td width="76" align="center" onClick="onReplay();"><div id="a3" style="color:#FFFFFF">Replay</div></td>
+        <td width="11" align="center"><span class="style1" >|</span></td>
+        <td width="69" align="center" onClick="onLogout();exit()"><a href="#" class="style3">Logout </a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<input type="hidden" name="user" value=""/><input type="hidden" name="pass" value=""/></form>
+</body>
+</html>

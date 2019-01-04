@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>备份恢复</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/Backuprecovery.css">
+        <script src="assets/jquery/jquery.min.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+        <script src="My97DatePicker/WdatePicker.js"></script>
+        <script src="assets/artTemplate/template.js"></script>
+        <script src="js/Backuprecovery.js"></script>
+    </head>
+    <body>
+        <div class="right_content_top">
+          <a href="#">首页  ></a>
+          <a href="#">系统维护  ></a>
+          备份恢复
+        </div>
+        <div class="search">备份恢复</div>
+        <div id="message" style="margin:0 3%;color:#005b96"> <b></b>
+        </div>
+          <form action="" id="myForm">
+          <div class="firstpage_1">
+            <!-- 挖坑 -->
+          </div>
+          <div class="clear"></div>
+          <input type="hidden" id="flag" name="flag" value=""/>        
+          <input type="hidden" id="backModel"  value="0"/>     
+           <input type="hidden" id="doFlag"  name="doFlag" value=""/>         
+        </form>
+    </body>
+    <script type="text/html" id="backUp">
+        <div class="usergroup">
+            <div class="nature">
+              <div class="nature_bq">备份</div>
+              <div class="nature_nr">
+                <ul>
+                  <li>
+                    <input type="radio" id="manual" name="backMode" value="0" onclick="document.getElementById('backModel').value=(this.checked==true?0:''),backsetting();" {{if backModel==0}}checked{{/if}}/>        
+                    手动
+                  </li>
+                  <li style="width:auto">
+                    <input type="radio" style="width=10px" id="auto" name="backMode" value="1" onclick="document.getElementById('backModel').value=(this.checked==true?1:''),backsetting();"  {{if backModel==1}}checked{{/if}}/>        
+                    自动&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定制时间：
+                    <input class="time_aa" type="text" id="oneTime" name="oneTime" value="{{oneTime}}"  onClick="WdatePicker({dateFmt:'HH:mm'})"/>        
+                    <input class="time_aa" type="text" id="twoTime" name="twoTime" value="{{twoTime}}" onClick="WdatePicker({dateFmt:'HH:mm'})"/>        
+                    <input class="time_aa" type="text" id="threeTime" name="threeTime" value="{{threeTime}}" onClick="WdatePicker({dateFmt:'HH:mm'})"/>    
+                   
+                  </li>
+                </ul>
+              </div>
+              <div class="confirm">
+                <input class="submit" type="button" value="确定" onclick="setBackup();"/>        
+              </div>
+            </div>
+            <div class="nature" style="margin-top:26px;">
+              <div class="nature_bq">恢复</div>
+              <div class="nature_nr_cc_ll">
+                <div class="nature_nr_cc_ll_b">
+                  <div class="nature_nr_cc_ll_b_aa" style="margin-top:10px;">
+                    系统恢复：
+                    <input class="submit" type="button" value="恢复" onclick="setRestore();"/>        
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+    </script>
+</html>
+   

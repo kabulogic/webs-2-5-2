@@ -1,0 +1,318 @@
+.select {
+  background: gray;
+  color: #fff;
+}
+body {
+  background-color: #dfdfdf;
+}
+body > .banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #09c;
+  padding: 0 10px;
+}
+body > .banner > .exit {
+ width: 100px;
+ height: 40px;
+}
+body > .banner > .exit > a:hover {
+  text-decoration: none;
+  color: red;
+}
+body > .c_aside {
+  position: fixed;
+  left: 0;
+  top: 40px;
+  width: 260px;
+  height: 100%;
+  background-color: #293038;
+}
+body > .c_aside > .left_content > .left_avatar {
+  height: 160px;
+  padding-top: 25px;
+  text-align: center;
+}
+body > .c_aside > .left_content > .left_avatar > .profile {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  
+}
+body > .c_aside > .left_content > .left_avatar > .profile > img {
+  display: block;
+  width: 100%;
+  vertical-align: middle;
+}
+body > .c_aside > .left_content > .left_avatar > h4 {
+  color: #a9b0c2;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+}
+body > .c_aside > .left_content > .left_top {
+  overflow: hidden;
+  padding-top: 8px auto;
+}
+body > .c_aside > .left_content > .left_top > table {
+  margin: 0 auto;
+}
+body > .c_aside > .left_content > .left_top > table > tbody > tr {
+  line-height: 18px;
+  height: 18px;
+  font-size: 14px;
+  color: #fff;
+}
+body > .c_aside > .left_content > .left_mid {
+  padding-bottom: 10px;
+}
+body > .c_aside > .left_content > .left_mid > .left_m1 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: bold;
+}
+body > .c_aside > .left_content > .left_mid > .left_m1 > span > a {
+  color: #000;
+  text-decoration: none;
+}
+body > .c_aside > .left_content > .left_mid > .left_m1 > span > a > i {
+  color: #fff;
+}
+body > .c_aside > .left_content > .left_mid > table {
+  margin: 0 auto;
+}
+body > .c_aside > .left_content > .left_mid > table > tbody > tr {
+  line-height: 18px;
+  height: 18px;
+  font-size: 14px;
+  color: #fff;
+}
+body > .c_aside > .left_content > .left_mid > table > tbody > tr > td {
+  padding: 0 2px;
+  color: #cfcfcf;
+}
+body > .c_aside > .left_content > .left_mid > table > tbody > tr > td.yabse {
+  color: #fff;
+}
+body > .main {
+  min-width: 844px;
+  padding: 40px 0 30px 260px;
+}
+body > .main > .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body > .main > .container-fluid > .c_navs {
+  width: 100%;
+  padding-left: 260px;
+  margin-left: -275px;
+  position: fixed;
+  top: 40px;
+  z-index: 99;
+}
+body > .main > .container-fluid > .c_navs > .navbar {
+  width: 100%;
+  padding-right: 15px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #eee;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left {
+  float: left !important;
+  margin-right: -15px;
+  width: 75%;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav {
+  width: 12%;
+  float: left;
+  text-align: center;
+  position: relative;
+  height: 80px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-1 {
+  background: url(../images/port-visit.png) no-repeat center 18px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-1 > a:hover {
+  background: url(../images/port-visit.png) no-repeat center 18px #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-2 {
+  background: url(../images/user-manager.png) no-repeat center 18px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-2 > a:hover {
+  background: url(../images/user-manager.png) no-repeat center 18px #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-3 {
+  background: url(../images/setbasic.png) no-repeat center 18px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-3 > a:hover {
+  background: url(../images/setbasic.png) no-repeat center 18px #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-4 {
+  background: url(../images/safemanage.png) no-repeat center 18px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-4 > a:hover {
+  background: url(../images/safemanage.png) no-repeat center 18px #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-5 {
+  background: url(../images/sys.png) no-repeat center 18px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-5 > a:hover {
+  background: url(../images/sys.png) no-repeat center 18px #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-6 {
+  background: url(../images/disk.png) no-repeat center 18px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-6 > a:hover {
+  background: url(../images/disk.png) no-repeat center 18px #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-7 {
+  background: url(../images/video.png) no-repeat center 18px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-7 > a:hover {
+  background: url(../images/video.png) no-repeat center 18px #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-8 {
+  background: url(../images/help.png) no-repeat center 18px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav.div-8 > a:hover {
+  background: url(../images/help.png) no-repeat center 18px #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > a {
+  display: block;
+  height: 100%;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > a:hover {
+  text-decoration: none;
+  background-color: #fff;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > a > .xd_top_2h {
+  height: 30px;
+  padding: 56px 0  0 0 ;
+  text-align: center;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > a > .xd_top_2h > span {
+  height: 30px;
+  color: #201c1c;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox {
+  width: 600px;
+  height: 300px;
+  background-color: #f3f3f3;
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxTop {
+  height: 30px;
+  background-color: lightBlue;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxTop > a {
+  display: block;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxTop > a > span {
+  float: left;
+  line-height: 26px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxTop > a > button {
+  float: right;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxTop > a > button:hover {
+  background-color: red;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxMid {
+  width: 600px;
+  height: 230px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxMid > .boxLeft {
+  width: 230px;
+  height: 230px;
+  float: left;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxMid > .boxLeft > img {
+  margin: 23px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxMid > .boxRight {
+  margin-left: 230px;
+  height: 230px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxMid > .boxRight > img {
+  margin-top: 22px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxMid > .boxRight > .content > p {
+  padding: 4px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > .box > .bigBox > .boxBottom {
+  margin: 10px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > ul {
+  display: none;
+  position: absolute;
+  background: #fff;
+  top: 80px;
+  border: 2px solid #2abbeb;
+  list-style: none;
+  top: 100%;
+  left: 50%;
+  margin-left: -50px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > ul > li {
+  border-bottom: 1px dashed #d6d6d6;
+  width: 90px;
+  text-align: left;
+  line-height: 30px;
+  height: 30px;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-left > .div-nav > ul > li > a {
+  padding-left: 10px;
+  color: #323232;
+  display: block;
+}
+body > .main > .container-fluid > .c_navs > .navbar > .navbar-header > .navbar-brand {
+  height: auto;
+  margin-top: 12px;
+  color: #fff;
+  background-color: #5cb85c;
+  border-radius: 2px;
+  font-size: 20px;
+}
+body > .main > .container-fluid > .c_section {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  top: 125px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 80;
+}
+body > .main > .container-fluid > .c_section > .c-main {
+  margin-left: 282px;
+  height: 100%;
+}
+body > .main > .container-fluid > .c_section > .c-main > .c-about {
+  width: 100%;
+  height: 100%;
+}

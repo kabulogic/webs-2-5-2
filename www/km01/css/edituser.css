@@ -1,0 +1,103 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.edituser {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 8px;
+}
+.allpage > .user {
+  width: 94%;
+  margin: 10px auto 0 auto;
+}
+.allpage > .user > .grpuser_error {
+  width: 100%;
+  margin: 10px auto 0 auto;
+}
+.allpage > .user > form > table > tbody > tr {
+  height: 30px;
+  color: #6d6d6d;
+  font-size: 14px;
+}
+.allpage > .user > form > table > tbody > tr > td > span {
+  color: #ec1d23;
+  padding-right: 5px;
+}
+.allpage > .user > form > table > tbody > tr > td > label > .szbuxl {
+  width: 300px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #e6e6e6;
+  color: #6d6d6d;
+  padding-left: 10px;
+  font-family: "Microsoft YaHei";
+  outline: none;
+  background: #fff;
+}
+.allpage > .user > form > table > tbody > tr > td > label > .szbuxl.szbuxl:focus {
+  border: 1px solid #3d81ae;
+}
+.allpage > .user > form > table > tbody > tr > td > label > .szbuxl_select {
+  width: 312px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #e6e6e6;
+  color: #6d6d6d;
+  padding-left: 10px;
+  border-radius: 2px;
+  font-family: "Microsoft YaHei";
+  outline: none;
+   background: #fff;
+}
+.allpage > .user > form > div > .confirm {
+  width: 95px;
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  color: #737373;
+  font-family: "Microsoft YaHei";
+  margin: 0 auto;
+  line-height: 25px;
+  margin-right: 10px;
+}
+.allpage > .user > form > div > .confirm.confirm:hover {
+  color: #fff;
+  background-color: #1c66a4;
+}
+.allpage > .user > form > div > .cancel {
+  width: 95px;
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  color: #737373;
+  font-family: "Microsoft YaHei";
+  margin: 0 auto;
+  line-height: 25px;
+  margin-right: 10px;
+}
+.allpage > .user > form > div > .cancel.cancel:hover {
+  color: #fff;
+  background-color: #1c66a4;
+}

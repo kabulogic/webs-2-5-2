@@ -1,0 +1,36 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.search {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 8px;
+}
+.firstpage_1 {
+  height: auto;
+  margin: 0 auto;
+}
+.firstpage_1 > .deviceInfo {
+  width: 94%;
+  margin: 10px auto 0 auto;
+}
+.firstpage_1 > .deviceInfo > table > tbody > tr {
+  height: 28px;
+  color: #6d6d6d;
+}

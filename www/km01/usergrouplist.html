@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>用户组列表</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="YhhDataTable/css/jquery.paginate.css" />
+        <link rel="stylesheet" href="YhhDataTable/css/jquery.yhhDataTable.css" />
+        <link rel="stylesheet" href="css/usergrouplist.css">
+        <script src="assets/jquery/jquery.min.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+        <script type="text/javascript" src="YhhDataTable/js/jquery.paginate.js" ></script>
+        <script type="text/javascript" src="YhhDataTable/js/jquery.yhhDataTable.js" ></script>
+        <script src="js/usergrouplist.js"></script>
+    </head>
+    <body>
+      <div class="right_content_top">
+        <a href="#">首页&nbsp;></a>
+        <a href="#">用户管理&nbsp;></a>
+        用户组列表
+      </div>
+      <br>      
+      <div id="message"class="search"> <b></b>
+      </div>
+      <form action="" method="post"  id="myForm">
+        <div class="search">
+          <input type="text" style="margin-left:1px;" class="kk" onkeydown="enterSumbit();" id="groupName" placeholder="请输入用户组名..." />      
+          <input type="button"  class="an" id="search_button" onclick="search()" value="查找" />      
+        </div>
+        <div class="form_content">
+          <div class="form_top">
+             <div class="form_top_th">
+              <table id="userGIn" width="100%" border="0" cellspacing="0" cellpadding="0">
+               <thead>
+                <tr>
+                  <th width="5%">
+                    <input type="checkbox" id="ifAll" onclick="checkAll();"/>      
+                  </th>
+                  <th  style="text-align:center">用户组编号</th>
+                  <th style="text-align:center">用户组名</th>
+                </tr>
+               </thead>
+               <tbody>
+                 <!--挖坑-->
+               </tbody>
+              </table>
+            </div>
+
+            <div class="form_top_body">
+               <div class="fy">
+               
+                <div class="fy_right fr">
+                  <a href="#" id="add" onclick="getAddGroup();">添加</a>
+                  <a href="#" id="bachRemove" name="bachRemove" onclick="getDeleteeUser();">删除</a>
+                </div>
+              </div>
+            </div>
+            <br/>      
+            <span style="margin-left:350px;"> <font size="5pt"></font>
+            </span>
+            <input type="hidden" id="flag" name="flag"/>      
+            <input type="hidden" id="currFlag" value=""/>      
+            <input type="hidden" id="currGroup" value=""/>      
+            <input type="hidden" id="totalPage" value="1"/>      
+          </div>
+          <div class="clear"></div>
+        </div>
+      </form>
+      
+    </body>
+    
+</html>

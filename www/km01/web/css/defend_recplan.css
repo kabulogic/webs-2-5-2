@@ -1,0 +1,21 @@
+/* CSS Document */
+.defend{
+	color:white;
+	background-color:white;
+	border:1px solid #dddddd;
+}
+.cancel{
+	border:0;
+	text-align:left;
+}
+.button{
+	border:1px solid #dddddd;
+	width:10px;
+	height:30px;
+	background:white;
+}
+.tableborder
+{
+	border:1px solid #999999;
+	font:12px;
+}

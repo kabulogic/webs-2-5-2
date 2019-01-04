@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" src="js/common.js"></script>
+<script language="javascript" src="js/send.js"></script>
+<script language="javascript" src="js/setConfigMenu.js"></script>
+<script language="javascript" src="js/cookie.js"></script>
+<script language="javascript" src="js/chCtr.js"></script>
+<script language="javascript" src="js/get_alarm.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+MM_reloadPage(true);
+
+function Click(){
+window.event.returnValue=false;
+}
+document.oncontextmenu=Click;
+//-->
+</script>
+<style type="text/css">
+@import url("css/left.css");
+</style>
+<title>Left Settings</title>
+</head>
+<body ondrag="return false" onLoad="InitPage()">
+<table width="170" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td onMouseDown="config1('cn')" id="set1" width="165" height="23" background="images/menu_.gif" class="childbody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;系统信息</td>
+    <td width="5">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="images/compart.gif" width="170" height="2"></td>
+  </tr>
+  <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody " id="set2" onMouseDown="config2('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;网络设置</td>
+    <td width="5">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+  </tr>
+
+  <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody " id="set10" onMouseDown="config10('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;时间设置</td>
+    <td width="5">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+  </tr>
+  <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set3" onMouseDown="config3('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;通道设置</td>
+    <td width="5">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+  </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set4" onMouseDown="config4('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;录像设置</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set5" onMouseDown="config5('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;PTZ/串口设置</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+  <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set11" onMouseDown="config11('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;网络辅助开关设置</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set6" onMouseDown="config6('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;报警设置</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set7" onMouseDown="config7('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;用户管理</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set9" onMouseDown="config9('cn')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;系统状态 </td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set8" onMouseDown="config8('cn');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;高级设置</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+</table>
+<form name="UserInfo">
+<input type="hidden" name="priP" value="1"/>
+<input type="hidden" name="priS" value="1"/>
+<input type="hidden" name="priD" value="1"/>
+<input type="hidden" name="Chn" value="1"/>
+</form>
+</body>
+</html>

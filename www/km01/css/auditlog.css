@@ -1,0 +1,185 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.firstpage_1 {
+  height: auto;
+  margin: 0 auto;
+}
+.firstpage_1 > .main {
+  width: 94%;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+.firstpage_1 > .main > .mainText {
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 12px;
+}
+.firstpage_1 > .main > select {
+  margin-top: 12px;
+  padding:3px 0;
+  padding-left: 4px;
+  width: 15%;
+  height: 30px;
+  line-height: 30px;
+
+}
+.firstpage_1 > .main > select > option {
+  width: 15%;
+  height: 30px;
+  line-height: 30px;
+}
+.firstpage_1 > .main > .sonText {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 12px;
+}
+.firstpage_1 > .main > .dateChoose {
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 8px;
+}
+.firstpage_1 > .main > .dateChoose > span {
+  float: left;
+}
+.firstpage_1 > .main > .dateChoose > input {
+  height: 28px;
+  line-height: 28px;
+  padding:3px 0;
+}
+.firstpage_1 > .main > .searchBtn {
+  width: 5%;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.firstpage_1 > .firstpage_2_log {
+  width: 94%;
+  margin: 5px auto 0 auto;
+}
+/*.firstpage_1 > .firstpage_2_log > .audit {
+  background: #1C66A4;
+  border: 1px solid #e4e4e4;
+}
+.firstpage_1 > .firstpage_2_log > .audit > table > tbody > tr > td {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p {
+  background: #FFF;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 10px;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .firstpage_2_p1 {
+  border-bottom: 1px solid #1c66a4;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .firstpage_2_p1:nth-child(2n) {
+  background-color: #e7e7e7;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .firstpage_2_p1 > table > tbody > tr > td {
+  height: 25px;
+  line-height: 25px;
+  color: #565656;
+  text-align: center;
+}*/
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy {
+  background: #ececec;
+  width: 100%;
+  height: 50px;
+  color: #737373;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_left {
+  font-family: "MicrosoftYaHei", SimHei, arial;
+  margin-left: 30px;
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_left > .info-num {
+  color: #F5A523;
+  padding: 0 5px;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right {
+  line-height: 50px;
+  top: 3px;
+  right: 0;
+  overflow: hidden;
+  position: absolute;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .paginate-btn {
+  border: 1px solid #AAA;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 11px;
+  border-radius: 0;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .paginate-btn.prev-btn {
+  width: 7px;
+  height: 12px;
+  background: url("../images/left-arrow.png") no-repeat center center;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .paginate-btn.next-btn {
+  width: 7px;
+  height: 12px;
+  background: url("../images/right-arrow.png") no-repeat center center;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .paginate-num-btn-group {
+  vertical-align: top;
+  display: inline-block;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .paginate-num-btn-group > .paginate-btn {
+  background-color: #FFF;
+  border: 1px solid #AAA;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 11px;
+  cursor: pointer;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .paginate-num-btn-group > .paginate-btn.current-btn {
+  background-color: #DDE4FE;
+  color: #1E90FF;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .go-page-box {
+  margin-left: 15px;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .go-page-box > .go-page-input {
+  height: 30px;
+  line-height: 30px;
+  width: 40px;
+  text-align: center;
+  padding: 0;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.firstpage_1 > .firstpage_2_log > .firstpage_2_p > .fy > .fy_right > .go-page-box > .end-view-btn {
+  border-right-width: 1px;
+}

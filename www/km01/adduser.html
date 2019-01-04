@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>添加用户</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="/css/common.css">
+        <link rel="stylesheet" href="/css/adduser.css">
+        <script src="/assets/jquery/jquery.min.js"></script>
+		    <script src="assets/artTemplate/template.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+        <script src="/js/adduser.js"></script>
+ 			<script src="/js/de.js"></script>
+    </head>
+    <body>
+        <!--  主体开始部分 -->
+      <div class="right_content_top">
+        <a href="#">首页&nbsp;></a>
+        <a href="#">用户管理&nbsp;></a>
+        添加用户
+      </div>
+      <div class="edituser">添加用户</div>
+      <div class="allpage">
+        <div class="user">
+          <div id="errorInfo" class="grpuser_error"></div >
+          <form action="" method="post"  id="user-form">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="16%" align="left">
+                  用&nbsp;&nbsp;户&nbsp;名：
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td width="84%">
+                  <label>
+                    <input type="text" id="userName"  name="userName" class="szbuxl"/>      
+                  </label>
+                </td>
+              </tr>
+            <!--  <tr>
+                <td align="left">用户全名：&nbsp;&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  <label>
+                    <input type="text" id="fullName" name="fullName" class="szbuxl" value="ad"/>      
+                  </label>
+                </td>
+			  </tr>-->
+              <tr>
+                <td align="left">
+                  设置密码：&nbsp;&nbsp;
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>
+                    <input type="password" id="first_password"   onkeydown="return   banInputSapce(event);" value="" onfocus="document.getElementById('errorInfo').innerHTML='';"oncopy="document.selection.empty()" onpaste="return false" class="szbuxl" value="123456" />      
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  确认密码：
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>
+                    <input type="password" id="password" name="password"  class="szbuxl" value=""  onfocus="document.getElementById('errorInfo').innerHTML='';" oncopy="document.selection.empty()" onpaste="return false" value="23456"/>      
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  用&nbsp;&nbsp;户&nbsp;组：
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+				 <td id="allgroup">
+               <!--   <label>
+                    <select value="gr32" id="groupId" name="groupId" onchange="this.value=this.options[selectedIndex].value;" class="szbuxl_select">
+                      <option value="gr0026"  disabled>Super_Manager</option>
+                      <option value="gr0030" >unknow</option>
+                      <option value="gr32" selected >admin1</option>
+                    </select>
+                  </label>-->
+                </td>
+              </tr>
+              <tr>
+                <td align="left" style="height:50px;">
+                  激活用户：
+                  <label>
+                    <input type="checkbox" id="load" name="load" value="1"   onclick="this.value=this.checked==true?1:0" checked/>      
+                  </label>
+                </td>
+              </tr>
+            </table>
+            <div style="margin-left:50px;">
+              <input type="submit" id="sub" class="confirm fl" value="确定" />      
+              <input name="" type="button"  class="cancel fl"  style ="margin-left:20px;" onclick="goback();" value="取消" />      
+            </div>
+            <input type="hidden" id="key" value="12345678" name="key" >
+            <input type="hidden" value="0" id="strongPassword"/>      
+            <input type="hidden" value="8" id="minLength"/>      
+            <input type="hidden" value="20" id="maxLength_set"/>      
+            <input type="hidden" value="0" id="lowerCase"/>      
+            <input type="hidden" value="0" id="upperCase"/>      
+            <input type="hidden" value="0" id="symbol"/>      
+            <input type="hidden" value="0" id="figure"/>      
+            <input type="hidden" value="3" id="historyDept"/>      
+            <input type="hidden" value="6" id="rMinLength"/>      
+            <input type="hidden" value="16" id="rMaxLength"/>      
+            <input type="hidden" value="" id="result"/>      
+            <input type="hidden" value="" id="result_checkUserName"/>      
+            <input type="hidden" value="admin,qinshi,adile,eeeee,222222,111111" id="userNames"/>      
+            <input type="hidden" value="4" id="userNameMinLength"/>      
+            <input type="hidden" value="11" id="userNameMaxLength"/>      
+            <input type="hidden" value="16" id="fullNameMaxLength"/>      
+            <input type="hidden" id="setSecurityMode" name="setSecurityMode" value="3">      
+            <input type="hidden" id="desKey" name="desKey" value="DinTon66">      
+            <input type="hidden" id="aes256Key" name="aes256Key" value="DinTon66D8inT8onDinTon66D8inT8on">      
+            <input type="hidden" id="aes128Key" name="aes128Key" value="DinTon66D8inT8on"></form>
+        </div>
+      </div>
+        <!--  主体结束部分 -->
+    </body>
+	<script type="text/html" id="groupInfo">
+	<label>
+	<select value="" id="groupId" name="groupId" class="szbuxl_select">
+				  <option value="0"  disabled>Super_Manager</option>
+				  {{each data as value}}
+				  <option value="{{value.userGroupName}}">{{value.userGroupName}}</option>
+				  {{/each}}
+				  </select>
+			</label>
+	</script>
+
+</html>

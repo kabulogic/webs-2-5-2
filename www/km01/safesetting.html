@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>安全设置</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/safesetting.css">
+        <script src="/assets/jquery/jquery.min.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+        <script src="/assets/artTemplate/template.js"></script>
+        <script src="js/safesetting.js"></script>
+    </head>
+    <body>
+        <div class="right_content_top">
+          <a href="#">首页  ></a>
+          <a href="#">安全管理  ></a>
+          安全设置
+        </div>
+        <div class="search">安全设置</div>
+        <div id="errorInfo" style="margin:0 3%;color:#1C66A4;"> <b></b>
+        </div>
+        <form action="" method=""  id="setForm">
+          <div class="firstpage_1 clearfix">
+            <!--  挖坑 -->
+          </div>
+          <div class="submit" style="margin-top:26px">
+            <input name="" type="button"  class="confirm fl" value="确定" onclick="check_form();"/>        
+            <input name="" type="button"  class="cancel fl" value="取消" onclick="cancel()"/>        
+          </div>
+          <div class="clear"></div>
+        </form>
+    </body>
+    <script type="text/html" id="safeInfo">
+          <div class="usergroup">
+              <div class="safe fl">
+                <div class="safe_bq_var">登录限制</div>
+                <div class="shuxing_nr_cc_ll">
+                  <div class="shuxing_nr_cc_ll_ll_a">
+                    限制单点登录&nbsp;
+					<input type="checkbox" id="isSingleSignOn" name="isSingleSignOn" {{if isSingleSignOn==1}}checked{{/if}} onclick="this.value=(this.checked==true?1:0);" value="{{isSingleSignOn}}"/>        
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    启用密码过期&nbsp;
+                    <input type="checkbox"  id="isPasswordOverdue" name="isPasswordOverdue" {{if isPasswordOverdue==1}}checked{{/if}} onclick="this.value=(this.checked==true?1:0),conditionDisabled('isPasswordOverdue','day','');" value="{{isPasswordOverdue}}" />        
+                    <input class="shuxing_nr_cc_ll_ll_b_a" type="text" value="{{day}}" name="day" id="day" />        
+                    &nbsp;&nbsp;(1~365天)
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    注销空闲用户&nbsp;
+                    <input type="checkbox"  id="isCancellationFreeUser" {{ if isCancellationFreeUser==1}} checked{{/if}} name="isCancellationFreeUser" onclick="this.value=(this.checked==true?1:0),conditionDisabled('isCancellationFreeUser','setLayOutTime','');" value="{{isCancellationFreeUser}}" />        
+                    <input class="shuxing_nr_cc_ll_ll_b_a" type="text" id="setLayOutTime" name="setLayOutTime" value="{{setLayOutTime}}"/>        
+                    (1~365分钟)
+                  </div>
+                </div>
+              </div>
+              <div class="safe_2 fr">
+                <div class="safe_2_bq">登录锁定</div>
+                <div class="shuxing_nr_cc_ll">
+                  <div class="shuxing_nr_cc_ll_ll_a">
+                    禁用锁定&nbsp;
+					<input type="radio" id="forbidden" name="LockStyle" onclick="document.getElementById('setLockStyle').value=(this.checked==true?0:''),getEditContent()"   {{if LockStyle==0}}checked{{/if}} value="0"/>        
+                    <label for="radio"></label>
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    锁定账号&nbsp;
+                    <input type="radio" id="stopUser"  name="LockStyle" onclick="document.getElementById('setLockStyle').value=(this.checked==true?1:''),getEditContent(); "  {{if LockStyle==1}}checked{{/if}} value="1"/>        
+                    <label for="radio"></label>
+                    &nbsp;&nbsp;尝试次数&nbsp;
+                    <input class="shuxing_nr_cc_ll_ll_b_a" type="text" onfocus="document.getElementById('maxErrorCount_stopLogin').innerHTML='';" id="maxErrorCount_stopLogin" name="maxErrorCount_stopLogin" value="{{maxErrorCount_stopLogin}}"  />
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    限时锁定&nbsp;
+                    <input type="radio"  id="timer_lock"  name="LockStyle"  onclick="document.getElementById('setLockStyle').value=(this.checked==true?2:''),getEditContent();"  {{if LockStyle==2}}checked{{/if}} value="2"/>        
+                    <label for="radio2"></label>
+                    &nbsp;
+                    <label for="radio">尝试次数&nbsp;</label>
+                    <input class="shuxing_nr_cc_ll_ll_b_a" type="text" value="{{maxErrorCount_timer}}" id="maxErrorCount_timer" name="maxErrorCount_timer" />        
+                    &nbsp;&nbsp;
+                    <label for="radio">锁定时间&nbsp;</label>
+                    <input class="shuxing_nr_cc_ll_ll_b_a" type="text" value="{{lockTime}}" id="lockTime" name="lockTime" />        
+                    (1-1440分钟)&nbsp;&nbsp;
+                  </div>
+                </div>
+              </div>
+              <div class="safe2 fl">
+                <div class="safe_bq">强密码</div>
+                <div class="shuxing_nr_cc_ll">
+                  <div class="shuxing_nr_cc_ll_ll_a">
+                    启用密码强度规则&nbsp;
+					<input type="checkbox" id="isStrongPassword"  name="isStrongPassword" onclick="this.value=(this.checked==true?1:0),getStrongDisabled();" {{ if isStrongPassword==1}}checked{{/if}} value = "{{isStrongPassword}}"/>        
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    至少一个小写字母&nbsp;
+                    <input type="checkbox" id="isLowerCase"  {{ if isLowerCase==1}}checked{{/if}} value="{{isLowerCase}}" name="isLowerCase" onclick="this.value=(this.checked==true?1:0);" />        
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;至少一个大写字母&nbsp;
+                    <input type="checkbox" id="isUpperCase" {{ if isUpperCase==1}}checked{{/if}} name="isUpperCase" onclick="this.value=(this.checked==true?1:0);" value="{{isUpperCase}}"/>        
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    至少一个数字&nbsp;字符
+                    <input type="checkbox" id="isFigure" {{ if isFigure==1}}checked{{/if}} name="isFigure" onclick="this.value=(this.checked==true?1:0);"value="{{isFigure}}" />        
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;至少一个特殊字符&nbsp;
+                    <input type="checkbox" id="isSymbol" {{ if isSymbol==1}}checked{{/if}} name="isSymbol" onclick="this.value=(this.checked==true?1:0);" value="{{isSymbol}}" />        
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    用户密码历史深度&nbsp;
+                    <input class="shuxing_nr_cc_ll_ll_b_a" type="text" id="historyDepth" name="historyDepth" value="{{historyDepth}}" disabled="" />        
+                    &nbsp;&nbsp;&nbsp; 最小/最大密码长度&nbsp;
+                    <input class="shuxing_nr_cc_ll_ll_b_a" type="text" id="minLength" name="minLength" value="{{minLength}}" disabled="" />        
+                    &nbsp;&nbsp;-
+                    <input class="shuxing_nr_cc_ll_ll_b_a" type="text" id="maxLength" name="maxLength" value="{{maxLength}}" disabled="" />        
+                  </div>
+
+                </div>
+              </div>
+              <div class="safe2_2 fr">
+                <div class="safe_2_bq">加密模式</div>
+                <div class="shuxing_nr_cc_ll">
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    本地信息加密模式&nbsp;
+                    <select class="xlkkkk" id="setSecurityMode" name="setSecurityMode" value="{{setSecurityMode}}">
+                      <option value="0" {{if setSecurityMode==0}}selected{{/if}}>No encryption</option>
+                      <option value="1" {{if setSecurityMode==1}}selected{{/if}}>DES</option>
+                      <option value="2" {{if setSecurityMode==2}}selected{{/if}}>AES128</option>
+                      <option value="3" {{if setSecurityMode==3}}selected{{/if}}>AES256</option>
+                    </select>
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    加密模式应用于KVM 和虚拟媒体&nbsp;
+                    <input type="checkbox" {{ if isApplySecurityMode==1}}checked{{/if}}  id="isApplySecurityMode" name="isApplySecurityMode" onclick="this.value=(this.checked==true?1:0);" value="{{isApplySecurityMode}}"/>        
+                  </div>
+                  <div class="shuxing_nr_cc_ll_ll_b">
+                    本地设备复位模式&nbsp;
+                    <select class="xlkkkk" id="setLocalDeviceResetMode" name="setLocalDeviceResetMode" value="{{setLocalDeviceResetMode}}" onchange="this.value=this.options[selectedIndex].value">
+                      <option value="0" {{if setLocalDeviceResetMode==0}}selected{{/if}}>Enable Local Factory Reset</option>
+                      <option value="1" {{if setLocalDeviceResetMode==1}}selected{{/if}}>Enable Local Admin Password Reset</option>
+                    </select>
+                    &nbsp;&nbsp;
+                  </div>
+                </div>
+              </div>
+
+              <div class="clear"></div>
+              
+              <input type="hidden" id="flag" value=""/>        
+              <input type="hidden" id="setLockStyle" value=""  />        
+              <input type="hidden" id="securitySettingId" value="sec001"  />        
+              <input type="hidden" value="1" id="minLayOutTime"/>        
+              <input type="hidden" value="365" id="maxLayOutTime"/>        
+              <input type="hidden" value="1" id="minCounts"/>        
+              <input type="hidden" value="10" id="maxCounts"/>        
+              <input type="hidden" value="1" id="minLockTime"/>        
+              <input type="hidden" value="1440" id="maxLockTime"/>        
+              <input type="hidden" value="1" id="minHistoryDepth"/>        
+              <input type="hidden" value="12" id="maxHistoryDepth"/>        
+              <input type="hidden" value="64" id="qMaxLength"/>        
+              <input type="hidden" value="8" id="oldminLength"/>        
+              <input type="hidden" value="16" id="oldmaxLength"/>        
+              <input type="hidden" value="16" id="qMinLength">
+            </div>
+
+    </script>
+
+</html>

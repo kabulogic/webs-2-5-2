@@ -1,0 +1,105 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.search {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 8px;
+}
+form > .firstpage {
+  height: auto;
+  margin: 0 auto;
+}
+form > .firstpage > .usergroup {
+  width: 94%;
+  margin: 10px auto 0 auto;
+}
+form > .firstpage > .usergroup > .nature_2 {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+  margin-top: -5px;
+  padding-bottom: 0px;
+}
+form > .firstpage > .usergroup > .nature_2 > .nature_bq {
+  background: #ebebeb;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 2%;
+  color: #686868;
+}
+form > .firstpage > .usergroup > .nature_2 > .nature_nr_cc {
+  width: 96%;
+  margin: 0 auto;
+}
+form > .firstpage > .usergroup > .nature_2 > .nature_nr_cc > table > tbody > tr {
+  height: 30px;
+  color: #6d6d6d;
+}
+form > .firstpage > .usergroup > .nature_2 > .nature_nr_cc > table > tbody > tr > td > .kkkke {
+  border: 1px solid #c7c7c7;
+  width: 300px;
+  height: 28px;
+  line-height: 28px;
+  outline: none;
+  color: #525252;
+  padding-left: 4px;
+}
+form > .firstpage > .usergroup > .nature_2 > .nature_nr_cc > table > tbody > tr > td > .kkkke.kkkke:focus {
+  border: 1px solid #3d81ae;
+}
+form > .submit {
+  width: 60%;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  margin-left: 7%;
+  overflow: hidden;
+}
+form > .submit > .confirm {
+  width: 95px;
+  height: 30px;
+  cursor: pointer;
+  background: #FFF;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  color: #737373;
+  margin: 0 auto;
+  line-height: 25px;
+  margin-right: 10px;
+}
+form > .submit > .confirm.confirm:hover {
+  color: #fff;
+  background: #1c66a4;
+}
+form > .submit > .cancel {
+  width: 95px;
+  height: 30px;
+  cursor: pointer;
+  background: #FFF;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  color: #737373;
+  margin: 0 auto;
+  line-height: 25px;
+  margin-right: 10px;
+}
+form > .submit > .cancel.cancel:hover {
+  color: #fff;
+  background: #1c66a4;
+}

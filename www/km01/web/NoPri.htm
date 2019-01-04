@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script type="text/javascript">
+function initLeft()
+{
+	var w = screen.availWidth;
+	document.getElementById("d1").style.left = (w-400)/2-120;
+}
+</script>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+-->
+</style></head>
+
+<body onload="initLeft()">
+<div id="d1" style="position:relative; top:100px; left:200px; width:400px; height:100px;">
+<table cellpadding="0" cellspacing="0"><tr><td width="100" height="100" align="center">
+<img src="images/tips.gif" width="32" height="32" /></td><td width="298"><label id="tips"></label></td></tr></table>
+<script type="text/javascript">
+var la = window.navigator.systemLanguage; 
+if(la == 'zh-cn'){
+	document.all.tips.innerText = "对不起，没有权限浏览此页。";
+}
+else{
+	document.all.tips.innerText = "Sorry, request has been refused.";
+}
+</script>
+</div>
+</body>
+</html>

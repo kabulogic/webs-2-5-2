@@ -1,0 +1,279 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.search {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 8px;
+}
+form > .firstpage {
+  height: auto;
+  margin: 0 auto;
+}
+form > .firstpage > .user-group {
+  width: 94%;
+  margin: 10px auto 0 auto;
+}
+form > .firstpage > .user-group > table > tbody > tr {
+  height: 26px;
+  color: #6d6d6d;
+  font-size: 14px;
+}
+form > .firstpage > .user-group > table > tbody > tr > td > span {
+  color: #ec1d23;
+  padding-right: 5px;
+}
+form > .firstpage > .user-group > table > tbody > tr > td > label > .szbux1 {
+  width: 300px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #e6e6e6;
+  color: #6d6d6d;
+  padding-left: 10px;
+  font-family: "Microsoft YaHei";
+  outline: none;
+  border-radius: 5px;
+  background: #fff;
+}
+form > .firstpage > .user-group > table > tbody > tr > td > label > .szbux1.szbux1:focus {
+  border: 1px solid #3d81ae;
+}
+form > .firstpage > .user-group > .shuxing {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_bq {
+  background: #ebebeb;
+ /* height: 35px;*/
+  line-height: 35px;
+  padding-left: 2%;
+  color: #686868;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_bq > span {
+  float:left;
+  width:50px;
+  margin-top: 6px;
+  padding-right: 2%;
+  margin-right: 78%;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_bq >.riDiv {
+ height: 35px;
+padding-top: 7px;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_bq >.riDiv > .shouqi {
+  background: #fff;
+  width: 62px;
+  height: 24px;
+  border: 1px solid #e4e4e4;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 14px;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_bq >.riDiv> .shouqi > a {
+  color: #5c5c5c;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_bq >.riDiv> .shifang {
+  background: #1c66a4;
+  width: 62px;
+  height: 24px;
+  border: 1px solid #EBEBEB;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_bq > .riDiv> .shifang > a {
+  color: #fff;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_nr > ul > li {
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  width: 150px;
+  float: left;
+  font-size: 14px;
+  color: #5c5c5c;
+}
+form > .firstpage > .user-group > .shuxing > .shuxing_nr > ul > li > input {
+  margin-right: 10px;
+}
+form > .firstpage > .user-group > .shuxing_2 {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+  margin-top: -5px;
+  padding-bottom: 0;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_bq {
+  background: #ebebeb;
+ /* height: 35px;*/
+  line-height: 35px;
+  padding-left: 2%;
+  color: #686868;
+  font-size: 14px;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_bq > span {
+  float:left;
+  width:60px;
+  margin-top: 6px;
+  padding-right: 2%;
+  margin-right: 77%;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_bq > .riDiv  {
+ height: 35px;
+padding-top: 7px;
+
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_bq > .riDiv > .shouqi {
+  background: #fff;
+  width: 62px;
+  height: 24px;
+  border: 1px solid #e4e4e4;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 14px;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_bq > .riDiv > .shouqi > a {
+  color: #5c5c5c;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_bq > .riDiv > .shifang {
+  background: #1c66a4;
+  width: 62px;
+  height: 24px;
+  border: 1px solid #EBEBEB;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_bq > .riDiv > .shifang > a {
+  color: #fff;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_qx {
+  width: 96%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_qx > .shuxing_qx_l {
+  width: 40%;
+  float: left;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_qx > .shuxing_qx_l > table > tbody > tr {
+  height: 26px;
+  color: #6d6d6d;
+  font-size: 14px;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_qx > .shuxing_qx_l > table > tbody > tr > td {
+  text-align: left;
+  color: #3d3d3d;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_qx > .shuxing_qx_l > table > tbody > tr > td > .xlkkk {
+  width: 60px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #c7c7c7;
+  color: #595959;
+  font-size: 12px;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_cscs {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_cscs > .shuxing_cscs_a {
+  width: 50%;
+  float: left;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_cscs > .shuxing_cscs_a > li {
+  line-height: 40px;
+  height: 40px;
+  text-align: left;
+  width: 300px;
+  font-size: 14px;
+  color: #5c5c5c;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_cscs > .shuxing_cscs_a > li > input {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_cscs > .shuxing_cscs_b {
+  width: 50%;
+  background: #ebebeb;
+  float: right;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_cscs > .shuxing_cscs_b > li {
+  line-height: 40px;
+  height: 40px;
+  text-align: left;
+  width: 300px;
+  font-size: 14px;
+  color: #5c5c5c;
+}
+form > .firstpage > .user-group > .shuxing_2 > .shuxing_cscs > .shuxing_cscs_b > li > input {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+form > .firstpage > .user-group .tijiaoanniu {
+  width: 60%;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  margin-left: 7%;
+  overflow: hidden;
+}
+form > .firstpage > .user-group .tijiaoanniu > .confirm {
+  width: 95px;
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #c7c7c7;
+  color: #737373;
+  font-family: "Microsoft YaHei";
+  margin: 0 auto ;
+  line-height: 25px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+form > .firstpage > .user-group .tijiaoanniu > .confirm.confirm:hover {
+  color: #fff;
+  background-color: #1c66a4;
+}
+form > .firstpage > .user-group .tijiaoanniu > .cancel {
+  width: 95px;
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #c7c7c7;
+  color: #737373;
+  font-family: "Microsoft YaHei";
+  margin: 0 auto ;
+  line-height: 25px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+form > .firstpage > .user-group .tijiaoanniu > .cancel.cancel:hover {
+  color: #fff;
+  background-color: #1c66a4;
+}

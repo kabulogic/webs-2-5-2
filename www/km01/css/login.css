@@ -1,0 +1,64 @@
+body {
+  width: 98%;
+  height: auto;
+  margin: 0 auto;
+  background-image: url("../images/background.jpg");
+}
+body > form > .login_tab {
+  height: 236px;
+  background-color: #8080c0;
+  width: 340px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-top: -118px;
+  margin-left: -170px;
+  border-radius: 5px;
+}
+body > form > .login_tab > table {
+  position: relative;
+  margin: 5px auto;
+}
+body > form > .login_tab > table > tbody > tr {
+  margin-top: 10px;
+}
+body > form > .login_tab > table > tbody > tr > td {
+  color: #fff;
+}
+body > form > .login_tab > table > tbody > tr > td > .login_c {
+  border: 1px solid #c7c7c7;
+  height: 26px;
+  width: 195px;
+  line-height: 28px;
+  padding: 0 5px;
+  float:left;
+}
+body > form > .login_tab > table > tbody > tr > td > span {
+  height: 30px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  padding-top: 25px;
+}
+body > form > .login_tab > table > tbody > tr > #login_sub {
+  position: relative;
+}
+body > form > .login_tab > table > tbody > tr > #login_sub >#button {
+  position: absolute;
+  margin-left: 60px;
+}
+body > form > .login_tab > table > tbody > tr > #login_sub >#button {
+  width: 208px;
+  height: 40px;
+  line-height: 40px;
+  border: 0;
+  background: #0267c1;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+ /* margin: 0 auto;*/
+  text-align: center;
+}

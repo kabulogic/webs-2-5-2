@@ -1,0 +1,52 @@
+/* CSS Document */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+#a1,#a2,#a3
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	cursor: pointer;
+	font-weight:bold;
+}
+a:active {
+	padding:0;
+	text-decoration:none;
+	display:block;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bolder;
+}
+a:visited {
+	padding:0;
+	text-decoration:none;
+	display:block;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bolder;
+}
+a:link {
+	padding:0;
+	text-decoration:none;
+	display:block;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bolder;
+}
+a:hover {
+	padding:0;
+	text-decoration:none;
+	display:block;
+	color: #ff0000;
+	font-size: 12px;
+	font-weight: bolder;
+}
+.style1 {
+	color: #ffffff;
+	font-weight: bold;
+}
+.style3 {color: #000000}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>网络设置</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="kiben" content="no-cache">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/netsetting.css">
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+    <script src="/js/common.js"></script>
+	<script src="assets/artTemplate/template.js"></script>
+    <script src="js/netsetting.js"></script>
+</head>
+<body>
+    <div class="right_content_top">
+        <a href="#">首页  ></a>
+        <a href="#">系统设置  ></a>
+        网络设置
+    </div>
+    <div class="search">网络设置</div>
+    <div id="errorInfo" style="margin:0px 3% -18px;height:25px"></div>
+    <div class="firstpage">
+        <div class="usergroup">
+           
+        </div>
+    </div>
+     <div class="clear"></div>
+</body>
+<script type="text/html" id="netS">
+     <form action="" method="post" id="myForm">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="150px" align="left">
+                            网卡设置：
+                            <span>*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom:5px;">
+                            <label>
+
+                                <select class="szbuxl" name="netCard" onchange="optionChange()" id="select_id">
+                                    
+                                    <option value="0" {{if network==0}}selected{{/if}} >网卡 1</option>
+                                    <option value="1" {{if network==1}}selected{{/if}} >网卡 2</option>
+                                <select>
+                        
+                        </td>
+                    </tr>
+
+                </table>
+                <div class="nature">
+                    <div class="nature_bq">IPv4地址</div>
+                    <div class="nature_nr_cc">
+                        <table width="660" border="0">
+                            <tr>
+                                <td width="88">IP 地 址：</td>
+                            </tr>
+                            <tr>
+                                <td width="211">
+                                    <label for="textfield2"></label>
+                                    <input type="text" value="{{deviceIpv4}}" id="deviceIpv4" name="deviceIpv4" class="kkkke" />    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="131">子 网 掩 码：</td>
+                            </tr>
+                            <tr>
+                                <td width="212">
+                                    <label for="textfield2"></label>
+                                    <input type="text" type="text" value="{{subnetmask}}" id="subnetmask" name="subnetmask" onclick="subnet();" class="kkkke" />    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="150">默 认 网 关：</td>
+                            </tr>
+                            <tr>
+                                <td width="212" style="padding-bottom:5px;">
+                                    <label for="textfield2"></label>
+                                    <input type="text" value="{{defaultGateway}}" id="defaultGateway" name="defaultGateway" class="kkkke" />    
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                              <tr>
+                                <td width="150">MAC地址：</td>
+                            </tr>
+                            <tr>
+                                <td width="212" style="padding-bottom:5px;">
+                                    <label for="textfield2"></label>
+                                    <input type="text" value="{{cMac}}" id="MACId" name="macId" class="kkkke" disabled/>    
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <input type="hidden" name="deviceId" value=""/>    
+                    <input type="hidden" id="message" value=""/>    
+                   
+                </div>
+                <div class="submit">
+                    <input type="submit" class="confirm" value="确定" onclick="checkForm();" />    
+                    <input type="button" class="cancel" value="取消" onclick="history.back();" />    
+                </div>
+        </form>
+    
+</script>
+</html>
+

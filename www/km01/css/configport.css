@@ -1,0 +1,96 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.search {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 8px;
+}
+.firstpage_1 {
+  height: auto;
+  margin: 0 auto;
+}
+.firstpage_1 > .usergroup {
+  width: 94%;
+  margin: 10px auto 0 auto;
+}
+.firstpage_1 > .usergroup > form > table > tbody > tr {
+  height: 30px;
+  color: #6d6d6d;
+  font-size: 14px;
+}
+.firstpage_1 > .usergroup > form > table > tbody > tr > td > select {
+  width: 300px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #e6e6e6;
+  color: #6d6d6d;
+  padding-left: 10px;
+  outline: none;
+}
+.firstpage_1 > .usergroup > form > table > tbody > tr > td > label > input {
+  width: 300px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #e6e6e6;
+  color: #6d6d6d;
+  padding-left: 10px;
+  outline: none;
+}
+.firstpage_1 > .usergroup > form > table > tbody > tr > td > input {
+  width: 300px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #e6e6e6;
+  color: #6d6d6d;
+  padding-left: 10px;
+  outline: none;
+}
+.firstpage_1 > .usergroup > form > table > tbody > tr > td > input.confirm {
+  float: left;
+  width: 95px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  color: #737373;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+.firstpage_1 > .usergroup > form > table > tbody > tr > td > input.confirm:hover {
+  color: #fff;
+  background-color: #1c66a4;
+}
+.firstpage_1 > .usergroup > form > table > tbody > tr > td > input.cancel {
+  float: left;
+  width: 95px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  color: #737373;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+.firstpage_1 > .usergroup > form > table > tbody > tr > td > input.cancel:hover {
+  color: #fff;
+  background-color: #1c66a4;
+}

@@ -1,0 +1,37 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.content_form {
+  height: auto;
+  margin: 0 auto;
+}
+.content_form > form > .port_parms {
+  width: 94%;
+  margin: 20px auto 0 auto;
+}
+.content_form > form > .port_parms > .port_parms_t {
+ 
+}
+ .btn-xs{
+    padding:1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
+  .btn-warning{
+    color:#fff;
+    background-color:#09c;
+    border-color:#08c;
+  }

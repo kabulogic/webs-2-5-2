@@ -1,0 +1,122 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" src="js/common.js"></script>
+<script language="javascript" src="js/send.js"></script>
+<script language="javascript" src="js/setConfigMenu.js"></script>
+<script language="javascript" src="js/cookie.js"></script>
+<script language="javascript" src="js/chCtr.js"></script>
+<script language="javascript" src="js/get_alarm.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+MM_reloadPage(true);
+
+function Click(){
+window.event.returnValue=false;
+}
+document.oncontextmenu=Click;
+//-->
+</script>
+<style type="text/css">
+@import url("css/left.css");
+</style>
+<title>Left Settings</title>
+</head>
+<body ondrag="return false" onLoad="InitPage()">
+<table width="170" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td onMouseDown="config1('en')" id="set1" width="165" height="23" background="images/menu_.gif" class="childbody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;System Information </td>
+    <td width="5">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="images/compart.gif" width="170" height="2"></td>
+  </tr>
+  <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody " id="set2" onMouseDown="config2('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;Network Settings</td>
+    <td width="5">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="images/compart.gif" width="170" height="2"></td>
+  </tr>
+  <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody " id="set10" onMouseDown="config10('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;Time Settings</td>
+    <td width="5">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+  </tr>
+  <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set3" onMouseDown="config3('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;Channel Settings</td>
+    <td width="5">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+  </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set4" onMouseDown="config4('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;Record Settings</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set5" onMouseDown="config5('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;PTZ/COM Settings</td>
+    <td width="5">
+	</td>
+  </tr>
+     <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+  <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set11" onMouseDown="config11('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;Net AUX. Settings </td>
+    <td width="5">	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set6" onMouseDown="config6('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;Alarm Settings</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set7" onMouseDown="config7('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;User Settings</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set9" onMouseDown="config9('en')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;System Status </td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+   <tr>
+    <td width="165" height="23" background="images/menu_.gif" class="childbody" id="set8" onMouseDown="config8('en');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="images/bit_0.gif" width="7" height="10"></span> &nbsp;Advanced Settings</td>
+    <td width="5">
+	</td>
+  </tr>
+   <tr>
+     <td colspan="2"><img src="images/compart.gif" width="170" height="2"></td>
+   </tr>
+</table>
+<form name="UserInfo">
+<input type="hidden" name="priP" value="0"/>
+<input type="hidden" name="priS" value="0"/>
+<input type="hidden" name="priD" value="0"/>
+<input type="hidden" name="Chn" value="1"/>
+</form>
+</body>
+</html>

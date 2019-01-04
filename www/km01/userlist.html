@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>用户列表</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="/css/common.css">
+        <link rel="stylesheet" href="YhhDataTable/css/jquery.paginate.css" />
+        <link rel="stylesheet" href="YhhDataTable/css/jquery.yhhDataTable.css" />
+        <link rel="stylesheet" href="/css/userlist.css">
+        <script src="/assets/jquery/jquery.min.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+        <script type="text/javascript" src="YhhDataTable/js/jquery.paginate.js" ></script>
+        <script type="text/javascript" src="YhhDataTable/js/jquery.yhhDataTable.js" ></script>
+        <script src="/js/userlist.js"></script>
+    </head>
+    <body>
+      <div class="right_content_top">
+        <a href="#">首页&nbsp;></a>
+        <a href="#" id="u-list">用户管理&nbsp;></a>
+        用户列表
+      </div>
+      <br>      
+      <div id="message" class="massage"> <b><!-- 成功删除用户："huoqishi". --></b> 
+      </div>
+      <form action="" method="post" id="myForm">
+        <div class="search">
+          <input type="text"  class="kk" style="margin-left:1px;" id="userName" onkeydown="enterSumbit();"  placeholder="请输入用户名..." />      
+          <input type="button"  class="an" id="search_button" onClick="search();" value="查找"  style="border:1px solid #c7c7c7"/>      
+        </div>
+        <div class="form_content">
+          <div class="form_top">
+             <div class="form_top_th">
+              <table  id="userIn" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <thead>
+                 <tr>
+                  <th width="5%" style="padding:10px;">
+                    <input type="checkbox" name="checkbox" id="ifAll" onclick="checkAll();"/>      
+                  </th>
+                  <th width="10%" style="padding:10px;">用户名</th>
+                  <th width="20%" style=";padding:10px;">用户状态</th>
+                  <th width="30%" style="padding10px;">用户组</th>
+                 <!--  <th width="30%" style="padding-left:13.6%;">操作</th> -->
+                 </tr>
+                </thead>
+                <tbody>
+                    <!--填坑-->
+                </tbody>
+              </table>
+            </div>
+
+            <div class="form_top_body">
+                <div class="fy">
+                   <div class="fy_right fr">
+                     <a href="#" id="add" onclick="getAddUser();">添加</a>
+                     <a href="#" id="remove" onclick="selectDelete()">删除</a>
+                     <!--  <input type="submit"  id="del" value="删除">--></div>
+                </div>
+            </div>
+            <!--根据flag判断接下来作何操作-->      
+            <input type="hidden" id="currUser" name="currUser" value=""/>      
+            <input type="hidden" id="currFlag" name="currFlag" value=""/>      
+            <input type="hidden" id="flag" value="120"/>      
+            <input type="hidden" id="totalPage" name="totalPage" value="1"/>      
+            <span> <font style="color:#1C66A4;font-size: 14px;font-weight: bold;"></font>
+            </span>
+
+          </div>
+          <div class="clear"></div>
+        </div>
+      </form>
+    </body>
+  
+</html>

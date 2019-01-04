@@ -1,0 +1,97 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.search {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 8px;
+}
+.firstpage_1 {
+  height: auto;
+  margin: 0 auto;
+}
+.firstpage_1 > .usergroup {
+  width: 94%;
+  margin: 10px  auto 0 auto;
+}
+.firstpage_1 > .usergroup > .nature_time {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+  margin-top: -5px;
+}
+.firstpage_1 > .usergroup > .nature_time > .nature_bq {
+  background: #ebebeb;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 2%;
+  color: #686868;
+}
+.firstpage_1 > .usergroup > .nature_time > .pingform {
+  width: 96%;
+  margin: 10px auto;
+}
+.firstpage_1 > .usergroup > .nature_time > .pingform > .pinginput {
+  width: 300px;
+  height:30px;
+  line-height: 30px;
+  outline: none;
+  color: #525252;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 10px;
+}
+.firstpage_1 > .usergroup > .nature_time > .pingform > form > .tijiao {
+  width: 70px;
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  background: #fff;
+  text-align: center;
+  line-height: 26px;
+  color: #737373;
+  border: 1px solid #c7c7c7;
+}
+.firstpage_1 > .usergroup > .nature_time > .pingform > form > .tijiao:hover {
+  color: #FFF;
+  background: #1c66a4;
+}
+.firstpage_1 > .usergroup > .nature {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+.firstpage_1 > .usergroup > .nature > .nature_bq {
+  background: #ebebeb;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 2%;
+  color: #686868;
+}
+.firstpage_1 > .usergroup > .nature > .textbox {
+  width: 96%;
+  margin: 10px auto;
+}
+.firstpage_1 > .usergroup > .nature > .textbox > textarea {
+  width: 600px;
+  height: 200px;
+  line-height: 30px;
+  outline: none;
+  color: #525252;
+}

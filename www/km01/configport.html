@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>配置端口</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="/css/common.css">
+        <link rel="stylesheet" href="/css/configport.css">
+        <script src="assets/jquery/jquery.min.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+		    <script src="assets/artTemplate/template.js"></script>
+        <script src="/js/configport.js"></script>
+    </head>
+    <body>
+        <div class="right_content_top">
+          <a href="#">首页  ></a>
+          <a href="#">系统设置  ></a>
+          配置端口
+        </div>
+        <div class="search">配置端口_1</div>
+        <div class="firstpage_1">
+          <div class="usergroup">
+            <p id="errorInfo" style="margin:0 0;"></p>
+            <form action="" method="post" id="myForm">
+                           
+            </form>
+          </div>
+
+        </div>
+
+    </body>
+     <script type="text/html" id="editPortInfo">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="20%" align="left">类型 ：</td>
+                </tr>
+                <tr>
+                  <td width="80%">
+                     <select name="portType" id="selectP" disabled="true">
+                        <option value="0" {{if portType=="未连接端口"}}selected{{/if}}>未连接端口</option>
+                        <option value="1" {{if portType=="USB"}}selected{{/if}}>USB</option>
+                        <option value="2" {{if portType=="HDMI"}}selected{{/if}}>HDMI</option>
+                     </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left">名称 ：</td>
+                </tr>
+                <tr>
+                  <td>
+                    <label>
+                      <input type="text" name="portName" id="portName" value="{{portName}}" class="szbuxl" />        
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left">分辨率 ：</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" name="resolution" id="resolution" value="{{resolution}}" class="szbuxl" readonly="readonly" />        
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="left">刷新速率 ：</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" name="refreshRate" id="refreshRate" value="{{refresh}}" class="szbuxl" readonly="readonly" />        
+                  </td>
+                </tr>
+                <tr>
+                  <td  class="checkout" align="left" style="height:50px;">
+                    <input class="confirm" style="margin-left:50px;" type="submit" value="确定" />        
+                    <input type="button"  class="cancel" value="取消" onclick="history.back();"/>        
+                  </td>
+                </tr>
+                <input type="hidden" name="portCount" value="1"/>        
+              </table>
+    </script>
+
+
+</html>

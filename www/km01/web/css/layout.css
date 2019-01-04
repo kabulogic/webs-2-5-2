@@ -1,0 +1,247 @@
+/* CSS Document */
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.leftbody
+{
+	margin:0; padding:0;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.txt
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+}
+.btbk
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	background-image:url(../images/down_back.gif);
+	background-repeat:repeat-x;
+}
+.wxHint
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ffffff;
+}
+a:link {
+	color:#FF0000;
+}
+a:visited {
+	color:#FF0000;
+	text-decoration: none;
+}
+a:hover {
+	color:#FF0000;
+	text-decoration: none;
+}
+a:active {
+	color:#FF0000;
+	text-decoration: none;
+}
+.topbk
+{
+	background-image:url(../images/one_back.gif);
+	background-repeat:repeat-x;
+}
+img 
+{
+	border-bottom:0px; border-left:0px; border-right:0px; border-top:0px;
+}
+#loginform
+{
+	width:1000px; height:auto;
+	background-color:#FFFFFF;
+	margin-left:auto; margin-right:auto;
+}
+.logintb{
+	border:1px solid #8D1F1F;
+}
+.inputw{
+	width:120px;
+}
+#header
+{
+	width:100%; height:auto;
+	background-color:#8B0909;
+	margin-left:auto; margin-right:auto;
+}
+
+#config_bar
+{
+	float:left; width:140px; text-align:left;
+}
+.mybold
+{
+	font-weight:bolder;
+	text-decoration:none;
+}
+#mainbrowse
+{
+	float:right;width:860px; height:auto; background-color:#B0B0B0;
+}
+#content
+{
+	float:left; width:720px; background-color:#B0B0B0;
+}
+#content h3{ margin-top:0; }
+#content p { font-size:90%; line-height:1.4;}
+.ptzbar
+{
+	background-color:#DBDBDB;
+}
+#mainreplay
+{
+	width:854px; height:auto; background-color:white;
+}
+#mainconfig
+{
+	width:854px; height:auto; color:black; background-color:white;
+}
+#mainlog
+{
+	width:854px; height:auto; color:black; background-color:white;
+}
+
+.table {
+	margin:10px 0 0 0;
+	border:1px;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+}
+.mtable {
+	border:1px;
+	border-bottom:0;
+	border-top:0;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+}
+.btable {
+	border:1px;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+}
+.bttable {
+	margin:10px 0 10px 0;
+	border:1px 1px;
+	border-style:solid;
+	border-color:black;
+	text-align:left;
+}
+.utable {
+	margin:10px 0 10px 0;
+	border:1px;
+	padding:2px;
+	border-style:solid;
+	border-color:#CCCCCC;
+	text-align:left;
+}
+.selectw{
+	width:155px;
+}
+.passw{
+	width:150px;
+}
+.halfInput{
+	width:150px;
+}
+.menu1 {
+	background-color:#DBDBDB;
+	font-weight:bolder;
+}
+.menu2 {
+	font-weight:bolder;
+	cursor: pointer;
+}
+.sublist {
+	background-color:#DBDBDB;
+}
+.myButton {
+	width:80px;
+	font-weight:bolder;
+}
+.subtable {
+	margin:3px 5px 3px 0;
+	padding:2px;
+	border:1px;
+	border-style:solid;
+	border-color:#DBDBDB;
+	text-align:left;
+}
+.txt1{width:27px; border:0; }
+.txt2{width:14px; border:0; }
+.txtborder{ border:1px solid #A4B97F; }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.timecolor{
+	color:#000000;
+	font-size:12px;
+	font-weight:bolder;
+}
+.btChan{
+	border:#7F9DB9 solid 1px;
+	background-color:#EEEEEE;
+	width:95px;
+	height:20px;
+}
+.black_overlay{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 100%; 
+	background-color: white; 
+	z-index:1000; 
+	-moz-opacity: 0.8; 
+	opacity:.80; 
+	filter: alpha(opacity=80); 
+} 
+.white_content { 
+	display: none; 
+	position: absolute; 
+	top: 30%; 
+	left: 30%; 
+	width: 35%; 
+	height: 15%; 
+	padding: 8px; 
+	border: 1px solid #C0C0C0; 
+	background-color: #ECE9DB; 
+	z-index:1002; 
+	overflow: auto;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+} 
+.myIFrame{
+	display: none; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+	z-index:1001; 
+	filter: alpha(opacity=0); 
+}

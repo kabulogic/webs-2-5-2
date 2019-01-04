@@ -1,0 +1,70 @@
+.right_content_top {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: #1c66a4;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.right_content_top > a {
+  color: #707070;
+}
+.search {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #106093;
+  line-height: 30px;
+  margin-top: 8px;
+}
+.firstpage_1 {
+  height: auto;
+  margin: 0 auto;
+}
+.firstpage_1 > .user-group {
+  width: 94%;
+  margin: 10px auto 0 auto;
+}
+.firstpage_1 > .user-group > form > table > tbody > tr {
+  height: 30px;
+  color: #6d6d6d;
+}
+.firstpage_1 > .user-group > form > table > tbody > tr > td > select {
+  width: 312px;
+  height: 28px;
+  line-height: 28px;
+  padding:3px 0;
+  border: 1px solid #e6e6e6;
+  color: #6d6d6d;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.firstpage_1 > .user-group > form > table > tbody > tr > td > select:focus {
+  border: 1px solid #3d81ae;
+}
+.firstpage_1 > .user-group > form > table > tbody > tr > td > input {
+  width: 95px;
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  color: #737373;
+  margin: 0 auto;
+  line-height: 25px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.firstpage_1 > .user-group > form > table > tbody > tr > td > input:hover {
+  color: #FFF;
+  background: #1c66a4;
+  border: 1px;
+}

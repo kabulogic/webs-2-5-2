@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTHEN_ERRO	websMacro.h	25;"	d
+AUTHEN_ERRO_MSG	websMacro.h	37;"	d
+AUTHEN_NONE	websMacro.h	24;"	d
+AUTHEN_NONE_MSG	websMacro.h	36;"	d
+AUTHEN_SUCCESS	websMacro.h	26;"	d
+AUTHEN_SUCCESS_MSG	websMacro.h	38;"	d
+DEL_GRP_FAIL	websMacro.h	32;"	d
+DEL_GRP_SUCCESS	websMacro.h	33;"	d
+DEL_TIME	websSession.h	24;"	d
+DEL_USR_SUCCESS	websMacro.h	34;"	d
+ERROR_MSG	websMacro.h	48;"	d
+LOGIN_ERRO_MSG	websMacro.h	40;"	d
+LOGIN_SUCCESS_MSG	websMacro.h	41;"	d
+MAX_C_SESSSIONID	websSession.h	22;"	d
+MAX_GEN_SESSIONID	websSession.h	21;"	d
+MAX_GRPN_LEN	websMacro.h	19;"	d
+MAX_GRP_NUM	websMacro.h	20;"	d
+MAX_OG_SESSIONID_LEN	websMacro.h	16;"	d
+MAX_PSWD_LEN	websMacro.h	17;"	d
+MAX_SESSIONID_LEN	websMacro.h	21;"	d
+MAX_USRN_LEN	websMacro.h	18;"	d
+PASSWD_ERRO_MSG	websMacro.h	43;"	d
+SET_FAIL_MSG	websMacro.h	46;"	d
+SET_SUCCESS_MSG	websMacro.h	45;"	d
+SRCH_GRP_NOFND	websMacro.h	30;"	d
+SRCH_USR_NOFND	websMacro.h	29;"	d
+STR_TIME	websSession.h	23;"	d
+USRN_LEN	websSession.h	25;"	d
+_WEBSMACRO_H	websMacro.h	8;"	d
+__SOMETEST_H	sometest.h	11;"	d
+__WEBSAPI_H	websAPI.h	11;"	d
+__WEBSEQUIPAPI_H	websEquipAPI.h	11;"	d
+__WEBSLOGINAPI_H	websLoginAPI.h	11;"	d
+__WEBSSAFEAPI_H	websSafeAPI.h	11;"	d
+__WEBSSESSION_H	websSession.h	11;"	d
+__WEBSSYSTEMMAPI_H	websSystemMAPI.h	11;"	d
+__WEBSUSERAPI_H	websUserAPI.h	11;"	d
+authenLogin	websLoginAPI.c	/^int authenLogin (webs_t wp, char *userLogin, int size)$/;"	f
+clearSession	websSession.c	/^void clearSession(session_t spl)$/;"	f
+count	websSession.h	/^	int count;	$/;"	m	struct:__anon2
+createSession	websSession.c	/^sessionNode* createSession (char *username)$/;"	f
+datetime	sometest.h	/^typedef struct datetime {$/;"	s
+datetime_t	sometest.h	/^}datetime_t;$/;"	t	typeref:struct:datetime
+decString	websSession.c	/^extern void decString (const char *secrText, char *clearText, int size)$/;"	f
+delSession	websSession.c	/^int delSession (session_t spl, int pos)$/;"	f
+encString	websSession.c	/^extern void encString (const char *clearText, char *secrText, int size)$/;"	f
+findSession	websSession.c	/^int findSession(session_t spl, char *username)$/;"	f
+findSessionByid	websSession.c	/^int findSessionByid(session_t spl, char *sessionid)$/;"	f
+flag	websLoginAPI.h	/^    int flag;$/;"	m	struct:__anon1
+formAddUser	websUserAPI.c	/^void formAddUser (webs_t wp, char_t* path, char_t* query)$/;"	f
+formAddUserGroup	websUserAPI.c	/^void formAddUserGroup (webs_t wp, char_t* path, char_t* query)$/;"	f
+formAddUserInfo	websUserAPI.c	/^void formAddUserInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formAuditLog	websSafeAPI.c	/^void formAuditLog (webs_t wp, char_t *path, char_t *query)$/;"	f
+formBackup	websSystemMAPI.c	/^void formBackup (webs_t wp, char_t *path, char_t *query)$/;"	f
+formChaPasswd	websUserAPI.c	/^void formChaPasswd (webs_t wp, char_t *path, char_t *query)$/;"	f
+formConfigPortInfo	websEquipAPI.c	/^void formConfigPortInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formConfigPortInfoAll	websEquipAPI.c	/^void formConfigPortInfoAll (webs_t wp, char_t *path, char_t *query)$/;"	f
+formConfirmSet	websSafeAPI.c	/^void formConfirmSet (webs_t wp, char_t *path, char_t *query)$/;"	f
+formConfirmSetInfo	websSafeAPI.c	/^void formConfirmSetInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formDateTime	websEquipAPI.c	/^void formDateTime (webs_t wp, char_t* path, char_t* query)$/;"	f
+formDateTimeInfo	websEquipAPI.c	/^void formDateTimeInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formDefineKinan	websAPI.c	/^void formDefineKinan(void)$/;"	f
+formDelUser	websUserAPI.c	/^void formDelUser (webs_t wp, char_t* path, char_t* query)$/;"	f
+formDelUserGroup	websUserAPI.c	/^void formDelUserGroup (webs_t wp, char_t *path, char_t *query)$/;"	f
+formEditUser	websUserAPI.c	/^void formEditUser (webs_t wp, char_t *path, char_t *query)$/;"	f
+formEditUserGroup	websUserAPI.c	/^void formEditUserGroup (webs_t wp, char_t *path, char_t *query)$/;"	f
+formEditUserGroupInfo	websUserAPI.c	/^void formEditUserGroupInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formEditUserInfo	websUserAPI.c	/^void formEditUserInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formEventManage	websEquipAPI.c	/^void formEventManage (webs_t wp, char_t *path, char_t *query)$/;"	f
+formLocalPortInfo	websEquipAPI.c	/^void formLocalPortInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formLogin	websLoginAPI.c	/^void formLogin (webs_t wp, char_t* path, char_t* query)$/;"	f
+formModifyPort	websEquipAPI.c	/^void formModifyPort (webs_t wp, char_t *path, char_t *query)$/;"	f
+formNetDefaultInfo	websEquipAPI.c	/^void formNetDefaultInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formNetSetting	websEquipAPI.c	/^void formNetSetting (webs_t wp, char_t* path, char_t* query)$/;"	f
+formPortInfo	websAPI.c	/^void formPortInfo(webs_t wp, char_t *path, char_t *query)$/;"	f
+formQuit	websLoginAPI.c	/^void formQuit (webs_t wp, char_t *path, char_t *query)$/;"	f
+formSafeSetInfo	websSafeAPI.c	/^void formSafeSetInfo (webs_t wp, char_t *path, char_t *query)$/;"	f
+formSafeSetting	websSafeAPI.c	/^void formSafeSetting (webs_t wp, char_t* path, char_t* query)$/;"	f
+formSearchUser	websUserAPI.c	/^void formSearchUser (webs_t wp, char_t *path, char_t *query)$/;"	f
+formSearchUserGroup	websUserAPI.c	/^void formSearchUserGroup (webs_t wp, char_t *path, char_t *query)$/;"	f
+formSetLocalPort	websEquipAPI.c	/^void formSetLocalPort (webs_t wp, char_t *path, char_t *query)$/;"	f
+formSideBar	websAPI.c	/^void formSideBar (webs_t wp, char_t *path, char_t *query)$/;"	f
+formUserGroupList	websUserAPI.c	/^void formUserGroupList (webs_t wp, char_t *path, char_t *query)$/;"	f
+formUserList	websUserAPI.c	/^void formUserList (webs_t wp, char_t *path, char_t *query)$/;"	f
+genSessionid	websSession.c	/^unsigned long genSessionid (char *username, char *sessionid, int size)$/;"	f
+getConfirmInfo	sometest.c	/^void getConfirmInfo (VerifyCft_t *cfInfo)$/;"	f
+getKvmSystemInfo	sometest.c	/^int  getKvmSystemInfo (KvmSystemInfo_t *systemInfo)$/;"	f
+getPortCfgInfo	sometest.c	/^void getPortCfgInfo (PortAccessCfg_t *portCfgInfo)$/;"	f
+getPortInfo	sometest.c	/^int getPortInfo (PortAccessStatus_t *portInfo)$/;"	f
+getSecureInfo	sometest.c	/^void getSecureInfo (SecureCfg_t *scrInfo)$/;"	f
+getSystemTime	sometest.c	/^void getSystemTime (datetime_t *datet)$/;"	f
+goformHead	websLoginAPI.c	/^void goformHead (webs_t wp)$/;"	f
+insertSession	websSession.c	/^void insertSession (session_t spl, int pos, char *username)$/;"	f
+ipadr	sometest.h	/^	char ipadr[16];$/;"	m	struct:datetime
+isEmpty	websSession.c	/^int isEmpty (session_t spl)$/;"	f
+isFull	websSession.c	/^int isFull (session_t spl)$/;"	f
+modifySession	websSession.c	/^int modifySession(session_t spl, int pos, char *username)$/;"	f
+msg	websLoginAPI.h	/^	char_t *msg;$/;"	m	struct:__anon1
+parseKeyValue	websSession.c	/^int parseKeyValue (char *buf, char **key, char **value, char *d)$/;"	f
+portInfo_status	websAPI.c	/^char *portInfo_status[2] = {$/;"	v
+pushHeadSession	websSession.c	/^void pushHeadSession (session_t spl, char *username)$/;"	f
+pushTailSession	websSession.c	/^void pushTailSession (session_t spl, char *username)$/;"	f
+readSession	websSession.c	/^sessionNode *readSession (session_t spl, int pos)$/;"	f
+respondMsg_t	websLoginAPI.h	/^}respondMsg_t;$/;"	t	typeref:struct:__anon1
+sendRspFooterArray	websLoginAPI.c	/^void sendRspFooterArray (webs_t wp)$/;"	f
+sendRspFooterObj	websLoginAPI.c	/^void sendRspFooterObj (webs_t wp)$/;"	f
+sendRspHeadArray	websLoginAPI.c	/^void sendRspHeadArray (webs_t wp, char_t *rspStatus, char_t *rspMsg)$/;"	f
+sendRspHeadObj	websLoginAPI.c	/^void sendRspHeadObj (webs_t wp, char_t *rspStatus, char_t *rspMsg)$/;"	f
+sessionHead	websSession.h	/^	sessionNode *sessionHead;$/;"	m	struct:__anon2
+sessionList	websSession.h	/^}sessionList; \/*指向头节点*\/$/;"	t	typeref:struct:__anon2
+sessionMax	websSession.h	20;"	d
+sessionNode	websSession.h	/^typedef struct sessionNode{$/;"	s
+sessionNode	websSession.h	/^}sessionNode;$/;"	t	typeref:struct:sessionNode
+session_t	websSession.h	/^typedef sessionList *session_t;$/;"	t
+sessionid	websSession.h	/^	char sessionid[MAX_C_SESSSIONID+1];$/;"	m	struct:sessionNode
+sessiontime	websSession.h	/^	unsigned long sessiontime;$/;"	m	struct:sessionNode
+setdate	sometest.h	/^	char setdate[16];$/;"	m	struct:datetime
+settime	sometest.h	/^	char settime[16];$/;"	m	struct:datetime
+sizeSession	websSession.c	/^int sizeSession (session_t spl)$/;"	f
+snpNext	websSession.h	/^	struct sessionNode *snpNext;$/;"	m	struct:sessionNode	typeref:struct:sessionNode::sessionNode
+status	websLoginAPI.h	/^	char_t *status;$/;"	m	struct:__anon1
+timeSetWay	sometest.h	/^	int timeSetWay;$/;"	m	struct:datetime
+travelDelSession	websSession.c	/^void travelDelSession (session_t spl)$/;"	f
+username	websSession.h	/^	char username[USRN_LEN+1];$/;"	m	struct:sessionNode

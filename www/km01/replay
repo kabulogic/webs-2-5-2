@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+      <OBJECT ID="IP3081VIDEO.IP3081VideoCtrl.1" CLASSID="{56EBED42-49A8-48B8-8ED0-EEECF3D8D565}
+" CODEBASE="F:\vs2008project\TestMFCActiveXVideo\Debug\TestMFCActiveXVideo.ocx" WIDTH=400 HEIGHT=200 ALIGN=center HSPACE=100 VSPACE=100 >我弹出来了</OBJECT> 
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>      
+     <meta charset="utf-8">
+     <title>主目录</title>
+     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+     <link rel="stylesheet" href="/css/common.css">
+     <link rel="stylesheet" href="/css/index.css">
+     <script src="/assets/jquery/jquery.min.js"></script>
+     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+     <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+    <script src="/js/common.js"></script>
+    <style type="text/css">
+        .btnclose{
+
+        }
+    </style>
+   </head>
+    <body>
+      <!-- 通栏 -->
+      <div class="banner clearfix">
+        <span class="fl">
+          您好，欢迎进入秦安科技leaCloud管理系统!
+        </span>
+        <div class="exit fr clearfix">
+          <a href="#" id="btnClose"  onClick="custom_close()">
+            <img src="images/exit.png" height="10" width="13" alt="">
+              退出
+          </a>
+        </div>
+      </div>
+      <!-- 关闭页面 -->
+  
+       <script language="javascript">
+   // 这个脚本是 ie6和ie7 通用的脚本
+     function custom_close(){
+       if(confirm("您确定要关闭本页吗？")){
+        window.opener=null;
+        window.open('','_self');
+        window.close();
+       }
+       else{
+    }
+}
+</script>
+ </body>
+</html>

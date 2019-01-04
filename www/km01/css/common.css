@@ -1,0 +1,45 @@
+
+body{
+  margin:0;
+  padding:0;
+  font-size:14px;
+  font-family: "MicrosoftYaHei";
+ /* SimHei,arial*/
+  color:#000;
+}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p,em,ol,input{
+  padding:0;
+  margin:0;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float: right;
+}
+.clearfix:after{
+  content:"";
+  display: block;
+  clear:both;
+  height: 0;
+  line-height: 0;
+}
+.clearfix{
+  zoom:1;
+}
+a{
+  color:#000;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+img{
+  border:0;
+}
+ul{
+  list-style: none;
+}
+.clear{
+  clear:both;
+}

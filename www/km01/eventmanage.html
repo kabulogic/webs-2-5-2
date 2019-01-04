@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>事件管理</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="/css/common.css">
+        <link rel="stylesheet" href="/css/eventmanage.css">
+        <script src="/assets/jquery/jquery.min.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+        <script src='/js/eventmanage.js'></script>
+    </head>
+    <body>
+        <div class="right_content_top">
+          <a href="#">首页  ></a>
+          <a href="#">系统设置  ></a>
+          事件管理
+        </div>
+        <div class="search">事件管理</div>
+        <div id="errorInfo" style="margin:0 3%;"></div>
+        <form action="" method="post" id="myForm">
+          <div class="firstpage">
+            <div class="usergroup">
+              <div class="nature_2">
+                <div class="nature_bq">系统日志配置</div>
+                <div class="nature_nr_cc">
+                  <table width="520px" border="0">
+                    <tr>
+                      <td width="24">
+                        <input type="checkBox" id="enableSysLogFoward" name="enableSysLogFoward" value="true"  onClick="isFoward();"/>        
+                      </td>
+                      <td width="176">启用系统日志转发 IP地址：</td>
+                      <td width="226">
+                        <label for="textfield2"></label>
+                        <input type="text" id="fowardIpAddress" name="fowardIpAddress"  disabled="true" value="" class="kkkke" />        
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="确定" class="confirm" />        
+            <input name="" type="button" class="cancel" value="取消" onclick="history.back();"/>        
+          </div>
+          <div class="clear"></div>
+          <!--   <input type="hidden" name="thingId" value="eve001"/>        
+          <input type="hidden" id="message" value=""/>        
+          -->
+        </form>
+    </body>
+</html>

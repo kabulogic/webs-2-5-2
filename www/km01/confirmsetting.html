@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>验证设置</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="kiben" content="no-cache">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/confirmsetting.css">
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="assets/artTemplate/template.js"></script>
+    <script src="js/confirmsetting.js"></script>
+</head>
+
+<body>
+    <div class="right_content_top">
+        <a href="#">首页  ></a>
+        <a href="#">安全管理  ></a> 验证设置
+    </div>
+    <div class="search">验证设置</div>
+    <div id="errorInfo" style="margin:0 3%;font-weight:bold;"></div>
+    <form method="post" id="myForm">
+        <div class="firstpage_1">
+            <!--  挖坑 -->
+        </div>
+        <div class="submit">
+            <input type="button" value="确定" onclick="checkForm();" class="confirm" />
+            <input type="button" class="cancel" value="取消" onclick="history.back();" />
+        </div>
+        <div class="clear"></div>
+        <input type="hidden" id="checkType" value="0" />
+        <input type="hidden" name="checkId" value="ceh001" />
+        <input type="hidden" id="message" value="" />
+    </form>
+</body>
+<script type="text/html" id="confirmIn">
+    <div class="usergroup">
+        <div class="nature">
+            <div class="safe_bq">
+                <span></span> 验证方式
+            </div>
+            <div class="nature_nr">
+                <ul>
+                    <li>
+                        <input type="radio" name="checkType" value="0" {{if verify==0}}checked{{/if}} id="local_verification" checked="" /> 本地验证
+                    </li>
+                    <li>
+                        <input type="radio" name="checkType" value="1" {{if verify==1}}checked{{/if}} id="LDAP_verification" /> LDAP
+                    </li>
+                    <li>
+                        <input type="radio" name="checkType" value="2" {{if verify==2}}checked{{/if}} id="RADIUS_verification" /> RADIUS
+                    </li>
+                </ul>
+                <p id="checkError"></p>
+            </div>
+        </div>
+        <div class="nature" style="margin-top:26px;">
+            <div class="nature_bq">LDAP</div>
+            <div class="nature_nr_cc_ll">
+                <table>
+                    <tr>
+                        <td>
+                            <dd>服务器设置</dd>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            LDAP 服务器 ：
+                            <span style="color:red">*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" style="width:300px;height:28px;line-height:28px" class="ldap" name="primaryLDAPServer" id="primaryLDAPServer" value="{{ldap_server}}" maxLength="15" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Port:&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" class="ldap" style="width:300px;height:28px;line-height:28px" name="ldapPort" value="{{ldap_port}}" readonly="readonly" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Type of External LDAP Server:&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select disabled="true" name="ldapServerType" class="kkkke" style=" width:302px;height:28px; line-height:28px; background-color: rgb(235, 235, 228);" disabled="true" >
+                                <option value="0" selected>Generic LDAP Server</option>
+                                <option value="{{ldap_severtype}}" {{if ldap_severtype==1}}selected{{/if}}>微软活动目录</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            用 户 搜 索 DN：
+                            <span style="color:red">*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" style="width:300px;height:28px;line-height:28px" class="ldap" name="searchDn" id="searchDn" value="" maxLength="50" value="{{ldap_cscandns}}"/>
+                        </td>
+                    </tr>
+                </table>
+                <span>测试LDAP服务器登录</span>
+                <div class="nature_nr_cc_ll_b">
+                    <div class="nature_nr_cc_ll_b_aa_vid">
+                        <table>
+                            <tr>
+                                <td>测试登录名：</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" name="testLDAPName" id="testLDAPName" maxLength="32" class="kkkke"   value="{{ldap_ctestusername}}"/ >
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="nature_nr_cc_ll_b_aa_vid" style="vertical-align:center;width:650px;">
+                        <table>
+                            <tr>
+                                <td>测试密码：</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" name="testLDAPPwd" id="testLDAPPwd" maxLength="32" class="kkkke" value="ldap_ctestpsswd"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" style="margin-left:-1px;" value="测试" onclick="doTest();" class="testbutton" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nature_2">
+            <div class="nature_bq">RADIUS</div>
+            <div class="nature_nr_cc">
+                <table>
+                    <tr>
+                        <td width="400px">
+                            <dd>服务器设置</dd>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="400px">
+                            RADIUS 服务器：
+                            <span>*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="400px">
+                            <input style="height:30px;width:300px;line-height:30px" type="text" class="radius" id="radiusServer" name="hostname" value="{{radius_sever}}" class="kkkka" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            共享密码：
+                            <span>*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input style="height:30px;width:300px;line-height:30px" type="text" class="radius" id="radiusShareSecret" name="shared_secret" value="{{radius_code}}" class="kkkka" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            验证端口：
+                            <span>*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input style="height:30px;width:300px;line-height:30px" type="text" class="radius" id="radiusPort" name="port" value="{{radius_lport}}" class="kkkka" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            超时(秒)：
+                            <span>*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input style="height:30px;width:300px;line-height:30px" type="text" class="radius" id="radiusTimeout" name="socket_timeout" value="{{radius_stime}}" class="kkkka" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            重试次数：
+                            <span>*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input style="height:30px;width:300px;line-height:30px" type="text" class="radius" id="radiusRetires" name="retires" value="{{radius_sretry}}" class="kkkka" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</script>
+
+</html>

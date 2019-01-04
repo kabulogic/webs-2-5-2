@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>添加用户组</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="/css/common.css">
+        <link rel="stylesheet" href="/css/addusergroup.css">
+        <script src="/assets/jquery/jquery.min.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/commom.js"></script>
+        <script src="/js/addusergroup.js"></script>
+    </head>
+    <body>
+      <div class="right_content_top">
+        <a href="#">首页&nbsp;></a>
+        <a href="#">用户管理&nbsp;></a> 
+        添加用户组
+      </div>
+      <div class="search">添加用户组</div>
+      <div id="errorInfo" style="margin:0 3%;"></div>
+      <form action="" method="post" id="myForm" onsubmit="return check_form();" class="firstday">
+        <div class="firstpage">
+          <div class="user-group" style="margin-buttom:20px; ">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="120" align="left" height="28px;" style="height:25px;">
+                  用户组名称：
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td width="1178" height="36px;">
+                  <label>
+                    <input type="text" id="userGroupName" name="userGroupName" class="szbux1" />      
+                  </label>
+                </td>
+              </tr>
+              <!--  <tr style=" height:40px;">      
+              <td width="107" align="right"></td>
+              <td width="1178" style=" font-size:12px; color:#919191; line-height:24px; height:40px;">用户组名称不超过64个字节</td>
+            </tr>
+            -->
+            </table>
+            <div class="shuxing">
+              <div class="shuxing_bq clearfix">
+                <span>权限</span>
+                <div class="riDiv fr">
+                  <div class="shouqi fl">
+                    <a onclick="disSysView();" class="shouqi" id="sclose" style="cursor: pointer;">+&nbsp;收起</a>
+                  </div>
+                  <div class="shifang fr">
+                    <a onclick="sysView();"  class="shifang" id="sopen" style="cursor: pointer;">-&nbsp;释放</a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="shuxing_nr" id="sysPri" style="display:none;">
+                <ul>
+                  <li>
+                    <input type="checkbox" id="portAccess" name="portAccess" value="0" onclick="this.value=this.checked==true?1:0;"/>              
+                    端口访问
+                  </li>
+                  <li>
+                    <input type="checkbox" id="userManager" name="userManager" value="0" onclick="this.value=this.checked==true?1:0;"/>              
+                    用户管理
+                  </li>
+                  <li>
+                    <input type="checkbox" id="diviceSetting" name="diviceSetting" value="0" onclick="this.value=this.checked==true?1:0;"/>              
+                    系统设置
+                  </li>
+                  <li>
+                    <input type="checkbox" id="securityManager" name="securityManager" value="0" onclick="this.value=this.checked==true?1:0;"/>              
+                    安全管理
+                  </li>
+                  <li>
+                    <input type="checkbox" id="systemMaintenance" name="systemMaintenance" value="0" onclick="this.value=this.checked==true?1:0;"/>              
+                    系统维护
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="shuxing_2">
+              <div class="shuxing_bq clearfix">
+                <span>端口权限</span>
+                <div class="riDiv fr">
+                  <div class="shouqi fl" id="close">
+                    <a onclick="disView();" class="shouqi" id="aclose" style="cursor: pointer;">+&nbsp;收起</a>
+                  </div>
+                  <div class="shifang fr" id="open">
+                    <a onclick="view();" class="shifang" id="aopen" style="cursor: pointer;">-&nbsp;释放</a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="shuxing_qx" id="portAuth" style="display:none;">
+                <div class="shuxing_qx_l" >
+                  <table width="100%" border="0">
+                    <tr>
+                      <td width="20%" style=" font-size:14px; line-height:40px;">端口号</td>
+                      <td width="20%" style=" font-size:14px; line-height:40px;">端口名称</td>
+                      <td width="30%" style=" font-size:14px; line-height:40px;">端口访问</td>
+                      <td width="30%" style=" font-size:14px; line-height:40px;">虚拟介质</td>
+                    </tr>
+                    <tr>
+                      <td width="20%" style=" font-size:14px; line-height:40px;">1</td>
+                      <td width="20%" style=" font-size:14px; line-height:40px;">Port1_pdsfawjoi</td>
+                      <td width="30%" style=" font-size:14px; line-height:40px;">
+                        <select name="accesses" class="xlkkk">
+                          <option value="0">拒绝</option>
+                          <option value="1">查看</option>
+                          <option value="2">控制</option>
+                        </select>
+                      </td>
+                      <td width="30%" style=" font-size:14px; line-height:40px;">
+                        <select name="vm_accesses" class="xlkkk">
+                          <option value="0">拒绝</option>
+                          <option value="1">只读</option>
+                          <option value="2">读写</option>
+                        </select>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="shuxing_cscs" style="display:none;" id="allPortAuth">
+                <ul class="shuxing_cscs_a">
+                  <li>
+                    <input type="radio" name="accesses1" id="setAllNo1" onclick="setAll('accesses','setAllNo1','0');"/>              
+                    所有端口为拒绝
+                  </li>
+                  <li>
+                    <input type="radio" name="accesses1" id="setAllScan1"  onclick="setAll('accesses','setAllScan1','1');"/>              
+                    所有端口为查看
+                  </li>
+                  <li>
+                    <input type="radio" name="accesses1" id="setAllControl1"  onclick="setAll('accesses','setAllControl1','2');"/>              
+                    所有端口为控制
+                  </li>
+                </ul>
+                <ul class="shuxing_cscs_b">
+                  <li>
+                    <input type="radio" name="vm_accesses1" id="setAllVMNo1" onclick="setAll('vm_accesses','setAllVMNo1','0');"/>              
+                    所有VM访问为拒绝
+                  </li>
+                  <li>
+                    <input type="radio" name="vm_accesses1" id="setAllVMRead1"  onclick="setAll('vm_accesses','setAllVMRead1','1');"/>              
+                    所有VM访问为只读
+                  </li>
+                  <li>
+                    <input type="radio" name="vm_accesses1" id="setAllVMReadAndWrite1"  onclick="setAll('vm_accesses','setAllVMReadAndWrite1','2');"/>              
+                    所有VM访问为读写
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <input type="hidden" id="ids" name="ids" value="DMP001,DMP002,DMP003,DMP004,  DMP005,DMP006,DMP007,DMP008,DMP009,DMP010,DMP011,DMP012,DMP013,DMP014,DMP015,  DMP016,DMP017,DMP018,DMP019,DMP020,DMP021,DMP022,DMP023,DMP024,DMP025,DMP026,  DMP027,DMP028,DMP029,DMP030,DMP031,DMP032"/>      
+            <input type="hidden"  id="userGroNames" name="userGroNames" value="Super_Manager,unknow,admin1"/>      
+            <input type="hidden" id="setSecurityMode" name="setSecurityMode" value="3">      
+            <input type="hidden" id="desKey" name="desKey" value="DinTon66">      
+            <input type="hidden" id="aes256Key" name="aes256Key" value="  DinTon66D8inT8onDinTon66D8inT8on">      
+            <input type="hidden" id="aes128Key" name="aes128Key" value="DinTon66D8inT8on">      
+            <div class="tijiaoanniu">
+              <input type="submit" id="conf" class="confirm" value="确定" />      
+              <input name="" type="button"  class="cancel"  style ="margin-left:20px;" onclick="goback();" value="取消" />      
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </form>
+
+    </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>编辑用户</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="/css/common.css">
+        <link rel="stylesheet" href="/css/edituser.css">
+        <script src="/assets/jquery/jquery.min.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+	      <script src="/assets/artTemplate/template.js"></script>
+		    <script src="/js/de.js"></script>
+        <script src="/js/edituser.js"></script>
+    </head>
+    <body>
+      <div class="right_content_top">
+        <a href="#">首页&nbsp;></a>
+        <a href="#">用户管理&nbsp;></a>
+        编辑用户
+      </div>
+      <div class="edituser">编辑用户</div>
+      <div class="allpage">
+         <div class="user">
+          <div id="errorInfo" class="grpuser_error"></div >
+          <form action="" method="" onsubmit=""  id="editIn">
+           <!--挖坑-->
+           </form>
+        </div>
+      </div>
+    </body>
+ <script type="text/html" id="editInformation">
+        
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="16%" align="left">
+                  用&nbsp;&nbsp;户&nbsp;名：
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td width="84%">
+                  <label>
+                    <input type="text" id="userName"  name="userName" class="szbuxl" value="{{userN}}" disabled/>      
+                  </label>
+                </td>
+              </tr>
+               <tr>
+                <td align="left">
+                  原密码：&nbsp;&nbsp;
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>
+                    <input type="password" id="old_password" name="old_password" class="szbuxl" value="" />      
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  新密码：&nbsp;&nbsp;
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>
+                    <input type="password" id="new_password" name="new_password"  onkeydown="return   banInputSapce(event);" onfocus="document.getElementById('errorInfo').innerHTML='';" class="szbuxl" value="" />      
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  确认密码：
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>
+                    <input type="password" id="password" name="password"  class="szbuxl" value="" value=""/>      
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  用&nbsp;&nbsp;户&nbsp;组：
+                  <span>*</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>
+                   <!--  <select value="" id="groupId" name="groupId" class="szbuxl_select" disabled>
+					              <option value="0"  disabled>Super_Manager</option>
+					               {{each list as value}}
+			                 <option value="{{value.userGroupName}}" {{if userInfo.editgroup==value.userGroupName}}selected{{/if}}>{{value.userGroupName}}</option>
+
+						             {{/each}}
+                    </select> -->
+                      <input type="text" id="groupId" name="groupId" class="szbuxl_select" value="{{userG}}" disabled/>    
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" style="height:50px;">
+                  激活用户：
+                  <label>
+                    <input type="checkbox" id="load" name="load" value="1"   onclick="this.value=this.checked==true?1:0" />      
+                  </label>
+                </td>
+              </tr>
+            </table>
+            <div style="margin-left:50px;">
+              <input type="submit" id="submit" class="confirm fl"  value="确定" />      
+              <input name="" type="button"  class="cancel fl"  style ="margin-left:20px;" onclick="goback();" value="取消" />      
+            </div>
+            <div class="hiddenIn"></div>
+          
+    </script>
+    <script type="text/html" id="hiddenInfo">
+          <input type="hidden" id="historyPassword" name="historyPassword" >
+          <input type="hidden" id="key" name="key"  value="12345678">
+          <input id="result"  type="hidden" value="">
+          <input type="hidden" id="flag" name="flag"/>
+          <input type="hidden" id="historyPassword" name="historyPassword"/>
+          <input type="hidden" value="{{isStrongPassword}}" id="strongPassword"/>
+          <input type="hidden" value="8" id="minLength"/>
+          <input type="hidden" value="16" id="maxLength_set"/>
+          <input type="hidden" value="{{isLowerCase}}" id="lowerCase"/>
+          <input type="hidden" value="{{isUpperCase}}" id="upperCase"/>
+          <input type="hidden" value="{{isSymbol}}" id="symbol"/>
+          <input type="hidden" value="{{isFigure}}" id="figure"/>
+          <input type="hidden" value="{{ishistoryDept}}" id="historyDept"/>
+          <input type="hidden" value="{{minLength}}" id="rMinLength"/>
+          <input type="hidden" value="{{maxLength}}" id="rMaxLength"/>
+          <input type="hidden" value="" id="result"/>
+          <input type="hidden" id="setSecurityMode" name="setSecurityMode" value="{{setSecurityMode}}">
+          <input type="hidden" id="desKey" name="desKey" value="DinTon66">
+          <input type="hidden" id="aes256Key" name="aes256Key" value="             DinTon66D8inT8onDinTon66D8inT8on">
+          <input type="hidden" id="aes128Key" name="aes128Key" value="DinTon66D8inT8on">
+    </script>
+</html>

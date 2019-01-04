@@ -1,0 +1,2046 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AC	syscfg.h	/^        AC_t AC;$/;"	m	union:CfgAlarm::__anon40
+ACCESS_LOCAL	cfg.h	/^           ACCESS_LOCAL=0,$/;"	e	enum:__anon5
+ACCESS_LOCAL	types.h	/^           ACCESS_LOCAL=0,$/;"	e	enum:__anon87
+ACCESS_NETWORK	cfg.h	/^		   ACCESS_NETWORK,$/;"	e	enum:__anon5
+ACCESS_NETWORK	types.h	/^		   ACCESS_NETWORK,$/;"	e	enum:__anon87
+ACCESS_NULL	cfg.h	/^		   ACCESS_NULL$/;"	e	enum:__anon5
+ACCESS_NULL	types.h	/^		   ACCESS_NULL$/;"	e	enum:__anon87
+AC_t	types.h	/^}AC_t;$/;"	t	typeref:struct:__anon81
+AE	syscfg.h	/^        AE_t AE;$/;"	m	union:CfgAlarm::__anon40
+AE_t	types.h	/^}AE_t;$/;"	t	typeref:struct:__anon84
+AI	syscfg.h	/^        AI_t AI;$/;"	m	union:CfgAlarm::__anon40
+AI_t	types.h	/^}AI_t;$/;"	t	typeref:struct:__anon82
+ALARM_INFO	inf_public.h	/^typedef struct ALARM_INFO$/;"	s
+ALARM_INFO_S	inf_public.h	/^}ALARM_INFO_S;$/;"	t	typeref:struct:ALARM_INFO
+ALARM_TYPE_LOSS	inf_public.h	/^    ALARM_TYPE_LOSS,$/;"	e	enum:__anon26
+ALARM_TYPE_MAX	inf_public.h	/^    ALARM_TYPE_MAX$/;"	e	enum:__anon26
+ALARM_TYPE_MOTION	inf_public.h	/^    ALARM_TYPE_MOTION,$/;"	e	enum:__anon26
+ALARM_TYPE_OBS	inf_public.h	/^    ALARM_TYPE_OBS,$/;"	e	enum:__anon26
+ALARN_LINK_SECT	types.h	96;"	d
+ALL_CH	macro.h	69;"	d
+AO	syscfg.h	/^        AO_t AO;$/;"	m	union:CfgAlarm::__anon40
+AO_t	types.h	/^}AO_t;$/;"	t	typeref:struct:__anon83
+AREA_NUM_PER_CHN	inf_public.h	77;"	d
+AREA_S	inf_public.h	/^}AREA_S;$/;"	t	typeref:struct:area
+AccessPortCfg	cfg.h	/^typedef struct AccessPortCfg{$/;"	s
+AccessPortCfg	types.h	/^typedef struct AccessPortCfg{$/;"	s
+AccessType	cfg.h	/^	AccessVideo AccessType;$/;"	m	struct:portAccessStatus
+AccessType	types.h	/^	AccessVideo AccessType;$/;"	m	struct:portAccessStatus
+AccessVideo	cfg.h	/^	}AccessVideo;$/;"	t	typeref:enum:__anon5
+AccessVideo	types.h	/^	}AccessVideo;$/;"	t	typeref:enum:__anon87
+AlarmCfg	types.h	/^    alarm_t AlarmCfg;$/;"	m	struct:__anon79
+AlarmCfg	types.h	/^    alarm_t AlarmCfg;$/;"	m	struct:__anon82
+AlarmHnd_t	types.h	/^}AlarmHnd_t;$/;"	t	typeref:struct:__anon59
+AlarmIn	types.h	/^    alarm_t   SigLost,Motion,AlarmIn;$/;"	m	struct:__anon81
+AlarmLink_t	types.h	/^}AlarmLink_t;$/;"	t	typeref:struct:__anon80
+Alarm_Name_t	cfg.h	/^typedef s_8 Alarm_Name_t[64];$/;"	t
+Alarm_Name_t	types.h	/^typedef s_8 Alarm_Name_t[64];$/;"	t
+AllUserGrpPrew	types.h	/^typedef struct AllUserGrpPrew{$/;"	s
+AllUserGrpPrew_t	types.h	/^}AllUserGrpPrew_t;$/;"	t	typeref:struct:AllUserGrpPrew
+AllUserPrew	types.h	/^typedef struct AllUserPrew{$/;"	s
+AllUserPrew_t	types.h	/^}AllUserPrew_t;$/;"	t	typeref:struct:AllUserPrew
+Area	types.h	/^    area_t  Area[MAX_AREA_NUM];$/;"	m	struct:__anon79
+AudioEncStatus	inf_public.h	/^    u_8  AudioEncStatus;$/;"	m	struct:__anon33
+BCast	cfg.h	/^    IP_t DNS, BCast, MCast;$/;"	m	struct:eth
+BCast	types.h	/^    IP_t DNS, BCast, MCast;$/;"	m	struct:eth
+BE_ENCODE_DSP	macro.h	49;"	d
+BE_ENCODE_DSP	macro.h	53;"	d
+BE_LOCAL_CH	macro.h	50;"	d
+BE_LOCAL_CH	macro.h	54;"	d
+BE_NET_CH	macro.h	51;"	d
+BE_NET_CH	macro.h	55;"	d
+BIG_LITTLE_SWAP	types.h	98;"	d
+BITRATE_TYPE_CBR	inf_public.h	/^    BITRATE_TYPE_CBR,$/;"	e	enum:__anon21
+BITRATE_TYPE_MAX	inf_public.h	/^    BITRATE_TYPE_MAX$/;"	e	enum:__anon21
+BITRATE_TYPE_VBR	inf_public.h	/^    BITRATE_TYPE_VBR,$/;"	e	enum:__anon21
+BOOL_E	cfg.h	/^}BOOL_E;$/;"	t	typeref:enum:__anon1
+BYTE_TO_INT	types.h	68;"	d
+BYTE_TO_SHORT	types.h	69;"	d
+BackupCfg_t	types.h	/^}BackupCfg_t;$/;"	t	typeref:struct:backupCfg
+BackupDisk	cfg.h	/^    u_8     BackupDisk;                 \/*±∏∑›≈Ã£¨0~HD_MAJOR_NUM£¨ƒ¨»œŒ™HD_MAJOR_NUM£¨º¥U≈Ã*\/$/;"	m	struct:DiskCfg
+BasicInfo	syscfg.h	/^        chinfo_t BasicInfo;         \/* cType = 0  *\/$/;"	m	union:CfgCh::__anon38
+BlkName	types.h	/^    u_32   BlkName;  $/;"	m	struct:RecFileIndex
+Blocks	cfg.h	/^    u_32    Blocks;   $/;"	m	struct:HD_Info
+CFG_3G_INFO	cfg.h	382;"	d
+CFG_3G_INFO	syscfg.h	346;"	d
+CFG_AC	syscfg.h	376;"	d
+CFG_AE	syscfg.h	375;"	d
+CFG_AI	syscfg.h	373;"	d
+CFG_ALARM	cfg.h	369;"	d
+CFG_ALARM	syscfg.h	333;"	d
+CFG_AO	syscfg.h	374;"	d
+CFG_BACKUP	cfg.h	389;"	d
+CFG_BACKUP	syscfg.h	353;"	d
+CFG_CHANNEL	cfg.h	366;"	d
+CFG_CHANNEL	syscfg.h	330;"	d
+CFG_COM	cfg.h	371;"	d
+CFG_COM	syscfg.h	335;"	d
+CFG_DDNS	cfg.h	376;"	d
+CFG_DDNS	syscfg.h	340;"	d
+CFG_GUI	cfg.h	374;"	d
+CFG_GUI	syscfg.h	338;"	d
+CFG_LOGIN	cfg.h	378;"	d
+CFG_LOGIN	syscfg.h	342;"	d
+CFG_NET	cfg.h	372;"	d
+CFG_NET	syscfg.h	336;"	d
+CFG_NTP	cfg.h	375;"	d
+CFG_NTP	syscfg.h	339;"	d
+CFG_ONEKEY	cfg.h	383;"	d
+CFG_ONEKEY	syscfg.h	347;"	d
+CFG_PORT_ACCESS	cfg.h	384;"	d
+CFG_PORT_ACCESS	syscfg.h	348;"	d
+CFG_PORT_ACCESS_STATUS	cfg.h	385;"	d
+CFG_PORT_ACCESS_STATUS	syscfg.h	349;"	d
+CFG_PREVIEW	cfg.h	367;"	d
+CFG_PREVIEW	syscfg.h	331;"	d
+CFG_PTZ	cfg.h	373;"	d
+CFG_PTZ	syscfg.h	337;"	d
+CFG_RECORD	cfg.h	368;"	d
+CFG_RECORD	syscfg.h	332;"	d
+CFG_SECURE	cfg.h	387;"	d
+CFG_SECURE	syscfg.h	351;"	d
+CFG_SG_INFO	cfg.h	380;"	d
+CFG_SG_INFO	syscfg.h	344;"	d
+CFG_SYSTEM_INFO	cfg.h	379;"	d
+CFG_SYSTEM_INFO	syscfg.h	343;"	d
+CFG_USER	cfg.h	370;"	d
+CFG_USER	syscfg.h	334;"	d
+CFG_USER_GRP	syscfg.h	354;"	d
+CFG_USER_GRP_PREW	syscfg.h	356;"	d
+CFG_USER_PREW	syscfg.h	355;"	d
+CFG_VERIFY	cfg.h	388;"	d
+CFG_VERIFY	syscfg.h	352;"	d
+CFG_WIFI_INFO	cfg.h	381;"	d
+CFG_WIFI_INFO	syscfg.h	345;"	d
+CFG_WORKSTATION	cfg.h	386;"	d
+CFG_WORKSTATION	syscfg.h	350;"	d
+CHECK_AREA	types.h	155;"	d
+CHECK_MIN_MAX	inf_public.h	132;"	d
+CHECK_NULL	inf_public.h	142;"	d
+CHECK_RET	inf_public.h	123;"	d
+CHS_PER_EDSP	system.h	30;"	d
+CHS_PER_EDSP	system.h	34;"	d
+CHS_PER_EDSP	system.h	39;"	d
+CH_ALARM_IN	inf_public.h	321;"	d
+CH_BASIC_INFO	syscfg.h	360;"	d
+CH_IMAGE	syscfg.h	363;"	d
+CH_LOST	syscfg.h	368;"	d
+CH_MAJOR_VIDEO	syscfg.h	361;"	d
+CH_MINOR_VIDEO	syscfg.h	362;"	d
+CH_MOT	inf_public.h	320;"	d
+CH_MOTION	syscfg.h	366;"	d
+CH_OBS	inf_public.h	319;"	d
+CH_OBSTRUCT	syscfg.h	367;"	d
+CH_OSD	syscfg.h	364;"	d
+CH_PRIVACY	syscfg.h	365;"	d
+CH_RECORD_SCHEME	syscfg.h	369;"	d
+CH_SIG	inf_public.h	318;"	d
+CH_TYPE_LOCAL	macro.h	44;"	d
+CH_TYPE_NET	macro.h	45;"	d
+CIF4_N_HEIGHT	inf_public.h	163;"	d
+CIF4_P_HEIGHT	inf_public.h	162;"	d
+CIF4_WIDTH	inf_public.h	156;"	d
+CIF_N_HEIGHT	inf_public.h	165;"	d
+CIF_P_HEIGHT	inf_public.h	164;"	d
+CIF_WIDTH	inf_public.h	157;"	d
+CLEAR	macro.h	35;"	d
+CLR_AREA	types.h	154;"	d
+CMD_DSP_REQ_MAIN	inf_public.h	/^    CMD_DSP_REQ_MAIN,$/;"	e	enum:__anon27
+CMD_DSP_RSP_MAIN	inf_public.h	/^    CMD_DSP_RSP_MAIN,$/;"	e	enum:__anon27
+CMD_MAIN_REQ_DSP	inf_public.h	/^    CMD_MAIN_REQ_DSP = 0,$/;"	e	enum:__anon27
+CMD_MAIN_RSP_DSP	inf_public.h	/^    CMD_MAIN_RSP_DSP,$/;"	e	enum:__anon27
+CMD_TYPE_MAX	inf_public.h	/^    CMD_TYPE_MAX,$/;"	e	enum:__anon27
+CMD_type_t	inf_public.h	/^}CMD_type_t;$/;"	t	typeref:enum:__anon27
+COM232	syscfg.h	/^        COM_t COM232;$/;"	m	union:CfgCOM::__anon41
+COM422	types.h	/^    COM_t COM422;$/;"	m	struct:__anon75
+COM_t	types.h	/^}COM_t;$/;"	t	typeref:struct:__anon74
+COST_TIME	macro.h	85;"	d
+CPU_LITTLE_ENDIA	inf_public.h	80;"	d
+CTRL_ALARM	cfg.h	428;"	d
+CTRL_ALARM	sysctrl.h	21;"	d
+CTRL_BACKUP	cfg.h	433;"	d
+CTRL_BACKUP	sysctrl.h	26;"	d
+CTRL_CFG	cfg.h	435;"	d
+CTRL_CFG	sysctrl.h	28;"	d
+CTRL_CLOSE_PTT	cfg.h	446;"	d
+CTRL_CLOSE_PTT	sysctrl.h	39;"	d
+CTRL_CP	cfg.h	425;"	d
+CTRL_CP	sysctrl.h	18;"	d
+CTRL_DISCOVERY	cfg.h	439;"	d
+CTRL_DISCOVERY	sysctrl.h	32;"	d
+CTRL_DVDRW	cfg.h	437;"	d
+CTRL_DVDRW	sysctrl.h	30;"	d
+CTRL_GET_CAM_NET	cfg.h	441;"	d
+CTRL_GET_CAM_NET	sysctrl.h	34;"	d
+CTRL_GUI	cfg.h	436;"	d
+CTRL_GUI	sysctrl.h	29;"	d
+CTRL_HD	cfg.h	427;"	d
+CTRL_HD	sysctrl.h	20;"	d
+CTRL_LOG	cfg.h	431;"	d
+CTRL_LOG	sysctrl.h	24;"	d
+CTRL_LOGIN	cfg.h	434;"	d
+CTRL_LOGIN	sysctrl.h	27;"	d
+CTRL_MANAGE	cfg.h	440;"	d
+CTRL_MANAGE	sysctrl.h	33;"	d
+CTRL_ONEKEY	cfg.h	443;"	d
+CTRL_ONEKEY	sysctrl.h	36;"	d
+CTRL_OPEN_PTT	cfg.h	445;"	d
+CTRL_OPEN_PTT	sysctrl.h	38;"	d
+CTRL_PLAY	cfg.h	423;"	d
+CTRL_PLAY	sysctrl.h	16;"	d
+CTRL_PTZ	cfg.h	421;"	d
+CTRL_PTZ	sysctrl.h	14;"	d
+CTRL_RECORD	cfg.h	422;"	d
+CTRL_RECORD	sysctrl.h	15;"	d
+CTRL_RM	cfg.h	426;"	d
+CTRL_RM	sysctrl.h	19;"	d
+CTRL_RUN	cfg.h	429;"	d
+CTRL_RUN	sysctrl.h	22;"	d
+CTRL_SEARCH	cfg.h	424;"	d
+CTRL_SEARCH	sysctrl.h	17;"	d
+CTRL_SET_CAM_NET	cfg.h	442;"	d
+CTRL_SET_CAM_NET	sysctrl.h	35;"	d
+CTRL_TIME	cfg.h	430;"	d
+CTRL_TIME	sysctrl.h	23;"	d
+CTRL_UPDATE	cfg.h	432;"	d
+CTRL_UPDATE	sysctrl.h	25;"	d
+CTRL_VO_ZOOM	cfg.h	438;"	d
+CTRL_VO_ZOOM	sysctrl.h	31;"	d
+CUR_ETH_NUM	macro.h	61;"	d
+Cfg	cfg.h	/^    UserCfg_t Cfg;$/;"	m	struct:UserInfo
+Cfg	syscfg.h	/^    }Cfg;   $/;"	m	struct:CfgCOM	typeref:union:CfgCOM::__anon41
+Cfg	syscfg.h	/^    }Cfg;$/;"	m	struct:CfgAlarm	typeref:union:CfgAlarm::__anon40
+Cfg	syscfg.h	/^    }Cfg;$/;"	m	struct:CfgCh	typeref:union:CfgCh::__anon38
+Cfg	types.h	/^    UserCfg_t Cfg;$/;"	m	struct:UserInfo
+CfgAlarm	syscfg.h	/^typedef struct CfgAlarm $/;"	s
+CfgAlarm_t	syscfg.h	/^}CfgAlarm_t, CfgAlm_t;$/;"	t	typeref:struct:CfgAlarm
+CfgAlm_t	syscfg.h	/^}CfgAlarm_t, CfgAlm_t;$/;"	t	typeref:struct:CfgAlarm
+CfgCOM	syscfg.h	/^typedef struct CfgCOM$/;"	s
+CfgCOM_t	syscfg.h	/^}CfgCOM_t;$/;"	t	typeref:struct:CfgCOM
+CfgCh	syscfg.h	/^typedef struct CfgCh$/;"	s
+CfgCh_t	syscfg.h	/^}CfgCh_t, CfgChn_t;$/;"	t	typeref:struct:CfgCh
+CfgChn_t	syscfg.h	/^}CfgCh_t, CfgChn_t;$/;"	t	typeref:struct:CfgCh
+CfgGUI	syscfg.h	/^typedef struct CfgGUI {$/;"	s
+CfgGUI_t	syscfg.h	/^} CfgGUI_t;$/;"	t	typeref:struct:CfgGUI
+CfgNTP	cfg.h	/^typedef struct CfgNTP {$/;"	s
+CfgNTP	syscfg.h	/^typedef struct CfgNTP {$/;"	s
+CfgNTP_t	cfg.h	/^}CfgNTP_t;$/;"	t	typeref:struct:CfgNTP
+CfgNTP_t	syscfg.h	/^}CfgNTP_t;$/;"	t	typeref:struct:CfgNTP
+CfgNet	syscfg.h	/^typedef struct CfgNet {$/;"	s
+CfgNet_t	syscfg.h	/^}CfgNet_t;$/;"	t	typeref:struct:CfgNet
+CfgPTZ	syscfg.h	/^typedef struct CfgPTZ {$/;"	s
+CfgPTZ_t	syscfg.h	/^}CfgPTZ_t;$/;"	t	typeref:struct:CfgPTZ
+CfgPreview	syscfg.h	/^typedef struct CfgPreview$/;"	s
+CfgPreview_t	syscfg.h	/^}CfgPreview_t;$/;"	t	typeref:struct:CfgPreview
+CfgRec_t	syscfg.h	/^}CfgRecord_t, CfgRec_t;$/;"	t	typeref:struct:CfgRecord
+CfgRecord	syscfg.h	/^typedef struct CfgRecord {$/;"	s
+CfgRecord_t	syscfg.h	/^}CfgRecord_t, CfgRec_t;$/;"	t	typeref:struct:CfgRecord
+CfgSG_t	syscfg.h	/^}CfgSG_t;$/;"	t	typeref:struct:__anon45
+CfgUser	syscfg.h	/^typedef struct CfgUser$/;"	s
+CfgUser_t	syscfg.h	/^}CfgUser_t, CfgUsr_t;$/;"	t	typeref:struct:CfgUser
+CfgUsr_t	syscfg.h	/^}CfgUser_t, CfgUsr_t;$/;"	t	typeref:struct:CfgUser
+ChBasicInfo	syscfg.h	/^    NetChBasic_t        ChBasicInfo;$/;"	m	struct:__anon42
+ChSchemeFromCms	types.h	/^typedef struct ChSchemeFromCms{$/;"	s
+ChSchemeFromCms_t	types.h	/^}ChSchemeFromCms_t;$/;"	t	typeref:struct:ChSchemeFromCms
+Compress_Param_S	inf_public.h	/^}Compress_Param_S;$/;"	t	typeref:struct:__anon28
+DAY_MIN	macro.h	41;"	d
+DAY_SEC	macro.h	42;"	d
+DCHead_t	inf_public.h	/^}DCHead_t;$/;"	t	typeref:struct:DSPtoCPUHead
+DDSP_ID	system.h	101;"	d
+DEV_ENC_TYPE_ASIC	inf_public.h	/^    DEV_ENC_TYPE_ASIC,$/;"	e	enum:__anon20
+DEV_ENC_TYPE_DSP	inf_public.h	/^    DEV_ENC_TYPE_DSP,$/;"	e	enum:__anon20
+DEV_ENC_TYPE_MAX	inf_public.h	/^    DEV_ENC_TYPE_MAX$/;"	e	enum:__anon20
+DEV_NAME_LEN	types.h	36;"	d
+DEV_SUB_TYPE_KVM_HD	types.h	/^    DEV_SUB_TYPE_KVM_HD,$/;"	e	enum:__anon53
+DEV_SUB_TYPE_KVM_MUL	types.h	/^    DEV_SUB_TYPE_KVM_MUL,$/;"	e	enum:__anon53
+DEV_SYSINFO	cfg.h	377;"	d
+DEV_SYSINFO	syscfg.h	341;"	d
+DIR_3060	system.h	157;"	d
+DIR_EXE	system.h	158;"	d
+DIR_LEN	macro.h	37;"	d
+DNS	cfg.h	/^    IP_t DNS, BCast, MCast;$/;"	m	struct:eth
+DNS	types.h	/^    IP_t DNS, BCast, MCast;$/;"	m	struct:eth
+DOMAIN_CLI	session.h	22;"	d
+DOMAIN_NAME_LEN1	cfg.h	43;"	d
+DOMAIN_NAME_LEN1	types.h	29;"	d
+DOMAIN_SER	session.h	21;"	d
+DSPtoCPUHead	inf_public.h	/^typedef struct DSPtoCPUHead$/;"	s
+DVR_CH	inf_public.h	170;"	d
+DataLen	inf_public.h	/^    u_32   DataLen;$/;"	m	struct:__anon37
+Defend	types.h	/^    defend_t Defend[WEEK];$/;"	m	struct:__anon61
+Defend	types.h	/^   defend_t Defend[WEEK];$/;"	m	struct:__anon83
+DevNo	inf_public.h	/^    u_8  DevNo[2];\/*‘⁄÷˜øÿ∂ÀÃÓ–¥*\/$/;"	m	struct:__anon35
+DiskCfg	cfg.h	/^typedef struct DiskCfg$/;"	s
+DiskCfg_t	cfg.h	/^}DiskCfg_t;$/;"	t	typeref:struct:DiskCfg
+ENCRYP_AES128	types.h	/^	ENCRYP_AES128,$/;"	e	enum:__anon88
+ENCRYP_AES256	types.h	/^	ENCRYP_AES256$/;"	e	enum:__anon88
+ENCRYP_DES	types.h	/^	ENCRYP_DES,$/;"	e	enum:__anon88
+ETH_NUM	system.h	121;"	d
+ETime	cfg.h	/^    time_t  ETime;    \/*”≤≈Ã◊ÓÕÌ¬ºœÒ ±º‰*\/$/;"	m	struct:HD_Info
+Ele_Enlarge_t	inf_public.h	/^}Ele_Enlarge_t;$/;"	t	typeref:struct:VideoZoom
+ExtLen	cfg.h	/^    u_32    ExtLen;    \/*¿©’π–≈œ¢≥§∂»*\/$/;"	m	struct:HD_Info
+FOR_RECORD_SECT	syscfg.h	72;"	d
+FOUR_HOUR_FOR_MIN	syscfg.h	76;"	d
+FRAME_TYPE_AUDIO	inf_public.h	/^    FRAME_TYPE_AUDIO,$/;"	e	enum:__anon15
+FRAME_TYPE_MAX	inf_public.h	/^    FRAME_TYPE_MAX$/;"	e	enum:__anon15
+FRAME_TYPE_VIDEO_BP	inf_public.h	/^    FRAME_TYPE_VIDEO_BP,   $/;"	e	enum:__anon15
+FRAME_TYPE_VIDEO_I	inf_public.h	/^    FRAME_TYPE_VIDEO_I,$/;"	e	enum:__anon15
+FRAME_TYPE_VIDEO_VOL	inf_public.h	/^    FRAME_TYPE_VIDEO_VOL,$/;"	e	enum:__anon15
+False	cfg.h	/^\/**\/    False = 0,$/;"	e	enum:__anon1
+FrameNO	inf_public.h	/^    u_32 FrameNO;$/;"	m	struct:__anon35
+Free	cfg.h	/^    u_32    Free;      \/*”≤≈Ã £”‡ø’º‰£¨kŒ™µ•Œª,1TŒ™10“⁄K,Ω´Àƒ∏ˆ∑÷«¯Freeœ‡º”*\/$/;"	m	struct:HD_Info
+GET_1_BYTE	macro.h	21;"	d
+GET_2_BYTE	macro.h	22;"	d
+GET_3_BYTE	macro.h	23;"	d
+GET_4_BYTE	macro.h	24;"	d
+GET_FILE_INDEX	inf_public.h	116;"	d
+GET_UNS_PORT	types.h	641;"	d
+Gateway	cfg.h	/^    IP_t  IP, Mask, Gateway;$/;"	m	struct:eth
+Gateway	types.h	/^    IP_t  IP, Mask, Gateway;$/;"	m	struct:eth
+HALF_HOUR_FOR_MIN	syscfg.h	75;"	d
+HALT_SYS	sysctrl.h	113;"	d
+HD_Info	cfg.h	/^typedef struct HD_Info {$/;"	s
+HD_Info_t	cfg.h	/^}HD_Info_t; $/;"	t	typeref:struct:HD_Info
+HD_TOTAL_NUM	system.h	106;"	d
+HEAD_S	inf_public.h	/^}PtVOP_t,VIDEO_ENCODED_DATA_HEAD_S, HEAD_S;$/;"	t	typeref:struct:__anon35
+ID	cfg.h	/^	s_16  ID;$/;"	m	struct:__anon9
+ID	sysctrl.h	/^    u_32          ID;$/;"	m	struct:playCtr
+INF_ClientTalkToKing_API	access.c	/^int INF_ClientTalkToKing_API( PeerHdr_t *PeerHdr, MsgHdr_t *MsgHdr, void *buf, size_t size )$/;"	f
+INF_ClientTalkToKing_API	kingAPI.c	/^int INF_ClientTalkToKing_API( PeerHdr_t *PeerHdr, MsgHdr_t *MsgHdr, void *buf, size_t size )$/;"	f
+INT_DATA_TYPE	types.h	84;"	d
+INVALID_CH_NUM	macro.h	68;"	d
+IP	cfg.h	/^        IP_t IP;$/;"	m	struct:__anon2::__anon3
+IP	cfg.h	/^        IP_t IP;$/;"	m	struct:__anon2::__anon4
+IP	cfg.h	/^    IP_t  IP, Mask, Gateway;$/;"	m	struct:eth
+IP	cfg.h	/^    s_8  IP[16];$/;"	m	struct:__anon6
+IP	cfg.h	/^    u_8   IP[16];$/;"	m	struct:CfgNTP
+IP	log.h	/^    IP_t   IP;  $/;"	m	struct:log
+IP	session.h	/^    s_8 IP[16];		\/\/Áî®Êà∑IP$/;"	m	struct:PeerHeader
+IP	syscfg.h	/^    u_8   IP[16];$/;"	m	struct:CfgNTP
+IP	sysstat.h	/^    u_32 IP, lPort,lID;$/;"	m	struct:__anon50
+IP	types.h	/^        IP_t IP;$/;"	m	struct:__anon76::__anon77
+IP	types.h	/^        IP_t IP;$/;"	m	struct:__anon76::__anon78
+IP	types.h	/^    IP_t   IP;             \/* Only for network channel *\/$/;"	m	struct:__anon55
+IP	types.h	/^    IP_t   IP;$/;"	m	struct:P3oE
+IP	types.h	/^    IP_t  IP, Mask, Gateway;$/;"	m	struct:eth
+IP	types.h	/^    s_8                 IP[IP_LEN];$/;"	m	struct:__anon85
+IP	types.h	/^    s_8  IP[16];$/;"	m	struct:__anon66
+IP	types.h	/^    u_32   IP; $/;"	m	struct:fileInfo
+IP	types.h	/^    u_32 IP;$/;"	m	struct:condition
+IP1	types.h	/^    u_32    IP1;$/;"	m	struct:RecFileIndex
+IP2	types.h	/^    u_32    IP2;$/;"	m	struct:RecFileIndex
+IP3	types.h	/^    u_32    IP3;$/;"	m	struct:RecFileIndex
+IP4	types.h	/^    u_32    IP4;$/;"	m	struct:RecFileIndex
+IP_LEN	cfg.h	40;"	d
+IP_LEN	macro.h	79;"	d
+IP_LEN	types.h	32;"	d
+IP_t	cfg.h	/^typedef s_8 IP_t[16];$/;"	t
+IP_t	types.h	/^typedef s_8 IP_t[16];$/;"	t
+IQD_t	types.h	/^}IQD_t;$/;"	t	typeref:struct:__anon79
+Image	syscfg.h	/^        image_t  Image;             \/* cType = 3  *\/$/;"	m	union:CfgCh::__anon38
+Image_Param_S	inf_public.h	/^}Image_Param_S;$/;"	t	typeref:struct:__anon29
+Inf_closeDataAccess_API	access.c	/^void Inf_closeDataAccess_API( void )$/;"	f
+Inf_closeDataAccess_API	kingAPI.c	/^int Inf_closeDataAccess_API( int SessionID, void *Pdu )$/;"	f
+Inf_initDataAccess_API	access.c	/^int Inf_initDataAccess_API( void )$/;"	f
+Inf_initDataAccess_API	kingAPI.c	/^int Inf_initDataAccess_API( int SessionID, void *Pdu )$/;"	f
+Inf_returnFromKing_API	kingAPI.c	/^int Inf_returnFromKing_API(PeerHdr_t *PeerHdr, MsgHdr_t *MsgHdr,$/;"	f
+Inf_sessionWithKing_API	kingAPI.c	/^void *Inf_sessionWithKing_API (PeerHdr_t *PeerHdr, MsgHdr_t *MsgHdr,$/;"	f
+IpArea	sysctrl.h	/^typedef struct IpArea{$/;"	s
+IpArea_t	sysctrl.h	/^}IpArea_t;$/;"	t	typeref:struct:IpArea
+IsOverWrite	cfg.h	/^    u_8     IsOverWrite;                \/* «∑Òø…“‘∏≤∏«£¨0-ø…“‘∏≤∏«£¨1-≤ªø…∏≤∏«£¨ƒ¨»œŒ™ø…“‘∏≤∏«*\/$/;"	m	struct:DiskCfg
+IsRecordDisk	cfg.h	/^    u_8     IsRecordDisk[MAX_HD_NUM];\/* «∑Ò¬ºœÒ≈Ã,0-¥≈≈Ã≤ª¥Ê‘⁄£¨1-¬ºœÒ≈Ã£¨2-±∏∑›≈Ã*\/$/;"	m	struct:DiskCfg
+KVMLogin	sysstat.h	/^        KVMLoginStat_t KVMLogin;$/;"	m	union:sysstat::__anon51
+KVMLoginStat_t	sysstat.h	/^}KVMLoginStat_t;$/;"	t	typeref:struct:__anon50
+KVMPorts_t	types.h	/^}KVMPorts_t;$/;"	t	typeref:enum:__anon86
+KVMWanInfo	syscfg.h	/^typedef struct KVMWanInfo{$/;"	s
+KVMWanInfo_t	syscfg.h	/^}KVMWanInfo_t;$/;"	t	typeref:struct:KVMWanInfo
+KVM_CH	sysstat.h	47;"	d
+KVM_CH	system.h	35;"	d
+KVM_CH	system.h	47;"	d
+KVM_CH	system.h	59;"	d
+KVM_CH	system.h	71;"	d
+KVM_DBG	macro.h	110;"	d
+KVM_DBG	macro.h	117;"	d
+KVM_DBG	macro.h	126;"	d
+KVM_ERR	macro.h	113;"	d
+KVM_ERR	macro.h	120;"	d
+KVM_ERR	macro.h	127;"	d
+KVM_INFO	macro.h	108;"	d
+KVM_INFO	macro.h	116;"	d
+KVM_INFO	macro.h	125;"	d
+KVM_LOGIN_CMS	sysctrl.h	42;"	d
+KVM_LOGOUT_CMS	sysctrl.h	46;"	d
+KvmSysInfo_t	syscfg.h	/^}KvmSysInfo_t;$/;"	t	typeref:struct:__anon43
+KvmSystemInfo	cfg.h	/^typedef struct KvmSystemInfo{$/;"	s
+KvmSystemInfo	syscfg.h	/^typedef struct KvmSystemInfo{$/;"	s
+KvmSystemInfo_t	cfg.h	/^}KvmSystemInfo_t;$/;"	t	typeref:struct:KvmSystemInfo
+KvmSystemInfo_t	syscfg.h	/^}KvmSystemInfo_t;$/;"	t	typeref:struct:KvmSystemInfo
+LAN1	syscfg.h	/^           LAN1=0,$/;"	e	enum:__anon46
+LAN2	syscfg.h	/^		   LAN2,$/;"	e	enum:__anon46
+LI_WF_NET_CONFIG	syscfg.h	/^} LI_WF_NET_CONFIG;$/;"	t	typeref:struct:_LI_WF_NET_CONFIG
+LNAME_LEN	types.h	58;"	d
+LOCALHOST_ADDR	usercfg.h	27;"	d
+LOCALPLAY_MAX_CH	inf_public.h	78;"	d
+LOCAL_IP	system.h	161;"	d
+LOG	log.h	213;"	d
+LOG_ALM	log.h	106;"	d
+LOG_ALM_IN	log.h	119;"	d
+LOG_ALM_MOT_START	log.h	115;"	d
+LOG_ALM_MOT_STOP	log.h	116;"	d
+LOG_ALM_OBS_START	log.h	117;"	d
+LOG_ALM_OBS_STOP	log.h	118;"	d
+LOG_ALM_OUT	log.h	120;"	d
+LOG_API	log.h	199;"	d
+LOG_API	log.h	201;"	d
+LOG_CFG	log.h	108;"	d
+LOG_CFG_3G	log.h	150;"	d
+LOG_CFG_ALMIN	log.h	139;"	d
+LOG_CFG_ALMOUT	log.h	140;"	d
+LOG_CFG_DDNS	log.h	147;"	d
+LOG_CFG_HD	log.h	146;"	d
+LOG_CFG_IMG	log.h	135;"	d
+LOG_CFG_LOST	log.h	141;"	d
+LOG_CFG_MOTION	log.h	137;"	d
+LOG_CFG_NET	log.h	144;"	d
+LOG_CFG_OBSTRUCT	log.h	138;"	d
+LOG_CFG_ONEKEY	log.h	151;"	d
+LOG_CFG_PAREA	log.h	136;"	d
+LOG_CFG_PTZ	log.h	143;"	d
+LOG_CFG_RECORD	log.h	142;"	d
+LOG_CFG_SG	log.h	148;"	d
+LOG_CFG_USER	log.h	145;"	d
+LOG_CFG_USER_GRP	log.h	152;"	d
+LOG_CFG_WIFI	log.h	149;"	d
+LOG_EXP	log.h	107;"	d
+LOG_EXP_ACCESS	log.h	126;"	d
+LOG_EXP_HD_ERROR	log.h	128;"	d
+LOG_EXP_HD_FULL	log.h	127;"	d
+LOG_EXP_IP	log.h	132;"	d
+LOG_EXP_LOST	log.h	123;"	d
+LOG_EXP_NAS_ERR	log.h	130;"	d
+LOG_EXP_NAS_FULL	log.h	129;"	d
+LOG_EXP_NET_BROKEN	log.h	124;"	d
+LOG_EXP_NET_FAIL	log.h	125;"	d
+LOG_FILE_SIZE	log.h	22;"	d
+LOG_INDEX_LOFF	log.h	28;"	d
+LOG_LOFF	log.h	30;"	d
+LOG_MAJOR_TYPE	log.h	102;"	d
+LOG_MINOR_TYPE	log.h	103;"	d
+LOG_MIN_SIZE	log.h	101;"	d
+LOG_OPS	log.h	109;"	d
+LOG_OPS_ALM	log.h	165;"	d
+LOG_OPS_BK_CFG	log.h	169;"	d
+LOG_OPS_BK_RECORD	log.h	168;"	d
+LOG_OPS_BOOT	log.h	177;"	d
+LOG_OPS_CLR_ALM	log.h	166;"	d
+LOG_OPS_DEFAULT	log.h	173;"	d
+LOG_OPS_DEL_LOG	log.h	171;"	d
+LOG_OPS_DEL_RECORD	log.h	170;"	d
+LOG_OPS_HD	log.h	174;"	d
+LOG_OPS_NAS	log.h	175;"	d
+LOG_OPS_POWEROFF	log.h	179;"	d
+LOG_OPS_PTZ	log.h	167;"	d
+LOG_OPS_REBOOT	log.h	178;"	d
+LOG_OPS_START_RECORD	log.h	163;"	d
+LOG_OPS_STOP_RECORD	log.h	164;"	d
+LOG_OPS_TALK_START	log.h	180;"	d
+LOG_OPS_TALK_STOP	log.h	181;"	d
+LOG_OPS_TIME	log.h	176;"	d
+LOG_OPS_UPDATE	log.h	172;"	d
+LOG_REC	log.h	111;"	d
+LOG_REC_DEV_DISCN	log.h	196;"	d
+LOG_REC_DEV_LINK	log.h	195;"	d
+LOG_REC_START_ALARM	log.h	187;"	d
+LOG_REC_START_MAN	log.h	186;"	d
+LOG_REC_START_OTHER	log.h	188;"	d
+LOG_REC_START_TIMER	log.h	185;"	d
+LOG_REC_STOP_ALARM	log.h	192;"	d
+LOG_REC_STOP_MAN	log.h	191;"	d
+LOG_REC_STOP_OTHER	log.h	193;"	d
+LOG_REC_STOP_TIMER	log.h	190;"	d
+LOG_VIW	log.h	110;"	d
+LOG_VIW_CFG	log.h	155;"	d
+LOG_VIW_LOG	log.h	158;"	d
+LOG_VIW_LOGIN	log.h	159;"	d
+LOG_VIW_LOGOUT	log.h	160;"	d
+LOG_VIW_PLAY	log.h	157;"	d
+LOG_VIW_PREV	log.h	156;"	d
+LocalOsd	syscfg.h	/^    OSD_LOCAL_t         LocalOsd;$/;"	m	struct:__anon42
+LogFileHead_t	log.h	/^}LogFileHead_t;$/;"	t	typeref:struct:Log_File_Head
+LogIndex	log.h	/^typedef struct LogIndex {$/;"	s
+LogIndex_t	log.h	/^}LogIndex_t;$/;"	t	typeref:struct:LogIndex
+Log_File_Head	log.h	/^typedef struct Log_File_Head {$/;"	s
+LoginName	sysctrl.h	/^    s_8 LoginName[20];$/;"	m	struct:guiCtr
+MAC	cfg.h	/^    MAC_t MAC;$/;"	m	struct:eth
+MAC	cfg.h	/^    s_8  MAC[20];$/;"	m	struct:__anon6
+MAC	types.h	/^    MAC_t               MAC;$/;"	m	struct:__anon85
+MAC	types.h	/^    MAC_t MAC;$/;"	m	struct:eth
+MAC	types.h	/^    s_8  MAC[20];$/;"	m	struct:__anon66
+MAC_LEN	cfg.h	45;"	d
+MAC_LEN	log.h	71;"	d
+MAC_LEN	types.h	54;"	d
+MAC_t	cfg.h	/^typedef s_8 MAC_t[20];$/;"	t
+MAC_t	types.h	/^typedef s_8 MAC_t[20];$/;"	t
+MAIN_BYTE_TO_INT	inf_public.h	83;"	d
+MAIN_BYTE_TO_INT	inf_public.h	99;"	d
+MAIN_INT_TO_BYTE	inf_public.h	100;"	d
+MAIN_INT_TO_BYTE	inf_public.h	84;"	d
+MAIN_SECT_BYTE_TO_INT	inf_public.h	107;"	d
+MAIN_SECT_BYTE_TO_INT	inf_public.h	91;"	d
+MAIN_SECT_INT_TO_BYTE	inf_public.h	108;"	d
+MAIN_SECT_INT_TO_BYTE	inf_public.h	92;"	d
+MAJOR_STREAM	macro.h	65;"	d
+MAKE_DAY_MIN	macro.h	40;"	d
+MAX_AREA_NUM	system.h	148;"	d
+MAX_AREA_NUM	types.h	65;"	d
+MAX_BACKUP_TIME_RANGE	system.h	118;"	d
+MAX_ETH_NUM	cfg.h	41;"	d
+MAX_ETH_NUM	macro.h	60;"	d
+MAX_FILE_LEN	macro.h	76;"	d
+MAX_HD_NUM	cfg.h	42;"	d
+MAX_HD_NUM	system.h	105;"	d
+MAX_IMAGE_NUM	system.h	146;"	d
+MAX_LOCALPLAY_CH_NUM	system.h	96;"	d
+MAX_LOG_CACHE	log.h	26;"	d
+MAX_LOG_NUM	log.h	24;"	d
+MAX_MSG_LEN	session.h	68;"	d
+MAX_OSD_NUM	types.h	61;"	d
+MAX_PATH_LEN	macro.h	75;"	d
+MAX_PDU_LEN	session.h	67;"	d
+MAX_PORT_ACCESS_NUM	cfg.h	44;"	d
+MAX_PORT_ACCESS_NUM	macro.h	18;"	d
+MAX_PORT_ACCESS_NUM	system.h	110;"	d
+MAX_PREV_MODE	system.h	127;"	d
+MAX_PREV_MODE	system.h	129;"	d
+MAX_PRE_RECORD_SEC	system.h	150;"	d
+MAX_READ_NUM	log.h	32;"	d
+MAX_TIMES_PER_DAY	system.h	144;"	d
+MAX_USER_GROUP_NUM	macro.h	16;"	d
+MAX_USER_GROUP_NUM	types.h	92;"	d
+MAX_USER_NUM_EACH_GRP	types.h	93;"	d
+MAX_USER_TO_BUF	usercfg.h	32;"	d
+MAX_WORKSTATION_NUM	system.h	114;"	d
+MCast	cfg.h	/^    IP_t DNS, BCast, MCast;$/;"	m	struct:eth
+MCast	types.h	/^    IP_t DNS, BCast, MCast;$/;"	m	struct:eth
+MD_Param_S	inf_public.h	/^}PRI_AREA_Param_S,MD_Param_S,OBS_Param_S;$/;"	t	typeref:struct:Motion_Obstruct_Cfg
+MINOR_STREAM	macro.h	66;"	d
+MONITOR_1	system.h	154;"	d
+MONITOR_2	system.h	155;"	d
+MainStatus	inf_public.h	/^    u_8  MainStatus;\/*÷˜¬Î¡˜*\/$/;"	m	struct:__anon33
+MajorVideo	syscfg.h	/^        video_t  MajorVideo,        \/* cType = 1  *\/$/;"	m	union:CfgCh::__anon38
+Mask	cfg.h	/^    IP_t  IP, Mask, Gateway;$/;"	m	struct:eth
+Mask	types.h	/^    IP_t  IP, Mask, Gateway;$/;"	m	struct:eth
+MinorVideo	syscfg.h	/^                 MinorVideo;        \/* cType = 2  *\/$/;"	m	union:CfgCh::__anon38
+MonitorCfg	syscfg.h	/^    monitor_t MonitorCfg;$/;"	m	struct:CfgPreview
+Motion	syscfg.h	/^        IQD_t    Motion,            \/* cType = 6  *\/$/;"	m	union:CfgCh::__anon38
+Motion	types.h	/^    alarm_t   SigLost,Motion,AlarmIn;$/;"	m	struct:__anon81
+Motion_Obstruct_Cfg	inf_public.h	/^typedef struct Motion_Obstruct_Cfg $/;"	s
+Mouse_left	cfg.h	/^				u_32 Mouse_left:	1;\/\/ Û±Í◊Ûº¸$/;"	m	struct:__anon6::__anon7::__anon8
+Mouse_left	types.h	/^				u_32 Mouse_left:	1;\/\/ Û±Í◊Ûº¸$/;"	m	struct:__anon66::__anon67::__anon68
+Mouse_left	types.h	/^		u_32 Mouse_left:	1;\/\/ Û±Í◊Ûº¸$/;"	m	struct:__anon69::__anon71
+Mouse_right	cfg.h	/^				u_32 Mouse_right:	1;\/\/ Û±Í”“º¸$/;"	m	struct:__anon6::__anon7::__anon8
+Mouse_right	types.h	/^				u_32 Mouse_right:	1;\/\/ Û±Í”“º¸$/;"	m	struct:__anon66::__anon67::__anon68
+Mouse_right	types.h	/^		u_32 Mouse_right:	1;\/\/ Û±Í”“º¸$/;"	m	struct:__anon69::__anon71
+MsgHdr_t	session.h	/^}MsgHdr_t;$/;"	t	typeref:struct:MsgHeader
+MsgHeader	session.h	/^typedef struct MsgHeader {$/;"	s
+NAME_LEN	cfg.h	39;"	d
+NAME_LEN	types.h	40;"	d
+NET_CH_NUM	macro.h	63;"	d
+NFS	cfg.h	/^    }NFS;$/;"	m	struct:__anon2	typeref:struct:__anon2::__anon3
+NFS	types.h	/^    }NFS;$/;"	m	struct:__anon76	typeref:struct:__anon76::__anon77
+NO_ENCRYP	types.h	/^	NO_ENCRYP=0,$/;"	e	enum:__anon88
+Name	cfg.h	/^    s_8   Name[20];$/;"	m	struct:__anon6
+Name	cfg.h	/^    s_8   Name[NAME_LEN];$/;"	m	struct:__anon9
+Name	types.h	/^    Alarm_Name_t  Name;$/;"	m	struct:__anon82
+Name	types.h	/^    OSD_Name_t Name;$/;"	m	struct:__anon55
+Name	types.h	/^    s_8     Name[MAX_USER_GROUP_NUM][NAME_LEN];$/;"	m	struct:AllUserGrpPrew
+Name	types.h	/^    s_8   Name[NAME_LEN];$/;"	m	struct:__anon66
+Name	types.h	/^    s_8   Name[NAME_LEN];$/;"	m	struct:__anon69
+Name_t	cfg.h	/^typedef s_8 Name_t[20];$/;"	t
+Name_t	types.h	/^typedef s_8 Name_t[20];$/;"	t
+NetCfg	cfg.h	/^		u_32 NetCfg:	  1;\/\/Õ¯¬Á≈‰÷√»®œﬁ$/;"	m	struct:__anon6::__anon7
+NetCfg	types.h	/^		u_32 NetCfg:	  1;\/\/Õ¯¬Á≈‰÷√»®œﬁ$/;"	m	struct:__anon66::__anon67
+NetCfg	types.h	/^		u_32 NetCfg:	  1;\/\/Õ¯¬Á≈‰÷√»®œﬁ$/;"	m	struct:__anon69::__anon71
+NetChBasic_t	types.h	/^}NetChBasic_t;$/;"	t	typeref:struct:__anon85
+NetChInfo_t	syscfg.h	/^}NetChInfo_t;$/;"	t	typeref:struct:__anon42
+NvrCameraInfo	types.h	/^typedef struct  NvrCameraInfo$/;"	s
+NvrCameraInfo_t	types.h	/^}NvrCameraInfo_t;$/;"	t	typeref:struct:NvrCameraInfo
+OBS_Param_S	inf_public.h	/^}PRI_AREA_Param_S,MD_Param_S,OBS_Param_S;$/;"	t	typeref:struct:Motion_Obstruct_Cfg
+OFFSET	macro.h	83;"	d
+ONE_CHAR_RECORD_SECT	syscfg.h	73;"	d
+ONE_DAY_MSEC	types.h	76;"	d
+ONE_DAY_SEC	types.h	72;"	d
+ONE_HOUR_MSEC	types.h	80;"	d
+OSD	syscfg.h	/^        OSD_t    OSD[MAX_OSD_NUM];  \/* cType = 4  *\/$/;"	m	union:CfgCh::__anon38
+OSD_ID_NAME	inf_public.h	/^    OSD_ID_NAME = 0,$/;"	e	enum:__anon13
+OSD_ID_TEXT1	inf_public.h	/^    OSD_ID_TEXT1,  $/;"	e	enum:__anon13
+OSD_ID_TEXT2	inf_public.h	/^    OSD_ID_TEXT2$/;"	e	enum:__anon13
+OSD_ID_TIME	inf_public.h	/^    OSD_ID_TIME,    $/;"	e	enum:__anon13
+OSD_Id_t	inf_public.h	/^}OSD_Id_t;$/;"	t	typeref:enum:__anon13
+OSD_LOCAL_t	types.h	/^}OSD_LOCAL_t;$/;"	t	typeref:struct:__anon63
+OSD_NUM_PER_CHN	inf_public.h	76;"	d
+OSD_Name_t	cfg.h	/^typedef s_8 OSD_Name_t[64];$/;"	t
+OSD_Name_t	types.h	/^typedef s_8 OSD_Name_t[64];$/;"	t
+OSD_TEXT_LEN	inf_public.h	75;"	d
+OSD_TEXT_LEN	types.h	263;"	d
+OSD_t	types.h	/^}OSD_t;$/;"	t	typeref:struct:__anon62
+OTime	cfg.h	/^    time_t  OTime;   \/*”≤≈Ã∏≤∏«ø™ º ±º‰*\/$/;"	m	struct:HD_Info
+Obstruct	syscfg.h	/^                 Obstruct;          \/* cType = 7  *\/$/;"	m	union:CfgCh::__anon38
+OutTo	types.h	/^    AlarmHnd_t OutTo;                     $/;"	m	struct:__anon61
+OutTo	types.h	/^    AlarmHnd_t OutTo;$/;"	m	struct:__anon84
+P3oE	types.h	/^    P3oE_t P3oE;$/;"	m	struct:eth
+P3oE	types.h	/^typedef struct P3oE {$/;"	s
+P3oE_t	types.h	/^}P3oE_t;    $/;"	t	typeref:struct:P3oE
+PATH_SN_MAC	macro.h	134;"	d
+PArea	syscfg.h	/^        PArea_t  PArea;             \/* cType = 5  *\/ $/;"	m	union:CfgCh::__anon38
+PArea_t	syscfg.h	/^}PArea_t;$/;"	t	typeref:struct:PrivacyArea
+PCI_CFG_TYPE_IMAGE	inf_public.h	/^    PCI_CFG_TYPE_IMAGE,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_MAJORVENC	inf_public.h	/^    PCI_CFG_TYPE_MAJORVENC,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_MAX	inf_public.h	/^    PCI_CFG_TYPE_MAX$/;"	e	enum:__anon22
+PCI_CFG_TYPE_MD	inf_public.h	/^    PCI_CFG_TYPE_MD,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_MINORVENC	inf_public.h	/^    PCI_CFG_TYPE_MINORVENC,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_OBS	inf_public.h	/^    PCI_CFG_TYPE_OBS,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_OSD	inf_public.h	/^    PCI_CFG_TYPE_OSD,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_PLAY	inf_public.h	/^    PCI_CFG_TYPE_PLAY,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_PREVIEW	inf_public.h	/^    PCI_CFG_TYPE_PREVIEW,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_PRIAREA	inf_public.h	/^    PCI_CFG_TYPE_PRIAREA,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_SLVWORK	inf_public.h	/^    PCI_CFG_TYPE_SLVWORK,$/;"	e	enum:__anon22
+PCI_CFG_TYPE_TIME	inf_public.h	/^    PCI_CFG_TYPE_TIME,$/;"	e	enum:__anon22
+PCI_CMD_TYPE_CFG	inf_public.h	/^    PCI_CMD_TYPE_CFG,$/;"	e	enum:__anon25
+PCI_CMD_TYPE_CTL	inf_public.h	/^    PCI_CMD_TYPE_CTL,$/;"	e	enum:__anon25
+PCI_CMD_TYPE_DATA	inf_public.h	/^    PCI_CMD_TYPE_DATA,    $/;"	e	enum:__anon25
+PCI_CMD_TYPE_MAX	inf_public.h	/^    PCI_CMD_TYPE_MAX$/;"	e	enum:__anon25
+PCI_CTL_TYPE_CH_FULL	inf_public.h	/^    PCI_CTL_TYPE_CH_FULL,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_CH_FULL_EXIT	inf_public.h	/^    PCI_CTL_TYPE_CH_FULL_EXIT,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_MAX	inf_public.h	/^    PCI_CTL_TYPE_MAX$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PIC_ZOOM	inf_public.h	/^    PCI_CTL_TYPE_PIC_ZOOM,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_AUDIO	inf_public.h	/^    PCI_CTL_TYPE_PLAY_AUDIO,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_CLEAR_BUF	inf_public.h	/^    PCI_CTL_TYPE_PLAY_CLEAR_BUF,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_END	inf_public.h	/^    PCI_CTL_TYPE_PLAY_END,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_FB	inf_public.h	/^    PCI_CTL_TYPE_PLAY_FB, $/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_FF	inf_public.h	/^    PCI_CTL_TYPE_PLAY_FF,    $/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_FRAME	inf_public.h	/^    PCI_CTL_TYPE_PLAY_FRAME,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_PAUSE	inf_public.h	/^    PCI_CTL_TYPE_PLAY_PAUSE,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_RESUME	inf_public.h	/^    PCI_CTL_TYPE_PLAY_RESUME,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_START	inf_public.h	/^    PCI_CTL_TYPE_PLAY_START,$/;"	e	enum:__anon23
+PCI_CTL_TYPE_PLAY_STOP	inf_public.h	/^    PCI_CTL_TYPE_PLAY_STOP,$/;"	e	enum:__anon23
+PCI_DATA_ALARM	inf_public.h	/^    PCI_DATA_ALARM,$/;"	e	enum:__anon24
+PCI_DATA_ENC_AUDIO	inf_public.h	/^    PCI_DATA_ENC_AUDIO,$/;"	e	enum:__anon24
+PCI_DATA_ENC_VIDEO	inf_public.h	/^    PCI_DATA_ENC_VIDEO = 0x10,$/;"	e	enum:__anon24
+PCI_DATA_GET_CH_STATUS	inf_public.h	/^    PCI_DATA_GET_CH_STATUS,$/;"	e	enum:__anon24
+PCI_DATA_MAX	inf_public.h	/^    PCI_DATA_MAX$/;"	e	enum:__anon24
+PCI_DATA_PREW_AUDIO	inf_public.h	/^    PCI_DATA_PREW_AUDIO,$/;"	e	enum:__anon24
+PCI_DATA_PREW_VIDEO	inf_public.h	/^    PCI_DATA_PREW_VIDEO,$/;"	e	enum:__anon24
+PCI_DATA_REPLAY_AUDIO	inf_public.h	/^    PCI_DATA_REPLAY_AUDIO,$/;"	e	enum:__anon24
+PCI_DATA_REPLAY_VIDEO	inf_public.h	/^    PCI_DATA_REPLAY_VIDEO,$/;"	e	enum:__anon24
+PCI_DATA_REV_TALK	inf_public.h	/^    PCI_DATA_REV_TALK,\/*∑¥œÚ“Ù∆µ*\/$/;"	e	enum:__anon24
+PCI_DATA_TALK	inf_public.h	/^    PCI_DATA_TALK,$/;"	e	enum:__anon24
+PEER_CTR	cfg.h	361;"	d
+PEER_CTR	kingAPI.h	29;"	d
+PEER_GET	cfg.h	359;"	d
+PEER_GET	kingAPI.h	27;"	d
+PEER_RET	cfg.h	363;"	d
+PEER_RET	kingAPI.h	31;"	d
+PEER_SET	cfg.h	360;"	d
+PEER_SET	kingAPI.h	28;"	d
+PEER_STA	cfg.h	362;"	d
+PEER_STA	kingAPI.h	30;"	d
+PIC_HEIGTH	system.h	164;"	d
+PIC_QUALITY_HIGHER	inf_public.h	/^    PIC_QUALITY_HIGHER,$/;"	e	enum:__anon18
+PIC_QUALITY_HIGHEST	inf_public.h	/^    PIC_QUALITY_HIGHEST,$/;"	e	enum:__anon18
+PIC_QUALITY_LOWER	inf_public.h	/^    PIC_QUALITY_LOWER,        $/;"	e	enum:__anon18
+PIC_QUALITY_LOWEST	inf_public.h	/^    PIC_QUALITY_LOWEST,$/;"	e	enum:__anon18
+PIC_QUALITY_MAX	inf_public.h	/^    PIC_QUALITY_MAX$/;"	e	enum:__anon18
+PIC_QUALITY_NORMAL	inf_public.h	/^    PIC_QUALITY_NORMAL,$/;"	e	enum:__anon18
+PIC_WIDETH	system.h	163;"	d
+PLAY_CH	sysctrl.h	49;"	d
+PLAY_CH	system.h	53;"	d
+PLAY_CH	system.h	64;"	d
+PLAY_CH	system.h	76;"	d
+PORT_AUDIO_TALK	types.h	/^    PORT_AUDIO_TALK   = 3060,$/;"	e	enum:__anon86
+PORT_HTTP	types.h	/^    PORT_HTTP         = 80,$/;"	e	enum:__anon86
+PORT_KVM_PLAYBACK	types.h	/^    PORT_KVM_PLAYBACK = 9000,$/;"	e	enum:__anon86
+PORT_KVM_PTZ	types.h	/^    PORT_KVM_PTZ      = 8000,$/;"	e	enum:__anon86
+PORT_NET_ALARM	types.h	/^    PORT_NET_ALARM    = 6791,$/;"	e	enum:__anon86
+PORT_PUB_PLAYBACK	types.h	/^    PORT_PUB_PLAYBACK = 8111,$/;"	e	enum:__anon86
+PORT_PUB_PTZ	types.h	/^    PORT_PUB_PTZ      = 90,$/;"	e	enum:__anon86
+PORT_RTP	types.h	/^    PORT_RTP          = 202,$/;"	e	enum:__anon86
+PORT_SCAN	types.h	/^    PORT_SCAN         = 9981,$/;"	e	enum:__anon86
+PORT_SMT	types.h	/^    PORT_SMT            =5000$/;"	e	enum:__anon86
+PORT_SNMP	types.h	/^    PORT_SNMP         = 161,$/;"	e	enum:__anon86
+PORT_UPDATE	types.h	/^    PORT_UPDATE       = 251,$/;"	e	enum:__anon86
+PORT_VMPLANE	types.h	/^    PORT_VMPLANE      = 8686,$/;"	e	enum:__anon86
+PPPOEName_t	cfg.h	/^typedef s_8 PPPOEName_t[32];$/;"	t
+PPPOEName_t	types.h	/^typedef s_8 PPPOEName_t[32];$/;"	t
+PRI_ADDGRP	usercfg.h	107;"	d
+PRI_ADDGRP	usercfg.h	76;"	d
+PRI_ADDUSER	usercfg.h	106;"	d
+PRI_ADDUSER	usercfg.h	75;"	d
+PRI_ALARM	usercfg.h	65;"	d
+PRI_ALARM	usercfg.h	96;"	d
+PRI_AREA_Param_S	inf_public.h	/^}PRI_AREA_Param_S,MD_Param_S,OBS_Param_S;$/;"	t	typeref:struct:Motion_Obstruct_Cfg
+PRI_BKANDRECOVER	usercfg.h	113;"	d
+PRI_BKANDRECOVER	usercfg.h	82;"	d
+PRI_CFG	usercfg.h	67;"	d
+PRI_CFG	usercfg.h	98;"	d
+PRI_DATAMAN	usercfg.h	104;"	d
+PRI_DATAMAN	usercfg.h	73;"	d
+PRI_DELUSER	usercfg.h	108;"	d
+PRI_DELUSER	usercfg.h	77;"	d
+PRI_FACTORYRESET	usercfg.h	114;"	d
+PRI_FACTORYRESET	usercfg.h	83;"	d
+PRI_LOCALPLAY	usercfg.h	62;"	d
+PRI_LOCALPLAY	usercfg.h	93;"	d
+PRI_LOGVIEW	usercfg.h	63;"	d
+PRI_LOGVIEW	usercfg.h	94;"	d
+PRI_MOUSELEFT	usercfg.h	118;"	d
+PRI_MOUSELEFT	usercfg.h	87;"	d
+PRI_MOUSERIGHT	usercfg.h	119;"	d
+PRI_MOUSERIGHT	usercfg.h	88;"	d
+PRI_NETCFG	usercfg.h	109;"	d
+PRI_NETCFG	usercfg.h	78;"	d
+PRI_NETPLAY	usercfg.h	61;"	d
+PRI_NETPLAY	usercfg.h	92;"	d
+PRI_NETPREV	usercfg.h	60;"	d
+PRI_NETPREV	usercfg.h	91;"	d
+PRI_PORT	usercfg.h	101;"	d
+PRI_PORT	usercfg.h	70;"	d
+PRI_PORTCFG	usercfg.h	112;"	d
+PRI_PORTCFG	usercfg.h	81;"	d
+PRI_REBOOT	usercfg.h	116;"	d
+PRI_REBOOT	usercfg.h	85;"	d
+PRI_RECORD	usercfg.h	66;"	d
+PRI_RECORD	usercfg.h	97;"	d
+PRI_REMOTEUPDATE	usercfg.h	117;"	d
+PRI_REMOTEUPDATE	usercfg.h	86;"	d
+PRI_SECURE	usercfg.h	103;"	d
+PRI_SECURE	usercfg.h	72;"	d
+PRI_SYSMAN	usercfg.h	68;"	d
+PRI_SYSMAN	usercfg.h	99;"	d
+PRI_SYSTIME	usercfg.h	111;"	d
+PRI_SYSTIME	usercfg.h	80;"	d
+PRI_USERMAN	usercfg.h	102;"	d
+PRI_USERMAN	usercfg.h	71;"	d
+PRODUCT_SERIAL	system.h	22;"	d
+PSWD_LEN	cfg.h	46;"	d
+PSWD_LEN	types.h	50;"	d
+PTZ	syscfg.h	/^        PTZ_t PTZ;$/;"	m	union:CfgCOM::__anon41
+PTZ	syscfg.h	/^    PTZ_t PTZ;$/;"	m	struct:CfgPTZ
+PTZ_t	types.h	/^}PTZ_t;$/;"	t	typeref:struct:__anon75
+PacketHead	inf_public.h	/^typedef struct PacketHead$/;"	s
+PacketOSD	inf_public.h	/^typedef struct PacketOSD$/;"	s
+Pdu	access.c	/^static void *Pdu = NULL;$/;"	v	file:
+Pdu	kingAPI.c	/^static void *Pdu = NULL;$/;"	v	file:
+PeerHdr_t	session.h	/^}PeerHdr_t;$/;"	t	typeref:struct:PeerHeader
+PeerHeader	session.h	/^typedef struct PeerHeader {$/;"	s
+Play_S	inf_public.h	/^}Play_S;$/;"	t	typeref:struct:__anon31
+PortAccessCfg_t	cfg.h	/^}PortAccessCfg_t;$/;"	t	typeref:struct:AccessPortCfg
+PortAccessCfg_t	types.h	/^}PortAccessCfg_t;$/;"	t	typeref:struct:AccessPortCfg
+PortAccessStatus_t	cfg.h	/^}PortAccessStatus_t;$/;"	t	typeref:struct:portAccessStatus
+PortAccessStatus_t	types.h	/^}PortAccessStatus_t;$/;"	t	typeref:struct:portAccessStatus
+PortCfg	cfg.h	/^		u_32 PortCfg:	   1;\/\/≈‰÷√∂Àø⁄»®œﬁ$/;"	m	struct:__anon6::__anon7
+PortCfg	types.h	/^		u_32 PortCfg:	   1;\/\/≈‰÷√∂Àø⁄»®œﬁ$/;"	m	struct:__anon66::__anon67
+PortCfg	types.h	/^		u_32 PortCfg:	   1;\/\/≈‰÷√∂Àø⁄»®œﬁ$/;"	m	struct:__anon69::__anon71
+PortMng	types.h	/^		u_32    PortMng:    1;   $/;"	m	struct:__anon69::__anon70
+PrevStat	sysctrl.h	/^    PrevStat_t PrevStat[TOTAL_MONITOR_NUM];$/;"	m	struct:guiCtr
+PrevStat_t	sysctrl.h	/^}PrevStat_t;$/;"	t	typeref:struct:PrevStatus
+PrevStatus	sysctrl.h	/^typedef struct PrevStatus$/;"	s
+Preview_S	inf_public.h	/^}Preview_S;$/;"	t	typeref:struct:__anon30
+PrivacyArea	syscfg.h	/^typedef struct PrivacyArea {$/;"	s
+Pswd	cfg.h	/^    s_8  Pswd[20];$/;"	m	struct:__anon6
+Pswd	types.h	/^    Pswd_t Pswd;           \/* Only for network channel *\/$/;"	m	struct:__anon55
+Pswd	types.h	/^    Pswd_t Pswd;$/;"	m	struct:P3oE
+Pswd	types.h	/^    s_8   Pswd[NAME_LEN];$/;"	m	struct:__anon66
+Pswd_t	cfg.h	/^typedef s_8 Pswd_t[20];$/;"	t
+Pswd_t	types.h	/^typedef s_8 Pswd_t[20];$/;"	t
+PtHead_t	inf_public.h	/^}PtHead_t;$/;"	t	typeref:struct:PacketHead
+PtOSD_t	inf_public.h	/^}PtOSD_t;$/;"	t	typeref:struct:PacketOSD
+PtVOP_t	inf_public.h	/^}PtVOP_t,VIDEO_ENCODED_DATA_HEAD_S, HEAD_S;$/;"	t	typeref:struct:__anon35
+QCIF_N_HEIGHT	inf_public.h	167;"	d
+QCIF_P_HEIGHT	inf_public.h	166;"	d
+QCIF_WIDTH	inf_public.h	158;"	d
+QftTime	cfg.h	/^    time_t  QftTime;    \/*◊Ó∫Û“ª¥ŒøÏÀŸ∏Ò ΩªØ ±º‰*\/$/;"	m	struct:HD_Info
+REBOOT_KVM	sysctrl.h	109;"	d
+REBOOT_SNMP	sysctrl.h	110;"	d
+REBOOT_SYS	sysctrl.h	112;"	d
+REBOOT_WEB	sysctrl.h	111;"	d
+RECORD_TIMES_PER_DAY	system.h	152;"	d
+RHost	cfg.h	/^    }RHost;$/;"	m	struct:__anon2	typeref:struct:__anon2::__anon4
+RHost	types.h	/^    }RHost;$/;"	m	struct:__anon76	typeref:struct:__anon76::__anon78
+ROOT	system.h	160;"	d
+RcvrNum	cfg.h	/^    u_32    RcvrNum;     $/;"	m	struct:HD_Info
+RdOnly	cfg.h	/^        u_32 RdOnly[MAX_PORT_ACCESS_NUM];$/;"	m	struct:__anon9::__anon11
+RdWr	cfg.h	/^        u_32 RdWr[MAX_PORT_ACCESS_NUM];$/;"	m	struct:__anon9::__anon11
+RecCmdFromCms	types.h	/^typedef struct  RecCmdFromCms{$/;"	s
+RecFileIdx	sysctrl.h	/^     RecFileIndex_t RecFileIdx;$/;"	m	struct:dataIndex
+RecFileIndex	types.h	/^typedef  struct RecFileIndex {$/;"	s
+RecFileIndex_t	types.h	/^} RecFileIndex_t;$/;"	t	typeref:struct:RecFileIndex
+Record	syscfg.h	/^    record_t            Record;$/;"	m	struct:__anon42
+Record	syscfg.h	/^    record_t Record;$/;"	m	struct:CfgRecord
+RecordCmdFromCms_t	types.h	/^}RecordCmdFromCms_t;$/;"	t	typeref:struct:RecCmdFromCms
+RecordTimeCtl_t	syscfg.h	/^}RecordTimeCtl_t;$/;"	t	typeref:struct:__anon44
+RemoteUpdate	cfg.h	/^		u_32 RemoteUpdate:	  1;\/\/‘∂≥Ã…˝º∂π¶ƒ‹$/;"	m	struct:__anon6::__anon7
+RemoteUpdate	types.h	/^		u_32 RemoteUpdate:	  1;\/\/‘∂≥Ã…˝º∂π¶ƒ‹$/;"	m	struct:__anon66::__anon67
+RemoteUpdate	types.h	/^		u_32 RemoteUpdate:	  1;\/\/‘∂≥Ã…˝º∂π¶ƒ‹$/;"	m	struct:__anon69::__anon71
+SESSION_API	session.h	29;"	d
+SESSION_API	session.h	31;"	d
+SESSION_NAME	session.h	26;"	d
+SET_AREA	types.h	153;"	d
+SHORT_DATA_TYPE	types.h	88;"	d
+SHOW_MEM	macro.h	88;"	d
+SMTListID	types.h	/^    u_32   SMTListID[10];$/;"	m	struct:SysCfgFromCms
+SMTListIP	types.h	/^    u_8    SMTListIP[160];$/;"	m	struct:SysCfgFromCms
+SN	inf_public.h	/^    u_32   SN;    $/;"	m	struct:__anon37
+SN	sysstat.h	/^    s_8    SN[64];$/;"	m	struct:kvmStat
+SN_MAC_t	macro.h	/^}SN_MAC_t;$/;"	t	typeref:struct:sn_mac
+START	macro.h	34;"	d
+STAT_ALARM	cfg.h	396;"	d
+STAT_ALARM	sysstat.h	20;"	d
+STAT_ALARM_START	cfg.h	416;"	d
+STAT_ALARM_START	sysstat.h	40;"	d
+STAT_ALARM_STOP	cfg.h	417;"	d
+STAT_ALARM_STOP	sysstat.h	41;"	d
+STAT_DISK	cfg.h	393;"	d
+STAT_DISK	sysstat.h	17;"	d
+STAT_DVDRW	cfg.h	397;"	d
+STAT_DVDRW	sysstat.h	21;"	d
+STAT_DVR	cfg.h	394;"	d
+STAT_KVM	sysstat.h	18;"	d
+STAT_KVM_BOOT	cfg.h	410;"	d
+STAT_KVM_BOOT	sysstat.h	34;"	d
+STAT_KVM_CLOSE	cfg.h	412;"	d
+STAT_KVM_CLOSE	sysstat.h	36;"	d
+STAT_KVM_LOGIN_CMS	cfg.h	401;"	d
+STAT_KVM_LOGIN_CMS	sysstat.h	25;"	d
+STAT_KVM_READY	cfg.h	411;"	d
+STAT_KVM_READY	sysstat.h	35;"	d
+STAT_NETPREV_START	cfg.h	405;"	d
+STAT_NETPREV_START	sysstat.h	29;"	d
+STAT_NETPREV_STOP	cfg.h	406;"	d
+STAT_NETPREV_STOP	sysstat.h	30;"	d
+STAT_PREV	cfg.h	398;"	d
+STAT_PREV	sysstat.h	22;"	d
+STAT_PTT_START	cfg.h	413;"	d
+STAT_PTT_START	sysstat.h	37;"	d
+STAT_PTT_STOP	cfg.h	414;"	d
+STAT_PTT_STOP	sysstat.h	38;"	d
+STAT_REC	cfg.h	399;"	d
+STAT_REC	sysstat.h	23;"	d
+STAT_RECORD_START	cfg.h	403;"	d
+STAT_RECORD_START	sysstat.h	27;"	d
+STAT_RECORD_STOP	cfg.h	404;"	d
+STAT_RECORD_STOP	sysstat.h	28;"	d
+STAT_SYSTIME	cfg.h	400;"	d
+STAT_SYSTIME	sysstat.h	24;"	d
+STAT_VIDEO	cfg.h	395;"	d
+STAT_VIDEO	sysstat.h	19;"	d
+STAT_VIDEO_GOOD	cfg.h	408;"	d
+STAT_VIDEO_GOOD	sysstat.h	32;"	d
+STAT_VIDEO_LOST	cfg.h	407;"	d
+STAT_VIDEO_LOST	sysstat.h	31;"	d
+STOP	macro.h	33;"	d
+STREAM_TYPE_AUDIO	inf_public.h	/^    STREAM_TYPE_AUDIO,        $/;"	e	enum:__anon19
+STREAM_TYPE_BOTH	inf_public.h	/^    STREAM_TYPE_BOTH,$/;"	e	enum:__anon19
+STREAM_TYPE_MAX	inf_public.h	/^    STREAM_TYPE_MAX$/;"	e	enum:__anon19
+STREAM_TYPE_VIDEO	inf_public.h	/^    STREAM_TYPE_VIDEO,$/;"	e	enum:__anon19
+STime	cfg.h	/^    time_t  STime;    \/*”≤≈Ã◊Ó‘Á¬ºœÒ ±º‰*\/$/;"	m	struct:HD_Info
+SUPER_USER_GRP	usercfg.h	34;"	d
+SUPER_USER_ID	usercfg.h	33;"	d
+SYSCTRL_API	sysctrl.h	243;"	d
+SYSCTRL_API	sysctrl.h	245;"	d
+SYSSTAT_API	sysstat.h	160;"	d
+SYSSTAT_API	sysstat.h	162;"	d
+SYS_NAME	system.h	95;"	d
+SYS_STAT	cfg.h	392;"	d
+SYS_STAT	sysstat.h	16;"	d
+SearchFile	sysctrl.h	/^typedef struct SearchFile {$/;"	s
+SearchFile_t	sysctrl.h	/^}SearchFile_t;$/;"	t	typeref:struct:SearchFile
+SecureCfg	types.h	/^typedef struct SecureCfg{$/;"	s
+SecureCfg_t	types.h	/^}SecureCfg_t;$/;"	t	typeref:struct:SecureCfg
+Security	types.h	/^		u_32    Security:   1;$/;"	m	struct:__anon69::__anon70
+SessionID	access.c	/^static int SessionID = -1;$/;"	v	file:
+SessionID	kingAPI.c	/^static int SessionID = -1;$/;"	v	file:
+SftTime	cfg.h	/^    time_t  SftTime;    \/*∏√¥≈≈Ãµƒ¬˝ÀŸ∏Ò ΩªØ ±º‰*\/$/;"	m	struct:HD_Info
+SigLost	syscfg.h	/^        alarm_t  SigLost;           \/* cType = 8  *\/$/;"	m	union:CfgCh::__anon38
+SigLost	types.h	/^    alarm_t   SigLost,Motion,AlarmIn;$/;"	m	struct:__anon81
+Size	cfg.h	/^    u_32    Size;      $/;"	m	struct:HD_Info
+SmtOnline_t	types.h	/^typedef struct SmtOnline_t{$/;"	s
+SmtOnline_t	types.h	/^}SmtOnline_t;$/;"	t	typeref:struct:SmtOnline_t
+SysCfgFromCms	types.h	/^typedef struct SysCfgFromCms{$/;"	s
+SysCfgFromCms_t	types.h	/^}SysCfgFromCms_t;$/;"	t	typeref:struct:SysCfgFromCms
+SysCtr_t	sysctrl.h	/^}sysCtrl_t, SysCtr_t;$/;"	t	typeref:struct:sysCtrl
+SysMaintain	types.h	/^		u_32    SysMaintain:1;$/;"	m	struct:__anon69::__anon70
+SysMng	types.h	/^		u_32    SysMng:     1;$/;"	m	struct:__anon69::__anon70
+SysStat_t	sysstat.h	/^} sysstat_t, SysStat_t;$/;"	t	typeref:struct:sysstat
+SysTime	cfg.h	/^		u_32 SysTime:	  1;\/\/…Ë÷√œµÕ≥ ±º‰»®œﬁ$/;"	m	struct:__anon6::__anon7
+SysTime	types.h	/^		u_32 SysTime:	  1;\/\/…Ë÷√œµÕ≥ ±º‰»®œﬁ$/;"	m	struct:__anon66::__anon67
+SysTime	types.h	/^		u_32 SysTime:	  1;\/\/…Ë÷√œµÕ≥ ±º‰»®œﬁ$/;"	m	struct:__anon69::__anon71
+T3G_WEB_INTERAC	syscfg.h	/^} T3G_WEB_INTERAC;\/\/200◊÷Ω⁄$/;"	t	typeref:struct:_3G_WEB_INTERAC
+TIMES	types.h	221;"	d
+TOTAL_ALARM_C	system.h	132;"	d
+TOTAL_ALARM_E	sysstat.h	46;"	d
+TOTAL_ALARM_E	system.h	140;"	d
+TOTAL_ALARM_I	sysstat.h	45;"	d
+TOTAL_ALARM_I	system.h	138;"	d
+TOTAL_ALARM_MAX_C	sysstat.h	44;"	d
+TOTAL_ALARM_MAX_C	system.h	133;"	d
+TOTAL_ALARM_MAX_I	system.h	136;"	d
+TOTAL_ALARM_MAX_O	system.h	52;"	d
+TOTAL_ALARM_MAX_O	system.h	63;"	d
+TOTAL_ALARM_MAX_O	system.h	75;"	d
+TOTAL_ALARM_O	system.h	50;"	d
+TOTAL_ALARM_O	system.h	61;"	d
+TOTAL_ALARM_O	system.h	73;"	d
+TOTAL_CH_MAX_NUM	macro.h	17;"	d
+TOTAL_CH_MAX_NUM	system.h	103;"	d
+TOTAL_CH_NUM	types.h	26;"	d
+TOTAL_DDSP_NUM	system.h	99;"	d
+TOTAL_DSP_NUM	system.h	91;"	d
+TOTAL_EDSP_NUM	system.h	92;"	d
+TOTAL_LOCAL_ALARM_I	system.h	135;"	d
+TOTAL_LOCAL_CH_NUM	system.h	93;"	d
+TOTAL_MONITOR_NUM	sysctrl.h	50;"	d
+TOTAL_MONITOR_NUM	system.h	107;"	d
+TOTAL_NET_CH_NUM	system.h	94;"	d
+TOTAL_RECORD_SECT	syscfg.h	74;"	d
+True	cfg.h	/^		True  = 1,$/;"	e	enum:__anon1
+UNKNOW_CH	macro.h	72;"	d
+UNKNOW_ID	macro.h	71;"	d
+UNKNOW_UID	usercfg.h	124;"	d
+UNKNOW_USER	usercfg.h	123;"	d
+UNKNOW_VOP	macro.h	73;"	d
+USERCFG_API	usercfg.h	127;"	d
+USERCFG_API	usercfg.h	129;"	d
+USER_ADD	usercfg.h	38;"	d
+USER_DEL	usercfg.h	40;"	d
+USER_GET	usercfg.h	41;"	d
+USER_GET_ALL	usercfg.h	47;"	d
+USER_GRP_ADD	usercfg.h	50;"	d
+USER_GRP_DEL	usercfg.h	52;"	d
+USER_GRP_GET	usercfg.h	53;"	d
+USER_GRP_GET_ALL	usercfg.h	54;"	d
+USER_GRP_MOD	usercfg.h	51;"	d
+USER_LOGIN_LOCAL	usercfg.h	25;"	d
+USER_LOGIN_NONE	usercfg.h	24;"	d
+USER_LOGIN_REMOTE	usercfg.h	26;"	d
+USER_MOD	usercfg.h	39;"	d
+USER_NEXT	usercfg.h	42;"	d
+USER_OFF	usercfg.h	44;"	d
+USER_ON	usercfg.h	43;"	d
+USER_ONLINE	usercfg.h	46;"	d
+USER_PRE	usercfg.h	45;"	d
+USER_STATUS_ABNORMAL	usercfg.h	22;"	d
+USER_STATUS_OFF	usercfg.h	20;"	d
+USER_STATUS_ON	usercfg.h	21;"	d
+Update_t	sysctrl.h	/^} update_t, Update_t;$/;"	t	typeref:struct:update
+Used	cfg.h	/^    u_32    Used;      \/*“—–¥»Î”≤≈Ãµƒ¥Û–°£¨“‘kŒ™µ•Œª Ω´Àƒ∏ˆ∑÷«¯Usedœ‡º”*\/    $/;"	m	struct:HD_Info
+User	sysctrl.h	/^    UserInfo_t User;$/;"	m	struct:login
+User	types.h	/^    Name_t User;           \/* Only for network channel *\/$/;"	m	struct:__anon55
+User	types.h	/^    PPPOEName_t User;$/;"	m	struct:P3oE
+UserCfg_t	cfg.h	/^}UserCfg_t;$/;"	t	typeref:struct:__anon6
+UserCfg_t	types.h	/^}UserCfg_t;$/;"	t	typeref:struct:__anon66
+UserGrp_t	cfg.h	/^}UserGrp_t;$/;"	t	typeref:struct:__anon9
+UserGrp_t	types.h	/^}UserGrp_t;$/;"	t	typeref:struct:__anon69
+UserInfo	cfg.h	/^typedef struct UserInfo {$/;"	s
+UserInfo	syscfg.h	/^   UserInfo_t UserInfo;$/;"	m	struct:CfgUser
+UserInfo	types.h	/^typedef struct UserInfo {$/;"	s
+UserInfo_t	cfg.h	/^}UserInfo_t;$/;"	t	typeref:struct:UserInfo
+UserInfo_t	types.h	/^}UserInfo_t;$/;"	t	typeref:struct:UserInfo
+UserMng	types.h	/^		u_32    UserMng:    1;$/;"	m	struct:__anon69::__anon70
+V1080P_HEIGHT	inf_public.h	160;"	d
+V1080P_WIDTH	inf_public.h	154;"	d
+V720P_HEIGHT	inf_public.h	161;"	d
+V720P_WIDTH	inf_public.h	155;"	d
+VALID_IP	macro.h	58;"	d
+VERIFY_WAY_LDAP	types.h	/^	VERIFY_WAY_LDAP,$/;"	e	enum:__anon89
+VERIFY_WAY_LOCAL	types.h	/^    VERIFY_WAY_LOCAL=0,$/;"	e	enum:__anon89
+VERIFY_WAY_RADIUS	types.h	/^	VERIFY_WAY_RADIUS$/;"	e	enum:__anon89
+VIDEO_ENCODED_DATA_HEAD_S	inf_public.h	/^}PtVOP_t,VIDEO_ENCODED_DATA_HEAD_S, HEAD_S;$/;"	t	typeref:struct:__anon35
+VIDEO_MODE_MAX	inf_public.h	/^    VIDEO_MODE_MAX$/;"	e	enum:__anon14
+VIDEO_MODE_NTSC	inf_public.h	/^    VIDEO_MODE_NTSC,$/;"	e	enum:__anon14
+VIDEO_MODE_PAL	inf_public.h	/^    VIDEO_MODE_PAL,$/;"	e	enum:__anon14
+VIDEO_RES_1080P	inf_public.h	/^    VIDEO_RES_1080P,$/;"	e	enum:__anon12
+VIDEO_RES_2CIF	inf_public.h	/^    VIDEO_RES_2CIF,$/;"	e	enum:__anon12
+VIDEO_RES_3MP	inf_public.h	/^    VIDEO_RES_3MP,$/;"	e	enum:__anon12
+VIDEO_RES_4CIF	inf_public.h	/^    VIDEO_RES_4CIF,$/;"	e	enum:__anon12
+VIDEO_RES_5MP	inf_public.h	/^    VIDEO_RES_5MP,$/;"	e	enum:__anon12
+VIDEO_RES_720P	inf_public.h	/^    VIDEO_RES_720P,$/;"	e	enum:__anon12
+VIDEO_RES_CIF	inf_public.h	/^    VIDEO_RES_CIF,$/;"	e	enum:__anon12
+VIDEO_RES_D1	inf_public.h	/^    VIDEO_RES_D1,$/;"	e	enum:__anon12
+VIDEO_RES_MAX	inf_public.h	/^    VIDEO_RES_MAX$/;"	e	enum:__anon12
+VIDEO_RES_QCIF	inf_public.h	/^    VIDEO_RES_QCIF,$/;"	e	enum:__anon12
+VIDEO_STREAM_BOTH	inf_public.h	/^    VIDEO_STREAM_BOTH,$/;"	e	enum:__anon17
+VIDEO_STREAM_MAIN	inf_public.h	/^    VIDEO_STREAM_MAIN,$/;"	e	enum:__anon17
+VIDEO_STREAM_MAX	inf_public.h	/^    VIDEO_STREAM_MAX$/;"	e	enum:__anon17
+VIDEO_STREAM_SUB	inf_public.h	/^    VIDEO_STREAM_SUB,$/;"	e	enum:__anon17
+VO_HDMI_1080I_60	inf_public.h	/^    VO_HDMI_1080I_60,$/;"	e	enum:__anon16
+VO_HDMI_1080P_25	inf_public.h	/^    VO_HDMI_1080P_25,$/;"	e	enum:__anon16
+VO_HDMI_1080P_30	inf_public.h	/^    VO_HDMI_1080P_30,$/;"	e	enum:__anon16
+VO_SRC_MAX	inf_public.h	/^    VO_SRC_MAX$/;"	e	enum:ZoomType
+VO_SRC_VDEC	inf_public.h	/^    VO_SRC_VDEC,$/;"	e	enum:ZoomType
+VO_SRC_VI	inf_public.h	/^    VO_SRC_VI  = 0x00,$/;"	e	enum:ZoomType
+VO_VGA_1024X768_60	inf_public.h	/^    VO_VGA_1024X768_60,$/;"	e	enum:__anon16
+VO_VGA_1280x1024_60	inf_public.h	/^    VO_VGA_1280x1024_60,$/;"	e	enum:__anon16
+VO_VGA_1366x768_60	inf_public.h	/^    VO_VGA_1366x768_60,$/;"	e	enum:__anon16
+VO_VGA_1440x900_60	inf_public.h	/^    VO_VGA_1440x900_60,$/;"	e	enum:__anon16
+VO_VGA_800X600_60	inf_public.h	/^    VO_VGA_800X600_60 ,$/;"	e	enum:__anon16
+VO_VGA_BNC	inf_public.h	/^    VO_VGA_BNC       = 0,$/;"	e	enum:__anon16
+VO_VGA_MAX	inf_public.h	/^    VO_VGA_MAX$/;"	e	enum:__anon16
+VerifyCft_t	types.h	/^}VerifyCft_t;$/;"	t	typeref:struct:verifyCfg
+VideoZoom	inf_public.h	/^typedef struct VideoZoom {$/;"	s
+WAN	syscfg.h	/^		   WAN$/;"	e	enum:__anon46
+WEEK	macro.h	39;"	d
+WEEK	types.h	218;"	d
+WorkDisk	cfg.h	/^    u_8     WorkDisk;                   \/*π§◊˜¥≈≈Ã£¨0~(HD_MAJOR_NUM-1)*\/$/;"	m	struct:DiskCfg
+Workstation	cfg.h	/^typedef struct Workstation{$/;"	s
+Workstation	types.h	/^typedef struct Workstation{$/;"	s
+Workstation_t	cfg.h	/^}Workstation_t;$/;"	t	typeref:struct:Workstation
+Workstation_t	types.h	/^}Workstation_t;$/;"	t	typeref:struct:Workstation
+WritedIndex	log.h	/^    u_32    WritedIndex; \/\/…œ¥Œº«¬ºµƒÀ˜“˝∫≈$/;"	m	struct:Log_File_Head
+WritedNum	log.h	/^    u_32    WritedNum; \/\/“—–¥»Îµƒ»’÷æ∏ˆ ˝$/;"	m	struct:Log_File_Head
+X_CHKBIT	inf_public.h	152;"	d
+X_CLRBIT	inf_public.h	151;"	d
+X_SETBIT	inf_public.h	150;"	d
+Zoom	inf_public.h	/^    Ele_Enlarge_t Zoom;$/;"	m	struct:__anon36
+ZoomType	inf_public.h	/^typedef enum ZoomType {$/;"	g
+ZoomType_e	inf_public.h	/^}ZoomType_e;$/;"	t	typeref:enum:ZoomType
+_3G_WEB_INTERAC	syscfg.h	/^typedef struct _3G_WEB_INTERAC$/;"	s
+_ACCESS_C	access.c	10;"	d	file:
+_FILE_USER_GROUP	usercfg.h	30;"	d
+_FILE_USER_INFO	usercfg.h	29;"	d
+_INF_PUBLIC_H_	inf_public.h	3;"	d
+_INF_TYPES	inf_public.h	47;"	d
+_INF_TYPES	types.h	111;"	d
+_KVM_	macro.h	47;"	d
+_LINUX_	system.h	17;"	d
+_LI_WF_NET_CONFIG	syscfg.h	/^typedef struct _LI_WF_NET_CONFIG$/;"	s
+_LOG_H	log.h	12;"	d
+_MACRO_H	macro.h	8;"	d
+_SESSION_H	session.h	13;"	d
+_SYSCFG_H	syscfg.h	12;"	d
+_SYSCTRL_H	sysctrl.h	8;"	d
+_SYSSTAT_H	sysstat.h	8;"	d
+_SYSTEM_H	system.h	8;"	d
+_TYPES_H	types.h	13;"	d
+_USERCFG_H	usercfg.h	12;"	d
+__CFG_H__	cfg.h	9;"	d
+__KINGAPI_H	kingAPI.h	11;"	d
+__KVM_DEBUG__	macro.h	101;"	d
+__PRIVILEGE_DETAIL__	types.h	108;"	d
+alarm	sysctrl.h	/^        alarmCtr_t  alarm;$/;"	m	union:sysCtrl::__anon49
+alarm	sysstat.h	/^        alarmStat_t alarm;$/;"	m	union:sysstat::__anon51
+alarmCtr	sysctrl.h	/^typedef struct alarmCtr {$/;"	s
+alarmCtr_t	sysctrl.h	/^}alarmCtr_t;$/;"	t	typeref:struct:alarmCtr
+alarmIn_num	types.h	/^    u_8 alarmIn_num;    \/*÷ß≥÷◊Ó¥Û±®æØ ‰»Î ˝*\/$/;"	m	struct:__anon54
+alarmOut_num	types.h	/^    u_8 alarmOut_num;   \/*÷ß≥÷±æµÿ◊Ó¥Û±®æØ ‰≥ˆ ˝*\/$/;"	m	struct:__anon54
+alarmStat	sysstat.h	/^typedef struct alarmStat {$/;"	s
+alarmStat_t	sysstat.h	/^} alarmStat_t;$/;"	t	typeref:struct:alarmStat
+alarm_t	types.h	/^}alarm_t;$/;"	t	typeref:struct:__anon61
+alarm_type_t	inf_public.h	/^}alarm_type_t;$/;"	t	typeref:enum:__anon26
+alarms	sysstat.h	/^    u_32 alarms;$/;"	m	struct:alarmStat
+allPortCtrl	cfg.h	/^        u_8   allPortCtrl;$/;"	m	struct:__anon9::__anon10
+allPortCtrl	types.h	/^        u_8   allPortCtrl;$/;"	m	struct:__anon69::__anon72
+allPortPri	cfg.h	/^		u_8   allPortPri;  $/;"	m	struct:__anon9::__anon10
+allPortPri	types.h	/^		u_8   allPortPri;  $/;"	m	struct:__anon69::__anon72
+allPortReject	cfg.h	/^        u_8   allPortReject;$/;"	m	struct:__anon9::__anon10
+allPortReject	types.h	/^        u_8   allPortReject;$/;"	m	struct:__anon69::__anon72
+allPortView	cfg.h	/^        u_8   allPortView;$/;"	m	struct:__anon9::__anon10
+allPortView	types.h	/^        u_8   allPortView;$/;"	m	struct:__anon69::__anon72
+allVirMediaPri	cfg.h	/^		u_8   allVirMediaPri;$/;"	m	struct:__anon9::__anon11
+allVirMediaPri	types.h	/^		u_8   allVirMediaPri;$/;"	m	struct:__anon69::__anon73
+allVirMediaRdOnly	cfg.h	/^        u_8   allVirMediaRdOnly;$/;"	m	struct:__anon9::__anon11
+allVirMediaRdOnly	types.h	/^        u_8   allVirMediaRdOnly;$/;"	m	struct:__anon69::__anon73
+allVirMediaRdWr	cfg.h	/^        u_8   allVirMediaRdWr;$/;"	m	struct:__anon9::__anon11
+allVirMediaRdWr	types.h	/^        u_8   allVirMediaRdWr;$/;"	m	struct:__anon69::__anon73
+allVirMediaReject	cfg.h	/^        u_8   allVirMediaReject;$/;"	m	struct:__anon9::__anon11
+allVirMediaReject	types.h	/^        u_8   allVirMediaReject;$/;"	m	struct:__anon69::__anon73
+area	inf_public.h	/^    AREA_S area[AREA_NUM_PER_CHN];$/;"	m	struct:Motion_Obstruct_Cfg
+area	inf_public.h	/^typedef struct  area$/;"	s
+area	syscfg.h	/^    area_t area[MAX_AREA_NUM];$/;"	m	struct:PrivacyArea
+area_t	types.h	/^}area_t;$/;"	t	typeref:struct:__anon52
+arg	sysctrl.h	/^    }arg;$/;"	m	struct:dataCtr	typeref:union:dataCtr::__anon47
+arg_t	cfg.h	/^typedef u_32 arg_t;$/;"	t
+arg_t	inf_public.h	/^typedef u_32 arg_t;$/;"	t
+arg_t	types.h	/^typedef u_32 arg_t;$/;"	t
+audioHdr_t	inf_public.h	/^}audioHdr_t;$/;"	t	typeref:struct:__anon37
+audio_enc_num	inf_public.h	/^    u_8 audio_enc_num;  \/*∏√dspæﬂ”–∂‡…Ÿ¬∑“Ù∆µ±‡¬Îƒ‹¡¶(≤ª∞¸¿®∂‘Ω≤)*\/$/;"	m	struct:__anon32
+availability	cfg.h	/^	u_8   availability;$/;"	m	struct:portAccessStatus
+availability	types.h	/^	u_8   availability;$/;"	m	struct:portAccessStatus
+bAE	sysstat.h	/^    bool bAE[TOTAL_ALARM_E]; $/;"	m	struct:alarmStat
+bAI	sysstat.h	/^    bool bAI[TOTAL_ALARM_I];$/;"	m	struct:alarmStat
+bAddGroup	cfg.h	/^		u_32 bAddGroup: 	1;\/\/‘ˆº””√ªß◊È»®œﬁ$/;"	m	struct:__anon6::__anon7
+bAddGroup	types.h	/^		u_32 bAddGroup: 	1;\/\/‘ˆº””√ªß◊È»®œﬁ$/;"	m	struct:__anon66::__anon67
+bAddGroup	types.h	/^		u_32 bAddGroup: 	1;\/\/‘ˆº””√ªß◊È»®œﬁ$/;"	m	struct:__anon69::__anon71
+bAddUser	cfg.h	/^		u_32 bAddUser:		  1;\/\/‘ˆº””√ªß»®œﬁ$/;"	m	struct:__anon6::__anon7
+bAddUser	types.h	/^		u_32 bAddUser:		  1;\/\/‘ˆº””√ªß»®œﬁ$/;"	m	struct:__anon66::__anon67
+bAddUser	types.h	/^		u_32 bAddUser:		  1;\/\/‘ˆº””√ªß»®œﬁ$/;"	m	struct:__anon69::__anon71
+bAlarm	cfg.h	/^        u_32 bAlarm:      1;$/;"	m	struct:__anon6::__anon7
+bAlarm	sysctrl.h	/^    bool bAlarm;$/;"	m	struct:PrevStatus
+bAlarm	types.h	/^        u_32 bAlarm:      1;$/;"	m	struct:__anon66::__anon67
+bAlarm	types.h	/^        u_32 bAlarm:      1;$/;"	m	struct:__anon69::__anon71
+bAlarm	types.h	/^    u_8  bAlarm:  1;      \/* 1 used for display alarm video, 0 else *\/$/;"	m	struct:__anon65
+bAll	syscfg.h	/^	bool 			bAll;$/;"	m	struct:__anon45
+bAudio	sysctrl.h	/^    u_8 	      bAudio;$/;"	m	struct:playCtr
+bAuto	sysctrl.h	/^    bool bAuto;$/;"	m	struct:PrevStatus
+bAutoDNS	cfg.h	/^    u_8 bAutoDNS;$/;"	m	struct:eth
+bAutoDNS	types.h	/^    u_8 bAutoDNS;$/;"	m	struct:eth
+bCRT	types.h	/^    bool bCRT; $/;"	m	struct:__anon64
+bCenter	types.h	/^    u_8 bCenter:     1;       \/*øÿ÷∆÷––ƒ*\/$/;"	m	struct:__anon59
+bCfg	cfg.h	/^        u_32 bCfg:        1;$/;"	m	struct:__anon6::__anon7
+bCfg	types.h	/^        u_32 bCfg:        1;$/;"	m	struct:__anon66::__anon67
+bCfg	types.h	/^        u_32 bCfg:        1;$/;"	m	struct:__anon69::__anon71
+bCheck	types.h	/^    u_8 bCheck;       \/* need password to manage *\/$/;"	m	struct:__anon64
+bCreate	types.h	/^    u_8                 bCreate;$/;"	m	struct:__anon85
+bDataMan	cfg.h	/^        u_32 bDataMan:    1;$/;"	m	struct:__anon6::__anon7
+bDataMan	types.h	/^        u_32 bDataMan:    1;$/;"	m	struct:__anon66::__anon67
+bDayLight	cfg.h	/^    u_16  bDayLight : 1;  \/\/daylight saving time enable$/;"	m	struct:CfgNTP
+bDayLight	syscfg.h	/^    u_16  bDayLight : 1;  \/\/daylight saving time enable$/;"	m	struct:CfgNTP
+bDelUser	cfg.h	/^		u_32 bDelUser:	  1;\/\/…æ≥˝”√ªß»®œﬁ$/;"	m	struct:__anon6::__anon7
+bDelUser	types.h	/^		u_32 bDelUser:	  1;\/\/…æ≥˝”√ªß»®œﬁ$/;"	m	struct:__anon66::__anon67
+bDelUser	types.h	/^		u_32 bDelUser:	  1;\/\/…æ≥˝”√ªß»®œﬁ$/;"	m	struct:__anon69::__anon71
+bEnglish	types.h	/^    u_8  bEnglish;      $/;"	m	struct:__anon65
+bGUI	types.h	/^    u_8  bGUI:    1;      \/* 1 used for GUI, 0 else *\/$/;"	m	struct:__anon65
+bLocalPlay	cfg.h	/^        u_32 bLocalPlay:  1;$/;"	m	struct:__anon6::__anon7
+bLocalPlay	types.h	/^        u_32 bLocalPlay:  1;$/;"	m	struct:__anon66::__anon67
+bLocalPlay	types.h	/^        u_32 bLocalPlay:  1;$/;"	m	struct:__anon69::__anon71
+bLogView	cfg.h	/^        u_32 bLogView:    1;$/;"	m	struct:__anon6::__anon7
+bLogView	types.h	/^        u_32 bLogView:    1;$/;"	m	struct:__anon66::__anon67
+bLogView	types.h	/^        u_32 bLogView:    1;$/;"	m	struct:__anon69::__anon71
+bLogin	sysstat.h	/^    bool bLogin;    $/;"	m	struct:__anon50
+bLost	sysstat.h	/^    bool bLost;$/;"	m	struct:videoStat
+bMix	syscfg.h	/^    u_8  bMix;              \/*0 video 1 mix*\/$/;"	m	struct:record
+bMixStream	inf_public.h	/^    u_8 bMixStream;     \/* 0: video stream, 1: V & A stream *\/   $/;"	m	struct:__anon28
+bMixStream	types.h	/^    u_8 bMixStream;    \/* 0: video stream, 1: V & A stream *\/$/;"	m	struct:__anon56
+bMonitor	types.h	/^    u_8 bMonitor:    1;       \/*º‡ ”∆˜‘§¿¿*\/$/;"	m	struct:__anon59
+bNTP	syscfg.h	/^    bool  bNTP;$/;"	m	struct:CfgNTP
+bNet	sysctrl.h	/^    bool   bNet;$/;"	m	struct:timeCtr
+bNet	types.h	/^    u_8  bNet:    1;       \/*used for net *\/$/;"	m	struct:__anon65
+bNetPlay	cfg.h	/^        u_32 bNetPlay:    1;$/;"	m	struct:__anon6::__anon7
+bNetPlay	types.h	/^        u_32 bNetPlay:    1;$/;"	m	struct:__anon66::__anon67
+bNetPlay	types.h	/^        u_32 bNetPlay:    1;$/;"	m	struct:__anon69::__anon71
+bNetPrev	cfg.h	/^        u_32 bNetPrev:    1;$/;"	m	struct:__anon6::__anon7
+bNetPrev	types.h	/^        u_32 bNetPrev:    1;$/;"	m	struct:__anon66::__anon67
+bNetPrev	types.h	/^        u_32 bNetPrev:    1;$/;"	m	struct:__anon69::__anon71
+bOn	syscfg.h	/^    bool bOn;$/;"	m	struct:PrivacyArea
+bOn	syscfg.h	/^    u_8  bOn;                 \/* 0: on, 1: off *\/ $/;"	m	struct:record
+bOn	sysctrl.h	/^    bool bOn;$/;"	m	struct:login
+bOn	types.h	/^    bool     bOn;$/;"	m	struct:__anon61
+bOn	types.h	/^    u_8  bOn;           \/* 1: turn on, 0: turn off *\/$/;"	m	struct:__anon62
+bOn	types.h	/^    u_8  bOn;           \/* 1: turn on, 0: turn off *\/$/;"	m	struct:__anon63
+bOnWeek	types.h	/^    u_8  bOnWeek;       \/* Only for time OSD, 0: turn off week, 1: turn on week *\/ $/;"	m	struct:__anon62
+bOnline	types.h	/^    u_8    bOnline;$/;"	m	struct:SmtOnline_t
+bPTZ	cfg.h	/^        u_32 bPTZ:        1;$/;"	m	struct:__anon6::__anon7
+bPTZ	types.h	/^        u_32 bPTZ:        1;$/;"	m	struct:__anon66::__anon67
+bPlay	inf_public.h	/^    u_8 bPlay;$/;"	m	struct:__anon30
+bPlay	types.h	/^    u_8  bPlay:   1;      \/* 1 used for playback, 0 else *\/$/;"	m	struct:__anon65
+bPort	cfg.h	/^		u_32 bPort: 	   1;\/\/∂Àø⁄∑√Œ ◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon6::__anon7
+bPort	types.h	/^		u_32 bPort: 	    1;\/\/∂Àø⁄∑√Œ ◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon69::__anon71
+bPort	types.h	/^		u_32 bPort: 	   1;\/\/∂Àø⁄∑√Œ ◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon66::__anon67
+bPrev	sysctrl.h	/^    bool bPrev;\/*0-‘§¿¿£¨1-ªÿ∑≈*\/$/;"	m	struct:PrevStatus
+bPrev	types.h	/^    u_8  bPrev:   1;      \/* 1 used for tour ( loop preview ), 0 else  *\/$/;"	m	struct:__anon65
+bRecord	cfg.h	/^        u_32 bRecord:     1;$/;"	m	struct:__anon6::__anon7
+bRecord	types.h	/^        u_32 bRecord:     1;$/;"	m	struct:__anon66::__anon67
+bRecord	types.h	/^        u_32 bRecord:     1;$/;"	m	struct:__anon69::__anon71
+bRecord	types.h	/^    u_8  bRecord[TOTAL_CH_MAX_NUM];  \/* set bRecord[i] 1 to record channel i, else 0 *\/$/;"	m	struct:__anon61
+bRecord	types.h	/^    u_8 bRecord;$/;"	m	struct:__anon81
+bRev	types.h	/^    u_8  bRev:    3;$/;"	m	struct:__anon65
+bSchemeEnable	types.h	/^    bool                bSchemeEnable;$/;"	m	struct:__anon85
+bSecure	cfg.h	/^		u_32 bSecure:		1;\/\/∞≤»´…Ë÷√◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon6::__anon7
+bSecure	types.h	/^		u_32 bSecure:		1;\/\/∞≤»´…Ë÷√◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon66::__anon67
+bSecure	types.h	/^		u_32 bSecure:		1;\/\/∞≤»´…Ë÷√◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon69::__anon71
+bSelect	types.h	/^    bool   bSelect;$/;"	m	struct:fileInfo
+bSgOpen	syscfg.h	/^	bool 			bSgOpen;$/;"	m	struct:__anon45
+bStart	inf_public.h	/^    u_8 bStart;$/;"	m	struct:__anon36
+bStart	sysctrl.h	/^    bool  bStart;\/* 0: stop, 1: start *\/$/;"	m	struct:recordCtr
+bSysMaintenance	cfg.h	/^		u_32 bSysMaintenance:	  1;\/\/œµÕ≥Œ¨ª§◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon6::__anon7
+bSysMaintenance	types.h	/^		u_32 bSysMaintenance:	  1;\/\/œµÕ≥Œ¨ª§◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon66::__anon67
+bSysMaintenance	types.h	/^		u_32 bSysMaintenance:	  1;\/\/œµÕ≥Œ¨ª§◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon69::__anon71
+bSysMan	cfg.h	/^        u_32 bSysMan:     1;$/;"	m	struct:__anon6::__anon7
+bSysMan	types.h	/^        u_32 bSysMan:     1;$/;"	m	struct:__anon66::__anon67
+bSysMan	types.h	/^        u_32 bSysMan:     1;$/;"	m	struct:__anon69::__anon71
+bTalk	cfg.h	/^        u_32 bTalk:       1;$/;"	m	struct:__anon6::__anon7
+bTalk	types.h	/^        u_32 bTalk:       1;$/;"	m	struct:__anon66::__anon67
+bTrigger1	types.h	/^    u_8 bTrigger1:   1;       \/*¥•∑¢ ‰≥ˆ1*\/$/;"	m	struct:__anon59
+bTrigger2	types.h	/^    u_8 bTrigger2:   1;       \/*¥•∑¢ ‰≥ˆ2*\/$/;"	m	struct:__anon59
+bTrigger3	types.h	/^    u_8 bTrigger3:   1;       \/*¥•∑¢ ‰≥ˆ3*\/$/;"	m	struct:__anon59
+bTrigger4	types.h	/^    u_8 bTrigger4:   1;       \/*¥•∑¢ ‰≥ˆ4*\/$/;"	m	struct:__anon59
+bUserMan	cfg.h	/^        u_32 bUserMan:    1;$/;"	m	struct:__anon6::__anon7
+bUserMan	types.h	/^        u_32 bUserMan:    1;$/;"	m	struct:__anon66::__anon67
+bUserMng	cfg.h	/^		u_32 bUserMng:		1;\/\/”√ªßπ‹¿Ì◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon6::__anon7
+bUserMng	types.h	/^		u_32 bUserMng:		1;\/\/”√ªßπ‹¿Ì◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon66::__anon67
+bUserMng	types.h	/^		u_32 bUserMng:		1;\/\/”√ªßπ‹¿Ì◊‹ÃÂ»®œﬁ$/;"	m	struct:__anon69::__anon71
+bVga	types.h	/^    bool bVga;			\/*true:use vga , false : use bnc*\/$/;"	m	struct:__anon64
+bVoice	types.h	/^    u_8 bVoice:      1;       \/*…˘“Ù±®æØ*\/$/;"	m	struct:__anon59
+backTime	types.h	/^	u_16 backTime[4];$/;"	m	struct:backupCfg
+backupAndRecover	cfg.h	/^		u_32 backupAndRecover:1;\/\/±∏∑›∫Õ∏≤∏«»®œﬁ$/;"	m	struct:__anon6::__anon7
+backupAndRecover	types.h	/^		u_32 backupAndRecover:1;\/\/±∏∑›∫Õ∏≤∏«»®œﬁ$/;"	m	struct:__anon66::__anon67
+backupAndRecover	types.h	/^		u_32 backupAndRecover:1;\/\/±∏∑›∫Õ∏≤∏«»®œﬁ$/;"	m	struct:__anon69::__anon71
+backupCfg	types.h	/^typedef struct backupCfg{$/;"	s
+bitrate_type_t	inf_public.h	/^}bitrate_type_t;$/;"	t	typeref:enum:__anon21
+bool	types.h	/^typedef u_8   bool;$/;"	t
+boots	sysstat.h	/^    u_32   boots;$/;"	m	struct:kvmStat
+c3gstatus	syscfg.h	/^	u_8	  		c3gstatus	   ;\/\/0: √ªø™∆Ù  1: ≤¶∫≈≥…π¶ -1: ≤¶∫≈ ß∞‹£ª-3√ª”–simø®$/;"	m	struct:_3G_WEB_INTERAC
+cAC	sysstat.h	/^    u_8  cAC[TOTAL_ALARM_MAX_C];  \/* 0: no alarm, 1: lost, 2: motion, 4: obstruct ,    8: input*\/$/;"	m	struct:alarmStat
+cAIs	sysstat.h	/^    u_8 cAIs;$/;"	m	struct:kvmStat
+cAOs	sysstat.h	/^    u_8 cAOs;$/;"	m	struct:kvmStat
+cAction	session.h	/^    u_8 cAction;    \/\/‰ºöËØùÂä®‰Ωú$/;"	m	struct:PeerHeader
+cAddr	types.h	/^    u_8   cAddr,     \/* Decode address *\/$/;"	m	struct:__anon75
+cAllCenter	types.h	/^    u_8 cAllCenter;$/;"	m	struct:__anon80
+cAllVoice	types.h	/^    u_8 cAllVoice;$/;"	m	struct:__anon80
+cAttribute	inf_public.h	/^    u_8 cAttribute;$/;"	m	struct:PacketOSD
+cAttribute	types.h	/^    u_8  cAttribute;    \/* 0: transparent and flashing, 1: transmparent and steadly $/;"	m	struct:__anon62
+cAudioTalkPort	syscfg.h	/^    u_8 cAudioTalkPort[2];			\/\/KVM ????,??????$/;"	m	struct:KVMWanInfo
+cBitRate	types.h	/^    u_8 cBitRate;      \/* 0: variable, other: ( 1 ~~  255) kbps *\/$/;"	m	struct:__anon56
+cBitWidth	inf_public.h	/^    u_8    cBitWidth;$/;"	m	struct:__anon37
+cBrightness	types.h	/^    u_8 cBrightness;  \/* 0 ~~ 255 *\/$/;"	m	struct:__anon57
+cBrightness	types.h	/^    u_8 cBrightness;$/;"	m	struct:__anon64
+cCameraName	types.h	/^    s_8     cCameraName[DEV_NAME_LEN];          \/\/Camera√˚≥∆$/;"	m	struct:NvrCameraInfo
+cCardType	cfg.h	/^    u_8   cCardType;    \/* 0: 100M\/1000M auto 1: 1000M, 2: 100M, 3: 10M *\/$/;"	m	struct:eth
+cCardType	types.h	/^    u_8   cCardType;    \/* 0: 100M\/1000M auto 1: 1000M, 2: 100M, 3: 10M *\/$/;"	m	struct:eth
+cCenter	types.h	/^    u_8 cCenter[TOTAL_CH_MAX_NUM\/8];$/;"	m	struct:__anon80
+cCfgType	syscfg.h	/^    u_8                 cCfgType;$/;"	m	struct:__anon42
+cCh	inf_public.h	/^    u_8    cCh;$/;"	m	struct:__anon37
+cCh	inf_public.h	/^    u_8 cCh;$/;"	m	struct:PacketOSD
+cCmd	sysctrl.h	/^    u_8           cCmd;      \/* 0: stop, 1: start *\/$/;"	m	struct:playCtr
+cCmd	sysctrl.h	/^    u_8  cCmd;        \/* 0x01: start v3060, 0x02: start snmp,  0x03: start webs,  $/;"	m	struct:runCtr
+cCmd	sysctrl.h	/^    u_8  cCmd;   \/*2 manual 3 alarm*\/$/;"	m	struct:recordCtr
+cCmd	sysctrl.h	/^    u_8  cCmd;$/;"	m	struct:ptzCtr
+cCmd	sysctrl.h	/^    u_8 cCmd;	\/* 0x00:∑¢ÀÕ≤È—Ø√¸¡Ó; (mount to \/mnt\/sr)$/;"	m	struct:dvdrwCtrl
+cCmd	sysctrl.h	/^    u_8 cCmd;	\/* see gui.h *\/$/;"	m	struct:guiCtr
+cCmd	sysctrl.h	/^    u_8 cCmd;   \/* 0x00: clear one,         0x01: clear all, 0x10: trigger one *\/$/;"	m	struct:alarmCtr
+cCmd	sysctrl.h	/^    u_8 cCmd;  \/* 0: format harddisk *\/$/;"	m	struct:diskCtr
+cCmd	types.h	/^	u_8    cCmd;$/;"	m	struct:AllUserPrew
+cCmd	types.h	/^    s_8     cCmd;$/;"	m	struct:AllUserGrpPrew
+cCmd	types.h	/^    s_8   cCmd;$/;"	m	struct:__anon69
+cCmd	types.h	/^    u_8 cCmd;$/;"	m	struct:systemCtrl
+cColor	types.h	/^    u_8 cColor;       \/* 0 ~~ 255 *\/$/;"	m	struct:__anon57
+cColor	types.h	/^    u_8 cColor;$/;"	m	struct:__anon64
+cContrast	types.h	/^    u_8 cContrast;    \/* 0 ~~ 255 *\/$/;"	m	struct:__anon57
+cContrast	types.h	/^    u_8 cContrast;$/;"	m	struct:__anon64
+cData	sysctrl.h	/^    u_8  cData;$/;"	m	struct:ptzCtr
+cDataBit	types.h	/^    u_8  cDataBit;   \/* 5, 6, 7, 8                        *\/$/;"	m	struct:__anon74
+cDes	log.h	/^    s_8    cDes[36];$/;"	m	struct:log
+cDevCh	types.h	/^    u_8                 cDevCh;$/;"	m	struct:__anon85
+cDevIP	types.h	/^    u_8     cDevIP[IP_LEN];                  \/\/…Ë±∏IP$/;"	m	struct:NvrCameraInfo
+cDevIP	types.h	/^    u_8    cDevIP[IP_LEN];$/;"	m	struct:SmtOnline_t
+cDevId	types.h	/^    s_8    cDevId[DEV_NAME_LEN];$/;"	m	struct:SmtOnline_t
+cDevMac	syscfg.h	/^    u_8 cDevMac[6];			\/\/KVM  Mac???????KVM$/;"	m	struct:KVMWanInfo
+cDevMac	types.h	/^    u_8     cDevMac[MAC_LEN];                \/\/…Ë±∏Mac$/;"	m	struct:NvrCameraInfo
+cDevName	types.h	/^    s_8                 cDevName[DEV_NAME_LEN];$/;"	m	struct:__anon85
+cDevPassword	types.h	/^    s_8                 cDevPassword[DEV_NAME_LEN];          \/\/…Ë±∏√‹¬Î$/;"	m	struct:__anon85
+cDevPassword	types.h	/^    u_8     cDevPassword[DEV_NAME_LEN];          \/\/…Ë±∏√‹¬Î$/;"	m	struct:NvrCameraInfo
+cDevType	types.h	/^    u_32    cDevType;  \/\/1=SMT$/;"	m	struct:SmtOnline_t
+cDevUserName	types.h	/^    s_8                 cDevUserName[DEV_NAME_LEN];          \/\/…Ë±∏”√ªß√˚$/;"	m	struct:__anon85
+cDevUserName	types.h	/^    u_8     cDevUserName[DEV_NAME_LEN];          \/\/…Ë±∏”√ªß√˚$/;"	m	struct:NvrCameraInfo
+cDisks	sysstat.h	/^    u_8    cDisks;$/;"	m	struct:kvmStat
+cDomainName	syscfg.h	/^    u_8    cDomainName[LNAME_LEN];               \/\/KVM®Æ®∞??$/;"	m	struct:__anon43
+cDomainName	types.h	/^    u_8    cDomainName[LNAME_LEN];               \/\/kvm ”Ú√˚$/;"	m	struct:SysCfgFromCms
+cEnable	inf_public.h	/^    u_8 cEnable;    $/;"	m	struct:PacketOSD
+cEnableLock	types.h	/^	u_8    cEnableLock;$/;"	m	struct:SecureCfg
+cEncrypKvm	types.h	/^	u_8    cEncrypKvm;$/;"	m	struct:SecureCfg
+cExtTag	cfg.h	/^    u_8     cExtTag;   \/* «∑Ò”–¿©’π–≈œ¢*\/$/;"	m	struct:HD_Info
+cFirmware	cfg.h	/^	u_8    cFirmware[NAME_LEN];$/;"	m	struct:KvmSystemInfo
+cFirmware	syscfg.h	/^	u_8    cFirmware[NAME_LEN];$/;"	m	struct:KvmSystemInfo
+cFlowCtrl	types.h	/^    u_8  cFlowCtrl;  \/* 0: none, 1: software, 2: hardware *\/$/;"	m	struct:__anon74
+cFmtStat	cfg.h	/^    u_8     cFmtStat;$/;"	m	struct:HD_Info
+cFormat	types.h	/^    u_8  cFormat;       \/* Only for time OSD, 0: xxxx-xx-xx, 1: xxxx xx xx$/;"	m	struct:__anon62
+cFrameRate	sysctrl.h	/^    u_32	      cFrameRate;$/;"	m	struct:playCtr
+cFrom	sysctrl.h	/^    u_8 cFrom;        \/* 0x01: usb, 0x02: dvd, 0x03: sdk, 0x04: web, 0x05: remote *\/$/;"	m	struct:update
+cGroup	types.h	/^    u_8    cGroup[NAME_LEN];$/;"	m	struct:__anon66
+cGrpName	types.h	/^	u_8    cGrpName[MAX_USER_GROUP_NUM<<3][NAME_LEN];$/;"	m	struct:AllUserPrew
+cHD_Attr	cfg.h	/^    u_8     cHD_Attr;   \/*”≤≈Ã Ù–‘£∫0-ø…∂¡–¥£¨ 1-÷ª∂¡£¨2-≤ªø…∂¡–¥*\/$/;"	m	struct:HD_Info
+cHD_Grp	cfg.h	/^    u_8     cHD_Grp;    \/*”≤≈ÃÀ˘ Ù◊È0-8*\/$/;"	m	struct:HD_Info
+cHD_Loc	cfg.h	/^    u_8     cHD_Loc;    \/*”≤≈ÃŒª÷√£∫0-±æµÿ≈Ã£¨1-nfs≈Ã£¨2-iscsi≈Ã*\/$/;"	m	struct:HD_Info
+cHD_Type	cfg.h	/^    u_8     cHD_Type;   \/*”≤≈Ã¿‡–Õ£∫0-¬ºœÒ≈Ã£¨1-»ﬂ”‡≈Ã£¨2-±∏∑›≈Ã*\/$/;"	m	struct:HD_Info
+cHD_Ver	cfg.h	/^    s_8     cHD_Ver[32];\/*¥À”≤≈Ãµƒ ˝æ›ø‚≥Ã–Úµƒ∞Ê±æ∫≈*\/$/;"	m	struct:HD_Info
+cHig	types.h	/^    u_8 cX,cY,cHig,cWid;   $/;"	m	struct:__anon52
+cHttpPort	syscfg.h	/^    u_8 cHttpPort[2];			\/\/KVM ????,http????$/;"	m	struct:KVMWanInfo
+cID	inf_public.h	/^    u_8 cID; $/;"	m	struct:PacketOSD
+cIPRate	types.h	/^    u_8 cIPRate;       \/* 10 ~~ 255 *\/$/;"	m	struct:__anon56
+cIpEnd	sysctrl.h	/^	char   cIpEnd[IP_LEN]; $/;"	m	struct:IpArea
+cIpStart	sysctrl.h	/^	char   cIpStart[IP_LEN]; $/;"	m	struct:IpArea
+cKVMPlayBackPort	syscfg.h	/^    u_8 cKVMPlayBackPort[2];			\/\/KVM ????,?????????    u_8 cAudioTalkPort[2];			\/\/KVM ????,??????$/;"	m	struct:KVMWanInfo
+cKVMPtzPort	syscfg.h	/^    u_8 cKVMPtzPort[2];			\/\/KVM ????,????????$/;"	m	struct:KVMWanInfo
+cKvmIP	types.h	/^    u_8    cKvmIP[IP_LEN];$/;"	m	struct:SysCfgFromCms
+cKvmIp	cfg.h	/^	u_8    cKvmIp[IP_LEN];$/;"	m	struct:KvmSystemInfo
+cKvmIp	syscfg.h	/^	u_8    cKvmIp[IP_LEN];$/;"	m	struct:KvmSystemInfo
+cKvmModel	cfg.h	/^	u_8    cKvmModel[NAME_LEN];$/;"	m	struct:KvmSystemInfo
+cKvmModel	syscfg.h	/^	u_8    cKvmModel[NAME_LEN];$/;"	m	struct:KvmSystemInfo
+cKvmName	cfg.h	/^	u_8    cKvmName[NAME_LEN];$/;"	m	struct:KvmSystemInfo
+cKvmName	syscfg.h	/^	u_8    cKvmName[NAME_LEN];$/;"	m	struct:KvmSystemInfo
+cLadpServerType	types.h	/^	u_8   cLadpServerType;$/;"	m	struct:ldapCfg
+cLanguage	types.h	/^    u_8 cLanguage;$/;"	m	struct:__anon64
+cLdapServer	types.h	/^    u_8  cLdapServer[IP_LEN];$/;"	m	struct:ldapCfg
+cLinkPro	types.h	/^    u_8                 cLinkPro;						\/*0:tcp  1-* rtp*\/$/;"	m	struct:__anon85
+cLinkType	types.h	/^    u_8                 cLinkType;                      \/*0:onvif  1-* private*\/$/;"	m	struct:__anon85
+cLockAccount	types.h	/^	u_8    cLockAccount;$/;"	m	struct:SecureCfg
+cLockAccountTimeing	types.h	/^	u_8    cLockAccountTimeing;$/;"	m	struct:SecureCfg
+cLogHDTag	cfg.h	/^    u_8     cLogHDTag; \/* «∑Ò «»’÷æ≈Ã*\/$/;"	m	struct:HD_Info
+cLogServerIp	cfg.h	/^	u_8    cLogServerIp[IP_LEN];$/;"	m	struct:KvmSystemInfo
+cLogServerIp	syscfg.h	/^	u_8    cLogServerIp[IP_LEN];$/;"	m	struct:KvmSystemInfo
+cLogoutIdleUser	types.h	/^    u_8    cLogoutIdleUser;$/;"	m	struct:SecureCfg
+cLogoutIdleUserMin	types.h	/^	u_16   cLogoutIdleUserMin;$/;"	m	struct:SecureCfg
+cMac	cfg.h	/^    u_8     cMac[MAC_LEN];\/*…Ë±∏µƒMACµÿ÷∑£¨”√”⁄±Ì æ¥À»’÷æ «ƒƒÃ®…Ë±∏µƒ*\/$/;"	m	struct:HD_Info
+cMac	log.h	/^    u_8     cMac[MAC_LEN];\/\/KVMµƒMACµÿ÷∑£¨”√”⁄±Ì æ¥À»’÷æ «ƒƒÃ®KVMµƒ$/;"	m	struct:Log_File_Head
+cMac	types.h	/^    u_8     cMac[6];  \/\/…Ë±∏MACµÿ÷∑£¨»´Œ™0xFF ±±Ì æÀ˘”–…Ë±∏£¨”√”⁄À—À˜$/;"	m	struct:RecFileIndex
+cMac1	macro.h	/^    unsigned char cMac1[12];     \/\/MAC¶Ã??°§1$/;"	m	struct:sn_mac
+cMac2	macro.h	/^    unsigned char cMac2[12];     \/\/MAC¶Ã??°§2$/;"	m	struct:sn_mac
+cMatrix	types.h	/^    u_8  cMatrix;         \/* 1, 4, 6,8,9,10,13,16 *\/$/;"	m	struct:__anon65
+cMdeia	sysctrl.h	/^    u_8    cMdeia;    \/* 0x00: local hd,  0x01: NAS, 0x02: usb, 0x03: dvd, 0x04: sdk *\/$/;"	m	struct:dataCtr
+cMedia	sysctrl.h	/^    u_8 cMedia;     \/* 0x01: usb, 0x02: dvd, 0x03: sdk *\/$/;"	m	struct:cfgCtr
+cMethod	sysctrl.h	/^    u_8    cMethod;   \/* 0x01: by search, 0x02: by file *\/$/;"	m	struct:dataCtr
+cMethod	sysctrl.h	/^    u_8 cMethod;$/;"	m	struct:diskCtr
+cMethod	types.h	/^    u_8 cMethod;$/;"	m	struct:backupCfg
+cMode	sysctrl.h	/^    u_8  cMode;\/*ª≠√Ê◊¥Ã¨,1,4,9,16*\/$/;"	m	struct:PrevStatus
+cMode	types.h	/^    u_8 cMode;        \/* 1: PAL, 2: NTSC *\/$/;"	m	struct:__anon64
+cMonitor	sysctrl.h	/^    u_8           cMonitor;$/;"	m	struct:playCtr
+cName	cfg.h	/^	u_8   cName[NAME_LEN];$/;"	m	struct:portAccessStatus
+cName	types.h	/^	u_8   cName[NAME_LEN];$/;"	m	struct:portAccessStatus
+cNetAlarmPort	syscfg.h	/^    u_8 cNetAlarmPort[2];			\/\/KVM ????,????$/;"	m	struct:KVMWanInfo
+cNetPrev	sysstat.h	/^    u_8  cNetPrev;$/;"	m	struct:videoStat
+cNum	cfg.h	/^	u_8   cNum;$/;"	m	struct:Workstation
+cNum	session.h	/^    u_8 cNum;		\/\/‰øùÁïô$/;"	m	struct:MsgHeader
+cNum	syscfg.h	/^    u_8       cNum;$/;"	m	struct:CfgPreview
+cNum	syscfg.h	/^    u_8 cNum;          \/* for alarm input: 0 ~ 15 $/;"	m	struct:CfgAlarm
+cNum	sysctrl.h	/^    u_8           cNum;      \/*total play ch  range 1-16*\/$/;"	m	struct:playCtr
+cNum	sysctrl.h	/^    u_8 cNum;$/;"	m	struct:diskCtr
+cNum	types.h	/^	s_8     cNum;$/;"	m	struct:AllUserGrpPrew
+cNum	types.h	/^	u_8   cNum;$/;"	m	struct:Workstation
+cNum	types.h	/^    u_8    cNum;$/;"	m	struct:AllUserPrew
+cNum	types.h	/^    u_8    cNum;$/;"	m	struct:fileInfo
+cNvrName	syscfg.h	/^    u_8    cNvrName[DEV_NAME_LEN];$/;"	m	struct:__anon43
+cNvrName	types.h	/^    u_8    cNvrName[DEV_NAME_LEN];$/;"	m	struct:SysCfgFromCms
+cPTT	sysstat.h	/^    u_8    cPTT;$/;"	m	struct:kvmStat
+cPackets	inf_public.h	/^    u_32 cPackets:8;$/;"	m	struct:DSPtoCPUHead
+cParity	types.h	/^    u_8  cParity;    \/* 0: no,   1: odd,      2: even     *\/$/;"	m	struct:__anon74
+cPassword	types.h	/^    s_8    cPassword[DEV_NAME_LEN];$/;"	m	struct:loginReq
+cPath	cfg.h	/^        u_8  cPath[24];$/;"	m	struct:__anon2::__anon3
+cPath	sysctrl.h	/^	s_8 cPath[128];	\/*øÃ¬º∂‘œÛŒƒº˛–≈œ¢*\/$/;"	m	union:dvdrwCtrl::__anon48
+cPath	sysctrl.h	/^    s_8    cPath[128];$/;"	m	struct:logSearch
+cPath	sysctrl.h	/^    s_8    cPath[32];$/;"	m	struct:SearchFile
+cPath	sysctrl.h	/^    s_8 cPath[128];$/;"	m	struct:update
+cPath	sysctrl.h	/^    u_8 cPath[128]; $/;"	m	struct:cfgCtr
+cPath	types.h	/^        u_8  cPath[24];$/;"	m	struct:__anon76::__anon77
+cPath	types.h	/^    s_8    cPath[128];  \/* save path *\/$/;"	m	struct:fileInfo
+cPath	types.h	/^    s_8 cPath[128];$/;"	m	struct:condition
+cPort	types.h	/^	u_32  cPort; $/;"	m	struct:ldapCfg
+cPortName	cfg.h	/^	u_8   cPortName[NAME_LEN];$/;"	m	struct:Workstation
+cPortName	cfg.h	/^	u_8  cPortName[NAME_LEN];$/;"	m	struct:AccessPortCfg
+cPortName	types.h	/^	u_8   cPortName[NAME_LEN];$/;"	m	struct:Workstation
+cPortName	types.h	/^	u_8  cPortName[NAME_LEN];$/;"	m	struct:AccessPortCfg
+cPortType	cfg.h	/^	u_8  cPortType;$/;"	m	struct:AccessPortCfg
+cPortType	types.h	/^	u_8  cPortType;$/;"	m	struct:AccessPortCfg
+cPosionType	types.h	/^    u_8  cPosionType;      \/*0 upper left,1 upper right, 2 lower left, 3 lower right*\/$/;"	m	struct:__anon63
+cPowerIn	cfg.h	/^	u_8    cPowerIn;\/\/on = 1; off  = 0 $/;"	m	struct:KvmSystemInfo
+cPowerIn	syscfg.h	/^	u_8    cPowerIn;\/\/on = 1; off  = 0 $/;"	m	struct:KvmSystemInfo
+cPri	types.h	/^		u_8   cPri[MAX_PORT_ACCESS_NUM];\/\/0x01--reject 0x02--rd 0x03--wr$/;"	m	struct:__anon69::__anon73
+cPri	types.h	/^		u_8  cPri[MAX_PORT_ACCESS_NUM];\/\/0x01--view 0x02--ctrl 0x03--reject$/;"	m	struct:__anon69::__anon72
+cPriority	cfg.h	/^    u_8    cPriority;  \/* 0 ~ 255, root has the highest priority of 255 *\/$/;"	m	struct:__anon6
+cPriority	types.h	/^    u_8    cPriority;  \/* 0 ~ 255, root has the highest priority of 255 *\/$/;"	m	struct:__anon66
+cProtocol	types.h	/^          cProtocol; \/* 0: Kinan, 1: Kalatel-312, 2: Panasonic,$/;"	m	struct:__anon75
+cPsswdAging	types.h	/^	u_8    cPsswdAging;$/;"	m	struct:SecureCfg
+cPsswdAgingDays	types.h	/^	u_16   cPsswdAgingDays;$/;"	m	struct:SecureCfg
+cPsswdStrongRule	types.h	/^	u_8    cPsswdStrongRule;\/\/bit 0 = start psswd strong rule bit 1 = at least one minuscules $/;"	m	struct:SecureCfg
+cPswd	sysctrl.h	/^    s_8 cPswd[16];$/;"	m	struct:sysCtrl
+cPts	cfg.h	/^    u_8     cPts;      \/* µº ∑÷«¯ ˝*\/$/;"	m	struct:HD_Info
+cPtz	sysstat.h	/^    u_8  cPtz;$/;"	m	struct:videoStat
+cPubPTZPort	syscfg.h	/^    u_8 cPubPTZPort[2];			\/\/KVM ????,??2216????$/;"	m	struct:KVMWanInfo
+cPubPlayBackPort	syscfg.h	/^    u_8 cPubPlayBackPort[2];			\/\/KVM ????,??2216????$/;"	m	struct:KVMWanInfo
+cQuality	types.h	/^    u_8 cQuality;      \/* 0: lowest, 1: low, 2: middle, 3: high, 4: highest*\/$/;"	m	struct:__anon56
+cRT	syscfg.h	/^        u_8  cRT[ FOR_RECORD_SECT ];$/;"	m	struct:record::__anon39
+cRecDelayT	types.h	/^    u_8    cRecDelayT;                     \/\/±Ì æ±®æØ—”≥ŸÕ£÷π¬ºœÒ ±≥§$/;"	m	struct:SysCfgFromCms
+cRecPlan	types.h	/^    u_8     cRecPlan[WEEK][180];            \/\/rec plan $/;"	m	struct:ChSchemeFromCms
+cRecPrevT	types.h	/^    u_8	   cRecPrevT;			\/\/±Ì æ±®æØ‘§¬ºœÒ ±≥§£¨$/;"	m	struct:SysCfgFromCms
+cRecordType	sysstat.h	/^    u_8  cRecordType;  \/* 0: no record, 1: man, 2: time, 3: alarm *\/$/;"	m	struct:videoStat
+cRecordType	sysstat.h	/^    u_8 cRecordType[TOTAL_CH_NUM];$/;"	m	struct:recStat
+cRecordType	types.h	/^    u_8     cRecordType;$/;"	m	struct:RecCmdFromCms
+cRefresh	types.h	/^	u_8  cRefresh;\/\/50,60HZ$/;"	m	struct:AccessPortCfg
+cRes	cfg.h	/^	u_8   cRes[2];$/;"	m	struct:Workstation
+cRes	cfg.h	/^    u_8     cRes[20];$/;"	m	struct:HD_Info
+cRes	syscfg.h	/^    u_8  cRes;$/;"	m	struct:record
+cRes	sysstat.h	/^	u_8    cRes;$/;"	m	struct:kvmStat
+cRes	sysstat.h	/^    u_8   cRes[3];$/;"	m	struct:sysstat
+cRes	types.h	/^	u_8    cRes;$/;"	m	struct:SecureCfg
+cRes	types.h	/^	u_8   cRes[2];$/;"	m	struct:Workstation
+cRes	types.h	/^    u_8     cRes[3];$/;"	m	struct:ChSchemeFromCms
+cRes	types.h	/^    u_8    cRes;$/;"	m	struct:SysCfgFromCms
+cRes	types.h	/^    u_8    cRes[3];               \/\/$/;"	m	struct:SmtOnline_t
+cRes	types.h	/^    u_8  cRes;$/;"	m	struct:condition
+cReserved	types.h	/^    u_8     cReserved[2];                    \/\/±£¡Ù	$/;"	m	struct:NvrCameraInfo
+cReserved	types.h	/^    u_8     cReserved[3];$/;"	m	struct:RecCmdFromCms
+cResolution	types.h	/^	u_16 cResolution[2];\/\/1920x1080$/;"	m	struct:AccessPortCfg
+cResolution	types.h	/^    u_8 cResolution;   \/* 0: QCIF, 1: CIF, 2: 2CIF, 3: 4CIF *\/$/;"	m	struct:__anon56
+cResvered	syscfg.h	/^    u_8 cResvered[2];				\/\/??$/;"	m	struct:KVMWanInfo
+cRev	cfg.h	/^    u_8     cRev[3]; $/;"	m	struct:HD_Info
+cRev	log.h	/^    u_8     cRev[2];$/;"	m	struct:Log_File_Head
+cRtpPort	syscfg.h	/^    u_8 cRtpPort[2];			\/\/KVM ????,rtp????$/;"	m	struct:KVMWanInfo
+cSN	macro.h	/^    unsigned char cSN[64];       \/\/7->64, D®∞®¢Do?$/;"	m	struct:sn_mac
+cSSO	types.h	/^    u_8    cSSO;  \/\/SINGLE SION ON $/;"	m	struct:SecureCfg
+cSTT	types.h	/^    u_8     cSTT;       \/* sensitivity *\/$/;"	m	struct:__anon79
+cSampleRate	inf_public.h	/^    u_8    cSampleRate[2];$/;"	m	struct:__anon37
+cSaturation	types.h	/^    u_8 cSaturation;  \/* 0 ~~ 255 *\/$/;"	m	struct:__anon57
+cSaturation	types.h	/^    u_8 cSaturation;$/;"	m	struct:__anon64
+cScanDNS	types.h	/^	u_8   cScanDNS[IP_LEN];$/;"	m	struct:ldapCfg
+cScanPort	syscfg.h	/^    u_8 cScanPort[2];			\/\/KVM ????,??????$/;"	m	struct:KVMWanInfo
+cSchemeEnable	types.h	/^    u_8     cSchemeEnable;$/;"	m	struct:ChSchemeFromCms
+cServer	types.h	/^    u_8    cServer[IP_LEN];$/;"	m	struct:radiusCfg
+cSgName	syscfg.h	/^	s_8  			cSgName[16];$/;"	m	struct:__anon45
+cShareCode	types.h	/^	u_8    cShareCode[PSWD_LEN];$/;"	m	struct:radiusCfg
+cSnapOpen	syscfg.h	/^	bool			cSnapOpen;$/;"	m	struct:__anon45
+cSnapType	syscfg.h	/^    u_8             cSnapType;$/;"	m	struct:__anon45
+cSnmpPort	syscfg.h	/^    u_8 cSnmpPort[2];			\/\/KVM ????,snmp????$/;"	m	struct:KVMWanInfo
+cStat	syscfg.h	/^    u_8                 cStat;$/;"	m	struct:__anon42
+cStatus	cfg.h	/^	u_8   cStatus; \/\/0 close 1 connected$/;"	m	struct:portAccessStatus
+cStatus	cfg.h	/^	u_8   cStatus;$/;"	m	struct:Workstation
+cStatus	session.h	/^    s_8 cStatus;	\/\/‰ºöËØùÁä∂ÊÄÅ$/;"	m	struct:PeerHeader
+cStatus	types.h	/^	u_8   cStatus; \/\/0 close 1 connected$/;"	m	struct:portAccessStatus
+cStatus	types.h	/^	u_8   cStatus;$/;"	m	struct:Workstation
+cStatus	types.h	/^    u_8     cStatus;  \/\/Œƒº˛◊¥Ã¨$/;"	m	struct:RecFileIndex
+cStatus	types.h	/^    u_8    cStatus[MAX_USER_GROUP_NUM<<3];$/;"	m	struct:AllUserPrew
+cStatus	types.h	/^    u_8  cStatus;$/;"	m	struct:loginCmsStatus
+cStopBit	types.h	/^    u_8  cStopBit;   \/* 1, 2                              *\/$/;"	m	struct:__anon74
+cStream	types.h	/^    u_8 cStream;       \/* 0; major stream, 1: minor stream *\/$/;"	m	struct:__anon56
+cTestPsswd	types.h	/^	u_8   cTestPsswd[PSWD_LEN];$/;"	m	struct:ldapCfg
+cTestUserName	types.h	/^    u_8   cTestUserName[NAME_LEN];$/;"	m	struct:ldapCfg
+cText	types.h	/^    u_8  cText[OSD_TEXT_LEN];$/;"	m	struct:__anon62
+cText	types.h	/^    u_8  cText[OSD_TEXT_LEN];$/;"	m	struct:__anon63
+cTime	types.h	/^    u_8 cTime[6];\/* unit: minute, e.g. 12:30:15 => sTime = 12 * 60 + 30$/;"	m	struct:__anon60
+cTrans	types.h	/^    u_8  cTrans;$/;"	m	struct:__anon58
+cTransparent	types.h	/^    u_8 cTransparent; \/* 56 ~~ 255 *\/$/;"	m	struct:__anon64
+cTryUnlockTime	types.h	/^	u_8    cTryUnlockTime;$/;"	m	struct:SecureCfg
+cType	cfg.h	/^    u_8    cType;         \/* 0; root, 1: administrator, 2: normal user *\/$/;"	m	struct:__anon6
+cType	cfg.h	/^    u_8 cType;   \/* 0x00: static no   3PoE, 0x01: DHCP no 3PoE, $/;"	m	struct:eth
+cType	session.h	/^    u_8 cType;		\/\/‰ºöËØùÊìç‰ΩúÁ±ªÂûãÔºåÂ¶ÇËé∑ÂèñËÆæÂ§áÂü∫Êú¨‰ø°ÊÅØÁ≠â$/;"	m	struct:MsgHeader
+cType	syscfg.h	/^        u_8  cType[ TOTAL_RECORD_SECT ];     $/;"	m	struct:record::__anon39
+cType	syscfg.h	/^    u_8  cType; \/* 0: channel basic info, 1: major video compress,  2: minor video compress$/;"	m	struct:CfgCh
+cType	syscfg.h	/^    u_8 cType;         \/* 0: alarm input, 1: alarm output, 2: exception alarm *\/$/;"	m	struct:CfgAlarm
+cType	syscfg.h	/^    u_8 cType; \/* 0: 232 COM, 1: 422 COM *\/$/;"	m	struct:CfgCOM
+cType	syscfg.h	/^   u_8        cType;   \/* 0: add, 1: modify, 2: del, 3: rt one user info, $/;"	m	struct:CfgUser
+cType	sysctrl.h	/^    u_8 cType;        \/* 0x01: v3060,     0x02: snmp,   0x03: webs, 0x13: watch dog $/;"	m	struct:update
+cType	sysctrl.h	/^    u_8 cType;      \/* 0x00: backup user-info, 0x01: backup sys-cfg $/;"	m	struct:cfgCtr
+cType	sysctrl.h	/^    u_8 cType;  \/* 0x00: channel alarm,     0x01: motion alarm;$/;"	m	struct:alarmCtr
+cType	sysctrl.h	/^    u_8 cType;$/;"	m	struct:sysCtrl
+cType	sysstat.h	/^    u_8   cType;$/;"	m	struct:sysstat
+cType	types.h	/^    u_8     cType;         \/* 0: open, 1: close *\/$/;"	m	struct:__anon82
+cType	types.h	/^    u_8     cType;    \/\/Œƒº˛¿‡–Õ£¨Œ™0xFF ±±Ì æÀ˘”–¿‡–Õ£¨”√”⁄À—À˜$/;"	m	struct:RecFileIndex
+cType	types.h	/^    u_8    cType;          \/* 0: local channel, 1: network channel *\/$/;"	m	struct:__anon55
+cType	types.h	/^    u_8    cType;         \/* 0; root, 1: administrator, 2: normal user *\/$/;"	m	struct:__anon66
+cType	types.h	/^    u_8    cType;      \/* 'a': alarm record, 't': time record, 'm': manual record *\/$/;"	m	struct:fileInfo
+cType	types.h	/^    u_8  cType;$/;"	m	struct:condition
+cType	types.h	/^    u_8 cType;   \/* 0x00: static no   3PoE, 0x01: DHCP no 3PoE, $/;"	m	struct:eth
+cType	types.h	/^    u_8 cType;$/;"	m	struct:__anon81
+cUnsPort	cfg.h	/^    u_8  cUnsPort[2]; \/*for net pre,cfg,snmp... default 5000*\/$/;"	m	struct:eth
+cUnsPort	types.h	/^    u_8  cUnsPort[2]; \/*for net pre,cfg,snmp... default 5000*\/$/;"	m	struct:eth
+cUpdatePort	syscfg.h	/^    u_8 cUpdatePort[2];			\/\/KVM ????,????$/;"	m	struct:KVMWanInfo
+cUser	log.h	/^    Name_t cUser;$/;"	m	struct:log
+cUser	sysctrl.h	/^    s_8 cUser[16];$/;"	m	struct:sysCtrl
+cUserName	types.h	/^	u_8    cUserName[MAX_USER_GROUP_NUM<<3][NAME_LEN];$/;"	m	struct:AllUserPrew
+cUserName	types.h	/^    s_8    cUserName[DEV_NAME_LEN];$/;"	m	struct:loginReq
+cVMPlanePort	syscfg.h	/^    u_8 cVMPlanePort[2];			\/\/KVM ????,??????$/;"	m	struct:KVMWanInfo
+cVOPRate	types.h	/^    u_8 cVOPRate;      \/* 10 ~~ 30 *\/$/;"	m	struct:__anon56
+cVOPType	types.h	/^    u_8 cVOPType;      \/* 0: BBP, 1: P *\/ $/;"	m	struct:__anon56
+cVORes	types.h	/^    u_8  cVORes;        \/*0-~{7G~}VGA    1-800*600_60   2-1024x768_60 3-1280x1024_60 $/;"	m	struct:__anon64
+cVirCh	types.h	/^    u_8                 cVirCh;                        \/\/0-NUL(¡¥¬∑∂œø™), 1-CAM, 2-SMT$/;"	m	struct:__anon85
+cVoice	types.h	/^    u_8 cVoice[TOTAL_CH_MAX_NUM\/8];$/;"	m	struct:__anon80
+cVolume	syscfg.h	/^        u_8      cVolume;           \/* cType = 9  *\/$/;"	m	union:CfgCh::__anon38
+cWho	session.h	/^    s_8 cWho[20]; 	\/\/Áî®Êà∑Âêç$/;"	m	struct:PeerHeader
+cWid	types.h	/^    u_8 cX,cY,cHig,cWid;   $/;"	m	struct:__anon52
+cWkStat	cfg.h	/^    u_8     cWkStat;    $/;"	m	struct:HD_Info
+cWorkstationName	cfg.h	/^    u_8   cWorkstationName[NAME_LEN];$/;"	m	struct:Workstation
+cWorkstationName	types.h	/^    u_8   cWorkstationName[NAME_LEN];$/;"	m	struct:Workstation
+cX	sysctrl.h	/^    s_8  cX;$/;"	m	struct:ptzCtr
+cX	types.h	/^    u_8 cX,cY,cHig,cWid;   $/;"	m	struct:__anon52
+cX_H	inf_public.h	/^    u_8 cX_H[2], cX_L[2], cY_H[2], cY_L[2];      $/;"	m	struct:PacketOSD
+cX_L	inf_public.h	/^    u_8 cX_H[2], cX_L[2], cY_H[2], cY_L[2];      $/;"	m	struct:PacketOSD
+cY	sysctrl.h	/^    s_8  cY;$/;"	m	struct:ptzCtr
+cY	types.h	/^    u_8 cX,cY,cHig,cWid;   $/;"	m	struct:__anon52
+cY_H	inf_public.h	/^    u_8 cX_H[2], cX_L[2], cY_H[2], cY_L[2];      $/;"	m	struct:PacketOSD
+cY_L	inf_public.h	/^    u_8 cX_H[2], cX_L[2], cY_H[2], cY_L[2];      $/;"	m	struct:PacketOSD
+callback_t	cfg.h	/^typedef void callback_t;$/;"	t
+callback_t	inf_public.h	/^typedef void callback_t;$/;"	t
+callback_t	types.h	/^typedef void callback_t;$/;"	t
+capacity	sysstat.h	/^    u_32 capacity;$/;"	m	struct:diskStat
+cfg	sysctrl.h	/^        cfgCtr_t    cfg;$/;"	m	union:sysCtrl::__anon49
+cfgCtr	sysctrl.h	/^typedef struct cfgCtr {$/;"	s
+cfgCtr_t	sysctrl.h	/^} cfgCtr_t;$/;"	t	typeref:struct:cfgCtr
+cfg_t	cfg.h	/^typedef u_8 cfg_t;$/;"	t
+cfg_t	types.h	/^typedef u_8 cfg_t;$/;"	t
+ch_status	inf_public.h	/^}ch_status;$/;"	t	typeref:struct:__anon34
+chinfo_t	types.h	/^}chinfo_t;$/;"	t	typeref:struct:__anon55
+cond_attr_t	inf_public.h	/^typedef pthread_condattr_t  cond_attr_t;$/;"	t
+cond_t	inf_public.h	/^typedef pthread_cond_t      cond_t;$/;"	t
+condition	types.h	/^typedef struct condition {$/;"	s
+cp	sysctrl.h	/^        dataCtr_t   cp, rm;$/;"	m	union:sysCtrl::__anon49
+ctrl	cfg.h	/^        u_32 ctrl[MAX_PORT_ACCESS_NUM];$/;"	m	struct:__anon9::__anon10
+ctrl	sysctrl.h	/^    }ctrl;$/;"	m	struct:sysCtrl	typeref:union:sysCtrl::__anon49
+curLogin	cfg.h	/^    kLoginInfo_t curLogin;$/;"	m	struct:KvmSystemInfo
+curLogin	syscfg.h	/^    kLoginInfo_t curLogin;$/;"	m	struct:KvmSystemInfo
+curTime	inf_public.h	/^    time_t curTime;     \/*µ±«∞ ±º‰*\/$/;"	m	struct:__anon33
+data	sysctrl.h	/^    u_32 data;$/;"	m	struct:runCtr
+data	sysctrl.h	/^    }data;$/;"	m	struct:dvdrwCtrl	typeref:union:dvdrwCtrl::__anon48
+dataCtr	sysctrl.h	/^typedef struct dataCtr {$/;"	s
+dataCtr_t	sysctrl.h	/^ } dataCtr_t;$/;"	t	typeref:struct:dataCtr
+dataIndex	sysctrl.h	/^        dataIndex_t dataIndex;$/;"	m	union:dataCtr::__anon47
+dataIndex	sysctrl.h	/^typedef struct dataIndex$/;"	s
+dataIndex_t	sysctrl.h	/^}dataIndex_t;$/;"	t	typeref:struct:dataIndex
+data_len	log.h	/^	u_32 data_len;$/;"	m	struct:log_queue
+data_num	log.h	/^	u_32 data_num;$/;"	m	struct:log_queue
+ddns_struct	cfg.h	/^typedef struct ddns_struct {$/;"	s
+ddns_struct	types.h	/^typedef struct ddns_struct {$/;"	s
+ddns_switch	cfg.h	/^	u_8 ddns_switch;$/;"	m	struct:ddns_struct
+ddns_switch	types.h	/^	u_8 ddns_switch;$/;"	m	struct:ddns_struct
+ddns_t	cfg.h	/^}ddns_t;$/;"	t	typeref:struct:ddns_struct
+ddns_t	types.h	/^}ddns_t;$/;"	t	typeref:struct:ddns_struct
+ddns_type	cfg.h	/^	u_8 ddns_type;$/;"	m	struct:ddns_struct
+ddns_type	types.h	/^	u_8 ddns_type;$/;"	m	struct:ddns_struct
+de_ver	sysstat.h	/^    s_8    de_ver[64], en_ver[64];$/;"	m	struct:kvmStat
+defend_t	types.h	/^}defend_t;$/;"	t	typeref:struct:__anon60
+dev_enc_type_t	inf_public.h	/^}dev_enc_type_t;$/;"	t	typeref:enum:__anon20
+dev_sub_type_t	types.h	/^}dev_sub_type_t;$/;"	t	typeref:enum:__anon53
+discovery	sysctrl.h	/^        search_t  discovery;$/;"	m	union:sysCtrl::__anon49
+disk	sysstat.h	/^        diskStat_t  disk;    $/;"	m	union:sysstat::__anon51
+diskCtr	sysctrl.h	/^typedef struct diskCtr {$/;"	s
+diskCtr_t	sysctrl.h	/^} diskCtr_t;$/;"	t	typeref:struct:diskCtr
+diskStat	sysstat.h	/^typedef struct diskStat {$/;"	s
+diskStat_t	sysstat.h	/^} diskStat_t;$/;"	t	typeref:struct:diskStat
+disk_num	types.h	/^    u_8 disk_num;   \/*÷ß≥÷◊Ó¥Û¥≈≈Ã ˝*\/    $/;"	m	struct:__anon54
+domain_name	cfg.h	/^	s_8 domain_name[DOMAIN_NAME_LEN1];$/;"	m	struct:ddns_struct
+domain_name	types.h	/^	s_8 domain_name[DOMAIN_NAME_LEN1];$/;"	m	struct:ddns_struct
+dsp_ch_status	inf_public.h	/^}dsp_ch_status;$/;"	t	typeref:struct:__anon33
+dsp_chstatus	inf_public.h	/^    dsp_ch_status dsp_chstatus;$/;"	m	struct:__anon34
+dsp_play_ctrl_t	inf_public.h	/^}dsp_play_ctrl_t;$/;"	t	typeref:struct:__anon36
+dsplay	sysctrl.h	/^        dsp_play_ctrl_t  dsplay;$/;"	m	union:sysCtrl::__anon49
+dvdrwCtrl	sysctrl.h	/^typedef struct dvdrwCtrl$/;"	s
+dvdrwCtrl_t	sysctrl.h	/^}dvdrwCtrl_t;$/;"	t	typeref:struct:dvdrwCtrl
+dvr	sysstat.h	/^        kvmStat_t   dvr;$/;"	m	union:sysstat::__anon51
+dvr_num	inf_public.h	/^    u_8 dvr_num;         \/*∏√…Ë±∏ «∂‡…Ÿ¬∑ª˙∆˜*\/     $/;"	m	struct:__anon32
+dvrsys_t	types.h	/^}dvrsys_t;$/;"	t	typeref:struct:__anon54
+eType	inf_public.h	/^    ZoomType_e eType;$/;"	m	struct:VideoZoom
+edsp_num	types.h	/^    u_8 edsp_num;   \/*±‡¬Î¥”CPU∏ˆ ˝*\/    $/;"	m	struct:__anon54
+en_ver	sysstat.h	/^    s_8    de_ver[64], en_ver[64];$/;"	m	struct:kvmStat
+enc_type	types.h	/^    u_8 enc_type;\/*±‡¬Î∆˜◊Ó∏ﬂ÷ß≥÷±‡¬Î¿‡–Õ£¨0-qcif£¨1-cif £¨2-2cif£¨3-4cif*\/$/;"	m	struct:__anon54
+encryp	types.h	/^	encrypType encryp;$/;"	m	struct:SecureCfg
+encrypType	types.h	/^}encrypType;$/;"	t	typeref:enum:__anon88
+eth	cfg.h	/^    eth_t eth[MAX_ETH_NUM];$/;"	m	struct:__anon2
+eth	cfg.h	/^typedef struct eth {$/;"	s
+eth	types.h	/^    eth_t eth[MAX_ETH_NUM];$/;"	m	struct:__anon76
+eth	types.h	/^typedef struct eth {$/;"	s
+eth_t	cfg.h	/^}eth_t;$/;"	t	typeref:struct:eth
+eth_t	types.h	/^}eth_t;$/;"	t	typeref:struct:eth
+exist_data_num	log.h	/^	u_32 exist_data_num;$/;"	m	struct:log_queue
+factoryReset	cfg.h	/^		u_32 factoryReset:	   1;\/\/ª÷∏¥≥ˆ≥ß…Ë÷√»®œﬁ$/;"	m	struct:__anon6::__anon7
+factoryReset	types.h	/^		u_32 factoryReset:	   1;\/\/ª÷∏¥≥ˆ≥ß…Ë÷√»®œﬁ$/;"	m	struct:__anon66::__anon67
+factoryReset	types.h	/^		u_32 factoryReset:	   1;\/\/ª÷∏¥≥ˆ≥ß…Ë÷√»®œﬁ$/;"	m	struct:__anon69::__anon71
+false	macro.h	27;"	d
+fd	sysctrl.h	/^     fd_t   fd;$/;"	m	struct:dataIndex
+fd_t	cfg.h	/^typedef s_32 fd_t;$/;"	t
+fd_t	inf_public.h	/^typedef s_32 fd_t;$/;"	t
+fd_t	types.h	/^typedef s_32 fd_t;$/;"	t
+file	sysctrl.h	/^    SearchFile_t  file[PLAY_CH];$/;"	m	struct:playCtr
+fileCnt	log.h	/^    u_32    fileCnt;\/\/À—À˜Ω·π˚◊‹Œƒº˛µƒ∏ˆ ˝$/;"	m	struct:log_Res_head
+fileInfo	types.h	/^typedef struct fileInfo {$/;"	s
+fileInfo_t	types.h	/^} fileInfo_t;$/;"	t	typeref:struct:fileInfo
+flag	log.h	/^    u_8     flag;\/\/¥ÀÀ—À˜Ω·π˚Œƒº˛0:ø’œ–£¨1:±ª’º”√$/;"	m	struct:log_Res_head
+format	sysstat.h	/^    u_8  format;  \/*0- Œ¥∏Ò ΩªØ£¨1-’˝‘⁄∏Ò ΩªØ 2-∏Ò ΩªØ¬ºœÒ≈Ã£¨3-∏Ò ΩªØŒ™±∏∑›≈Ã 4-¥À≈Ã’˝‘⁄¬ºœÒ*\/$/;"	m	struct:diskStat
+free	sysstat.h	/^    u_32 free;$/;"	m	struct:diskStat
+gateWay	syscfg.h	/^	char		gateWay[32];$/;"	m	struct:_LI_WF_NET_CONFIG
+gui	syscfg.h	/^    gui_t gui;$/;"	m	struct:CfgGUI
+gui	sysctrl.h	/^        guiCtr_t    gui;$/;"	m	union:sysCtrl::__anon49
+guiCtr	sysctrl.h	/^typedef struct guiCtr{$/;"	s
+guiCtr_t	sysctrl.h	/^}guiCtr_t;$/;"	t	typeref:struct:guiCtr
+gui_t	types.h	/^}gui_t;$/;"	t	typeref:struct:__anon64
+hardWareVer	syscfg.h	/^	char      hardWareVer[128];   \/\/hardware version$/;"	m	struct:_3G_WEB_INTERAC
+hd	sysctrl.h	/^        diskCtr_t   hd;$/;"	m	union:sysCtrl::__anon49
+head	log.h	/^	u_32 head;$/;"	m	struct:log_queue
+hw_ver	sysstat.h	/^    s_8    hw_ver[64], sw_ver[64];$/;"	m	struct:kvmStat
+id	sysstat.h	/^    s_8    id[64];$/;"	m	struct:kvmStat
+id	sysstat.h	/^    u_8  id;$/;"	m	struct:diskStat
+image_t	types.h	/^}image_t;$/;"	t	typeref:struct:__anon57
+initMsgHdr	kingAPI.c	/^void initMsgHdr (MsgHdr_t *mHdr, char cType)$/;"	f
+initPeerHdr	kingAPI.c	/^void initPeerHdr (PeerHdr_t *pHdr, char *cWho, char *cIP, char cAction)$/;"	f
+interval	syscfg.h	/^    u_32      		interval;       \/*≤•∑≈º‰∏Ù ±º‰*\/$/;"	m	struct:__anon45
+ipAddress	syscfg.h	/^	char		ipAddress[32];$/;"	m	struct:_LI_WF_NET_CONFIG
+kLoginInfo	cfg.h	/^typedef struct kLoginInfo{$/;"	s
+kLoginInfo	syscfg.h	/^typedef struct kLoginInfo{$/;"	s
+kLoginInfo_t	cfg.h	/^}kLoginInfo_t;$/;"	t	typeref:struct:kLoginInfo
+kLoginInfo_t	syscfg.h	/^}kLoginInfo_t;$/;"	t	typeref:struct:kLoginInfo
+kvmStat	sysstat.h	/^typedef struct kvmStat  {$/;"	s
+kvmStat_t	sysstat.h	/^} kvmStat_t;$/;"	t	typeref:struct:kvmStat
+lBaudRate	types.h	/^    u_32 lBaudRate; \/*  0 ~~ 14:  B50, B75, B110, B150, B300, B600, B1200, B2400, $/;"	m	struct:__anon74
+lCMSIP	types.h	/^    u_32 lCMSIP;$/;"	m	struct:loginCms
+lCamID	types.h	/^    u_32                lCamID;$/;"	m	struct:__anon85
+lCamID	types.h	/^    u_32    lCamID;                         \/\/CameraID$/;"	m	struct:NvrCameraInfo
+lCamID	types.h	/^    u_32    lCamID;$/;"	m	struct:ChSchemeFromCms
+lChannel	syscfg.h	/^	u_32 	  		lChannel[16];$/;"	m	struct:__anon45
+lChannelNumber	syscfg.h	/^    u_32 lChannelNumber;			\/\/???$/;"	m	struct:KVMWanInfo
+lDelFileNums	types.h	/^    u_32   lDelFileNums;                         \/\/the file num will be del  when lNoDiskDispose = DISPOSE_DEL_FILES$/;"	m	struct:SysCfgFromCms
+lDelayTime	syscfg.h	/^    u_32  lDelayTime;    $/;"	m	struct:__anon44
+lDevID	types.h	/^    u_32    lDevID;$/;"	m	struct:RecCmdFromCms
+lDevType	types.h	/^    u_32                lDevType;                       \/\/…Ë±∏¿‡–Õ0"IPC",1,"DVS",2"Encoder",3"Others"$/;"	m	struct:__anon85
+lDevType	types.h	/^    u_32    lDevType;                       \/\/…Ë±∏¿‡–Õ$/;"	m	struct:NvrCameraInfo
+lDiskFullHnd	types.h	/^    u_8    lDiskFullHnd;                         \/\/hd full ? handle = del file:stop record$/;"	m	struct:SysCfgFromCms
+lDiskNumber	syscfg.h	/^    u_32 lDiskNumber;				\/\/???$/;"	m	struct:KVMWanInfo
+lExtLen	types.h	/^    u_16   lExtLen;$/;"	m	struct:SysCfgFromCms
+lID	sysstat.h	/^    u_32 IP, lPort,lID;$/;"	m	struct:__anon50
+lID	types.h	/^    u_32    lID;$/;"	m	struct:loginReq
+lIP	cfg.h	/^    u_32      lIP;$/;"	m	struct:UserInfo
+lIP	types.h	/^    u_32      lIP;$/;"	m	struct:UserInfo
+lLen	types.h	/^    u_32   lLen; $/;"	m	struct:fileInfo
+lMajorSpeed	types.h	/^    u_32                lMajorSpeed;                         \/*÷˜¬Î¡˜¥´ ‰ÀŸ∂»*\/$/;"	m	struct:__anon85
+lMaxBitRate	types.h	/^    u_32 lMaxBitRate;  \/* unit: kbps *\/$/;"	m	struct:__anon56
+lMinDiskFreeSpace	types.h	/^    u_32   lMinDiskFreeSpace;                    \/\/min space allow$/;"	m	struct:SysCfgFromCms
+lMinorSpeed	types.h	/^    u_32                lMinorSpeed;                         \/*¥Œ¬Î¡˜¥´ ‰ÀŸ∂»*\/$/;"	m	struct:__anon85
+lNvrID	syscfg.h	/^    u_32   lNvrID;$/;"	m	struct:__anon43
+lNvrID	types.h	/^    u_32    lNvrID;                         \/\/KVM ID$/;"	m	struct:NvrCameraInfo
+lNvrID	types.h	/^    u_32   lNvrID;$/;"	m	struct:SysCfgFromCms
+lOffset	sysctrl.h	/^     u_32  lOffset;\/*Œƒº˛À˜“˝*\/$/;"	m	struct:dataIndex
+lOffset	types.h	/^    u_32    lOffset; \/\/Œƒº˛¥Û–°£¨”√”⁄Œƒº˛À˜“˝–≈œ¢£¨”√”⁄À—À˜∑µªÿ$/;"	m	struct:RecFileIndex
+lOffset	types.h	/^    u_32   lOffset;$/;"	m	struct:fileInfo
+lPort	cfg.h	/^	u_32  lPort;$/;"	m	struct:Workstation
+lPort	sysstat.h	/^    u_32 IP, lPort,lID;$/;"	m	struct:__anon50
+lPort	types.h	/^	u_32   lPort;$/;"	m	struct:radiusCfg
+lPort	types.h	/^	u_32  lPort;$/;"	m	struct:Workstation
+lPort	types.h	/^    u_32                lPort;$/;"	m	struct:__anon85
+lPort	types.h	/^    u_32   lPort;$/;"	m	struct:__anon55
+lPreTime	syscfg.h	/^    u_32  lPreTime;$/;"	m	struct:__anon44
+lSize	sysctrl.h	/^     u_32  lSize;$/;"	m	struct:dataIndex
+lTimes	cfg.h	/^    u_32      lTimes;$/;"	m	struct:UserInfo
+lTimes	types.h	/^    u_32      lTimes;$/;"	m	struct:UserInfo
+lastLogin	cfg.h	/^    kLoginInfo_t lastLogin;$/;"	m	struct:KvmSystemInfo
+lastLogin	syscfg.h	/^    kLoginInfo_t lastLogin;$/;"	m	struct:KvmSystemInfo
+ldap	types.h	/^	ldapCfg_t    ldap;$/;"	m	struct:verifyCfg
+ldapCfg	types.h	/^typedef struct ldapCfg{$/;"	s
+ldapCfg_t	types.h	/^}ldapCfg_t;$/;"	t	typeref:struct:ldapCfg
+localReset	types.h	/^	u_8    localReset;\/\/?$/;"	m	struct:SecureCfg
+local_almIn	types.h	/^    u_8 local_almIn;    \/*÷ß≥÷±æµÿ◊Ó¥Û±®æØ ‰»Î ˝*\/$/;"	m	struct:__anon54
+local_ch	types.h	/^    u_8 local_ch;\/*µ±«∞±æµÿÕ®µ¿*\/$/;"	m	struct:__anon54
+log	log.h	/^typedef struct log {$/;"	s
+log	sysctrl.h	/^        logSearch_t log;$/;"	m	union:sysCtrl::__anon49
+logSearch	sysctrl.h	/^typedef struct logSearch {$/;"	s
+logSearch_t	sysctrl.h	/^} logSearch_t;$/;"	t	typeref:struct:logSearch
+logStr	log.h	212;"	d
+log_Res_head	log.h	/^typedef struct log_Res_head {$/;"	s
+log_queue	log.h	/^typedef struct log_queue {$/;"	s
+log_queue_t	log.h	/^}log_queue_t;$/;"	t	typeref:struct:log_queue
+log_res_head_t	log.h	/^}log_res_head_t;$/;"	t	typeref:struct:log_Res_head
+log_t	log.h	/^} log_t;$/;"	t	typeref:struct:log
+login	sysctrl.h	/^        login_t     login;$/;"	m	union:sysCtrl::__anon49
+login	sysctrl.h	/^typedef struct login {$/;"	s
+loginCMS	types.h	/^    loginReq_t loginCMS;$/;"	m	struct:loginCms
+loginCms	sysctrl.h	/^        loginCms_t  loginCms;$/;"	m	union:sysCtrl::__anon49
+loginCms	types.h	/^typedef struct loginCms{$/;"	s
+loginCmsStatus	types.h	/^typedef struct loginCmsStatus{$/;"	s
+loginCmsStatus_t	types.h	/^}loginCmsStatus_t;$/;"	t	typeref:struct:loginCmsStatus
+loginCms_t	types.h	/^}loginCms_t;$/;"	t	typeref:struct:loginCms
+loginInfo	types.h	/^    loginCms_t loginInfo;  $/;"	m	struct:loginCmsStatus
+loginReq	types.h	/^typedef struct loginReq{$/;"	s
+loginReq_t	types.h	/^}loginReq_t;$/;"	t	typeref:struct:loginReq
+loginUser	cfg.h	/^	u_8    loginUser[NAME_LEN];$/;"	m	struct:KvmSystemInfo
+loginUser	syscfg.h	/^	u_8    loginUser[NAME_LEN];$/;"	m	struct:KvmSystemInfo
+login_t	sysctrl.h	/^} login_t;$/;"	t	typeref:struct:login
+manualstart	sysstat.h	/^    u_8  manualstart;\/* «∑Ò∆Ù∂Ø¡À ÷∂Ø¬ºœÒ*\/$/;"	m	struct:videoStat
+method	sysstat.h	/^    u_8  method;   \/* 0: loop, 1: not loop *\/$/;"	m	struct:diskStat
+mode	inf_public.h	/^    u_8 mode;$/;"	m	struct:__anon28
+monitor_num	types.h	/^    u_8 monitor_num;    \/*÷ß≥÷Õ¨ ±º‡ ”∆˜ ˝*\/$/;"	m	struct:__anon54
+monitor_t	types.h	/^}monitor_t;$/;"	t	typeref:struct:__anon65
+motion	sysstat.h	/^    u_32 motion;$/;"	m	struct:videoStat
+mutex_attr_t	inf_public.h	/^typedef pthread_mutexattr_t mutex_attr_t;$/;"	t
+mutex_t	inf_public.h	/^typedef pthread_mutex_t     mutex_t;$/;"	t
+n3gOpen	syscfg.h	/^	u_8     	n3gOpen;\/\/3g ø™πÿ1open;0 close$/;"	m	struct:_3G_WEB_INTERAC
+n3gType	syscfg.h	/^	u_8      	n3gType;\/\/3g ¿‡–Õ 0 evdo 1 wcdma 2 td$/;"	m	struct:_3G_WEB_INTERAC
+name	sysstat.h	/^    s_8    name[64];$/;"	m	struct:kvmStat
+needApn	syscfg.h	/^	u_8			needApn;\/\/ 0 no;1 need$/;"	m	struct:_3G_WEB_INTERAC
+net	syscfg.h	/^    netWorkType net;$/;"	m	struct:KvmSystemInfo
+net	syscfg.h	/^    net_t net;$/;"	m	struct:CfgNet
+netStat	sysstat.h	/^typedef struct netStat {$/;"	s
+netStat_t	sysstat.h	/^} netStat_t;$/;"	t	typeref:struct:netStat
+netWorkType	syscfg.h	/^	}netWorkType;$/;"	t	typeref:enum:__anon46
+net_ch	types.h	/^    u_8 net_ch;     \/*Õ¯¬ÁÕ®µ¿ ˝*\/ $/;"	m	struct:__anon54
+net_num	types.h	/^    u_8 net_num;        \/*Õ¯ø⁄ ˝*\/$/;"	m	struct:__anon54
+net_t	cfg.h	/^}net_t;$/;"	t	typeref:struct:__anon2
+net_t	types.h	/^}net_t;$/;"	t	typeref:struct:__anon76
+networkType	syscfg.h	/^	u_8     	networkType ;  \/\/ 0 not service$/;"	m	struct:_3G_WEB_INTERAC
+newPswd	types.h	/^	s_8   newPswd[NAME_LEN];$/;"	m	struct:__anon66
+obstruct	sysstat.h	/^    u_32 obstruct;$/;"	m	struct:videoStat
+of	sysstat.h	/^    }of;    $/;"	m	struct:sysstat	typeref:union:sysstat::__anon51
+osdlang	inf_public.h	/^    u_8 osdlang;         \/*OSD”Ô—‘£¨÷–”¢Œƒ*\/    $/;"	m	struct:__anon32
+passwd	cfg.h	/^	s_8 passwd[PSWD_LEN];$/;"	m	struct:ddns_struct
+passwd	types.h	/^	s_8 passwd[PSWD_LEN];$/;"	m	struct:ddns_struct
+pcYUV	types.h	/^    s_8  *pcYUV;$/;"	m	struct:__anon58
+pci_cfg_type_t	inf_public.h	/^}pci_cfg_type_t;$/;"	t	typeref:enum:__anon22
+pci_cmd_type_t	inf_public.h	/^}pci_cmd_type_t;$/;"	t	typeref:enum:__anon25
+pci_ctl_type_t	inf_public.h	/^}pci_ctl_type_t;$/;"	t	typeref:enum:__anon23
+pci_data_type_t	inf_public.h	/^}pci_data_type_t;$/;"	t	typeref:enum:__anon24
+pic_quality_t	inf_public.h	/^}pic_quality_t;$/;"	t	typeref:enum:__anon18
+pic_t	types.h	/^}pic_t;$/;"	t	typeref:struct:__anon58
+pingHost	types.h	/^	u_8 pingHost[IP_LEN];$/;"	m	struct:systemCtrl
+plan	syscfg.h	/^    }plan[WEEK];$/;"	m	struct:record	typeref:struct:record::__anon39
+play	sysctrl.h	/^        playCtr_t   play;$/;"	m	union:sysCtrl::__anon49
+playCtr	sysctrl.h	/^typedef struct playCtr {$/;"	s
+playCtr_t	sysctrl.h	/^} playCtr_t;$/;"	t	typeref:struct:playCtr
+play_num	inf_public.h	/^    u_8 play_num;        \/*∏√dspæﬂ”–∂‡…Ÿ¬∑Ω‚¬Îƒ‹¡¶*\/     $/;"	m	struct:__anon32
+portAccessStatus	cfg.h	/^typedef struct portAccessStatus{$/;"	s
+portAccessStatus	types.h	/^typedef struct portAccessStatus{$/;"	s
+portPriv	cfg.h	/^	}portPriv;$/;"	m	struct:__anon9	typeref:struct:__anon9::__anon10
+portPriv	types.h	/^	}portPriv;$/;"	m	struct:__anon69	typeref:struct:__anon69::__anon72
+prevStat	sysstat.h	/^        PrevStat_t  prevStat[TOTAL_MONITOR_NUM];$/;"	m	union:sysstat::__anon51
+prew_mode	inf_public.h	/^    u_8 prew_mode;      \/*◊Ó¥Û‘§¿¿∑÷±Ê¬ ƒ£ Ω*\/    $/;"	m	struct:__anon32
+prew_mode	types.h	/^    u_8 prew_mode;      \/*◊Ó¥Û‘§¿¿ƒ£ Ω*\/    $/;"	m	struct:__anon54
+privilege	cfg.h	/^    }privilege;$/;"	m	struct:__anon6	typeref:struct:__anon6::__anon7
+privilege	types.h	/^	}privilege;$/;"	m	struct:__anon69	typeref:struct:__anon69::__anon70
+privilege	types.h	/^    }privilege;$/;"	m	struct:__anon66	typeref:struct:__anon66::__anon67
+privilege	types.h	/^    }privilege;$/;"	m	struct:__anon69	typeref:struct:__anon69::__anon71
+privilege_hotkey	cfg.h	/^		}privilege_hotkey;$/;"	m	struct:__anon6::__anon7	typeref:struct:__anon6::__anon7::__anon8
+privilege_hotkey	types.h	/^		}privilege_hotkey;$/;"	m	struct:__anon66::__anon67	typeref:struct:__anon66::__anon67::__anon68
+pswText	syscfg.h	/^	char		pswText[34];	$/;"	m	struct:_LI_WF_NET_CONFIG
+ptzCtr	sysctrl.h	/^typedef struct ptzCtr {$/;"	s
+ptzCtr_t	sysctrl.h	/^} ptzCtr_t;$/;"	t	typeref:struct:ptzCtr
+radius	types.h	/^	radiusCfg_t  radius;$/;"	m	struct:verifyCfg
+radiusCfg	types.h	/^typedef struct radiusCfg{$/;"	s
+radiusCfg_t	types.h	/^}radiusCfg_t;$/;"	t	typeref:struct:radiusCfg
+rebootSys	cfg.h	/^		u_32 rebootSys: 	   1; \/\/÷ÿ∆ÙœµÕ≥»®œﬁ$/;"	m	struct:__anon6::__anon7
+rebootSys	types.h	/^		u_32 rebootSys: 	   1; \/\/÷ÿ∆ÙœµÕ≥»®œﬁ$/;"	m	struct:__anon66::__anon67
+rebootSys	types.h	/^		u_32 rebootSys: 	   1; \/\/÷ÿ∆ÙœµÕ≥»®œﬁ$/;"	m	struct:__anon69::__anon71
+recStat	sysstat.h	/^typedef struct recStat {$/;"	s
+recStat_t	sysstat.h	/^} recStat_t;$/;"	t	typeref:struct:recStat
+record	syscfg.h	/^typedef struct record$/;"	s
+record	sysctrl.h	/^        recordCtr_t record;$/;"	m	union:sysCtrl::__anon49
+record	sysstat.h	/^        recStat_t   record;$/;"	m	union:sysstat::__anon51
+recordCtr	sysctrl.h	/^typedef struct recordCtr {$/;"	s
+recordCtr_t	sysctrl.h	/^} recordCtr_t;$/;"	t	typeref:struct:recordCtr
+record_t	syscfg.h	/^}record_t;$/;"	t	typeref:struct:record
+reject	cfg.h	/^        u_32 reject[MAX_PORT_ACCESS_NUM];$/;"	m	struct:__anon9::__anon10
+reject	cfg.h	/^        u_32 reject[MAX_PORT_ACCESS_NUM];$/;"	m	struct:__anon9::__anon11
+res	cfg.h	/^	u_8 res[2];    \/* reservd for alignning *\/$/;"	m	struct:ddns_struct
+res	sysstat.h	/^    u_8 res;$/;"	m	struct:kvmStat
+res	types.h	/^	u_8 res[2];    \/* reservd for alignning *\/$/;"	m	struct:ddns_struct
+res	types.h	/^    u_8 res[12];$/;"	m	struct:__anon54
+ret	inf_public.h	/^    s_32 ret;\/*∑µªÿ÷µ*\/$/;"	m	struct:PacketHead
+rev	cfg.h	/^    u_8     rev;$/;"	m	struct:DiskCfg
+rev	inf_public.h	/^    u_8 rev;$/;"	m	struct:__anon30
+rev	inf_public.h	/^    u_8 rev[4];$/;"	m	struct:__anon31
+rev	log.h	/^    u_8     rev[75];$/;"	m	struct:log_Res_head
+rev	sysctrl.h	/^    u_8    rev[2];$/;"	m	struct:dataCtr
+rev	sysstat.h	/^    u_8  rev;$/;"	m	struct:videoStat
+rm	sysctrl.h	/^        dataCtr_t   cp, rm;$/;"	m	union:sysCtrl::__anon49
+run	sysctrl.h	/^        runCtr_t    run;$/;"	m	union:sysCtrl::__anon49
+runCtr	sysctrl.h	/^typedef  struct runCtr {$/;"	s
+runCtr_t	sysctrl.h	/^} runCtr_t;$/;"	t	typeref:struct:runCtr
+runtime	inf_public.h	/^    time_t runtime;  \/*‘À–– ±º‰*\/$/;"	m	struct:__anon33
+sBlkRecIdx	types.h	/^    u_16    sBlkRecIdx;  \/*¥À¬ºœÒ∆¨∂Œ‘⁄øÈŒƒº˛÷– Ù”⁄µ⁄º∏∏ˆ¬ºœÒ∆¨∂Œ, ¥”0ø™ ºº∆*\/$/;"	m	struct:RecFileIndex
+sCh	syscfg.h	/^    u_16                sCh;$/;"	m	struct:__anon42
+sCh	syscfg.h	/^    u_16 sCh;                 \/* channel number *\/$/;"	m	struct:CfgRecord
+sCh	syscfg.h	/^    u_16 sCh;$/;"	m	struct:CfgCh
+sCh	sysctrl.h	/^    u_16 sCh;	$/;"	m	struct:guiCtr
+sCh	sysctrl.h	/^    u_16 sCh;$/;"	m	struct:ptzCtr
+sCh	sysctrl.h	/^    u_16 sCh;$/;"	m	struct:recordCtr
+sCh	sysctrl.h	/^    u_16 sCh[TOTAL_CH_MAX_NUM];\/*∂‘”¶ª≠√Ê◊¥Ã¨µƒŒª÷√*\/$/;"	m	struct:PrevStatus
+sCh	sysstat.h	/^    u_16  sCh;$/;"	m	struct:videoStat
+sCh	types.h	/^    u_16    sCh;      \/\/…Ë±∏Õ®µ¿£¨¥”0ø™ º£¨0xFF ±±Ì æÀ˘”–Õ®µ¿£¨”√”⁄À—À˜$/;"	m	struct:RecFileIndex
+sCh	types.h	/^    u_16   sCh;$/;"	m	struct:fileInfo
+sCh	types.h	/^    u_16  sCh;$/;"	m	struct:__anon75
+sCh	types.h	/^    u_16 sCh;$/;"	m	struct:condition
+sChNum	types.h	/^    u_16   sChNum;$/;"	m	struct:SysCfgFromCms
+sChs	sysstat.h	/^    u_16   sChs;$/;"	m	struct:kvmStat
+sCycleAlarmTime	types.h	/^    u_16 sCycleAlarmTime;$/;"	m	struct:__anon65
+sCycleTime	types.h	/^    u_16 sCycleTime;     $/;"	m	struct:__anon65
+sDRT	syscfg.h	/^    u_16 sDRT;                \/* delay record time*\/$/;"	m	struct:record
+sDelayTime	types.h	/^   u_16     sDelayTime;   \/* 0: manual, other: 1 ~~ 0xFFFF second  *\/$/;"	m	struct:__anon83
+sDevChan	types.h	/^    u_16    sDevChan;                       \/\/…Ë±∏Õ®µ¿∫≈,¥”0ø™ º$/;"	m	struct:NvrCameraInfo
+sExtLength	types.h	/^    u_16    sExtLength;                     \/\/¿©’π≥§∂»$/;"	m	struct:NvrCameraInfo
+sFrom	cfg.h	/^    u_16      sFrom;   \/* 0x01: localhost gui login,  0x10:remote guest login*\/$/;"	m	struct:UserInfo
+sFrom	types.h	/^    u_16      sFrom;   \/* 0x01: localhost gui login,  0x10:remote guest login*\/$/;"	m	struct:UserInfo
+sGroup	cfg.h	/^    u_16   sGroup;$/;"	m	struct:__anon6
+sGrpId	types.h	/^	u_16   sGrpId[MAX_USER_GROUP_NUM<<3];$/;"	m	struct:AllUserPrew
+sH	types.h	/^    u_16 sW, sH;$/;"	m	struct:__anon58
+sID	cfg.h	/^    u_16   sID;$/;"	m	struct:__anon6
+sID	types.h	/^	s_16  sID;$/;"	m	struct:__anon69
+sID	types.h	/^	u_16    sID[MAX_USER_GROUP_NUM];$/;"	m	struct:AllUserGrpPrew
+sID	types.h	/^    u_16   sID;$/;"	m	struct:__anon66
+sIp	cfg.h	/^	u_8    sIp[32];$/;"	m	struct:kLoginInfo
+sIp	syscfg.h	/^	u_8    sIp[32];$/;"	m	struct:kLoginInfo
+sLen	session.h	/^    u_16 sLen;		\/\/‰ºöËØùÂ§¥ÂêéÁöÑÊï∞ÊçÆÈïøÂ∫¶$/;"	m	struct:PeerHeader
+sLockTime	types.h	/^	u_16   sLockTime;$/;"	m	struct:SecureCfg
+sLogin	types.h	/^    u_16 sLogin;$/;"	m	struct:loginCms
+sMajorType	log.h	/^    u_16       sMajorType;$/;"	m	struct:LogIndex
+sMajorType	log.h	/^    u_16   sMajorType;$/;"	m	struct:log
+sMajorType	sysctrl.h	/^    u_16   sMajorType, sMinorType;$/;"	m	struct:logSearch
+sMaxCh	syscfg.h	/^    u_16   sMaxCh;$/;"	m	struct:__anon43
+sMaxVch	cfg.h	/^    u_16    sMaxVch;   \/*‘¯æ≠‘⁄¥À”≤≈Ã…œ¬ºœÒµƒ◊Ó¥Û–Èƒ‚Õ®µ¿ ˝*\/$/;"	m	struct:HD_Info
+sMinorType	log.h	/^    u_16       sMinorType;$/;"	m	struct:LogIndex
+sMinorType	log.h	/^    u_16   sMinorType;$/;"	m	struct:log
+sMinorType	sysctrl.h	/^    u_16   sMajorType, sMinorType;$/;"	m	struct:logSearch
+sNum	cfg.h	/^    s_16 sNum;$/;"	m	struct:AccessPortCfg
+sNum	cfg.h	/^    u_16  sNum;$/;"	m	struct:portAccessStatus
+sNum	sysctrl.h	/^    u_16 sNum;$/;"	m	struct:alarmCtr
+sNum	types.h	/^    s_16 sNum;$/;"	m	struct:AccessPortCfg
+sNum	types.h	/^    u_16  sNum;$/;"	m	struct:portAccessStatus
+sPRT	syscfg.h	/^    u_16 sPRT;                \/* prev record time *\/$/;"	m	struct:record
+sPTZ	types.h	/^    u_16 sPTZ[TOTAL_CH_MAX_NUM];     \/*   method   points$/;"	m	struct:__anon61
+sPort	cfg.h	/^        u_16 sPort;$/;"	m	struct:__anon2::__anon4
+sPort	cfg.h	/^    u_16  sPort;  \/* rt date server port *\/$/;"	m	struct:eth
+sPort	types.h	/^        u_16 sPort;$/;"	m	struct:__anon76::__anon78
+sPort	types.h	/^    u_16  sPort;  \/* rt date server port *\/$/;"	m	struct:eth
+sPsswdDepth	types.h	/^	u_16   sPsswdDepth;$/;"	m	struct:SecureCfg
+sPsswdLen	types.h	/^	u_8    sPsswdLen;$/;"	m	struct:SecureCfg
+sPtz	cfg.h	/^    u_16  sPtz  : 6;    \/\/time zone: -12 ~ +13$/;"	m	struct:CfgNTP
+sPtz	syscfg.h	/^    u_16  sPtz  : 6;    \/\/time zone: -12 ~ +13$/;"	m	struct:CfgNTP
+sPtz	sysctrl.h	/^    u_16  sPtz;$/;"	m	struct:timeCtr
+sRetry	types.h	/^	u_16   sRetry;$/;"	m	struct:radiusCfg
+sSMTPort	cfg.h	/^    u_16 sWebPort, sSNMPPort,sSMTPort;$/;"	m	struct:__anon2
+sSMTPort	types.h	/^    u_16 sWebPort, sSNMPPort,sSMTPort;$/;"	m	struct:__anon76
+sSNMPPort	cfg.h	/^    u_16 sWebPort, sSNMPPort,sSMTPort;$/;"	m	struct:__anon2
+sSNMPPort	types.h	/^    u_16 sWebPort, sSNMPPort,sSMTPort;$/;"	m	struct:__anon76
+sSequence	types.h	/^    u_16 sSequence[TOTAL_CH_MAX_NUM]; \/* e.g. if cMaxtrix = 9, and preview channel 1 $/;"	m	struct:__anon65
+sStatus	cfg.h	/^    u_16      sStatus; \/* 0: off line *\/$/;"	m	struct:UserInfo
+sStatus	types.h	/^    u_16      sStatus; \/* 0: off line *\/$/;"	m	struct:UserInfo
+sTimeOut	types.h	/^	u_16   sTimeOut;$/;"	m	struct:radiusCfg
+sTotalChs	types.h	/^    u_16 sTotalChs;\/*nvr total channels*\/ $/;"	m	struct:__anon64
+sW	types.h	/^    u_16 sW, sH;$/;"	m	struct:__anon58
+sWebPort	cfg.h	/^    u_16 sWebPort, sSNMPPort,sSMTPort;$/;"	m	struct:__anon2
+sWebPort	types.h	/^    u_16 sWebPort, sSNMPPort,sSMTPort;$/;"	m	struct:__anon76
+sX	types.h	/^    u_16 sX, sY;$/;"	m	struct:__anon58
+sX0	types.h	/^    u_16 sX0, sY0;$/;"	m	struct:__anon62
+sX0	types.h	/^    u_16 sX0, sY0;$/;"	m	struct:__anon63
+sY	types.h	/^    u_16 sX, sY;$/;"	m	struct:__anon58
+sY0	types.h	/^    u_16 sX0, sY0;$/;"	m	struct:__anon62
+sY0	types.h	/^    u_16 sX0, sY0;$/;"	m	struct:__anon63
+s_16	cfg.h	/^typedef short s_16;$/;"	t
+s_16	inf_public.h	/^typedef short s_16;$/;"	t
+s_16	types.h	/^typedef short s_16;$/;"	t
+s_32	cfg.h	/^typedef int   s_32;$/;"	t
+s_32	inf_public.h	/^typedef int   s_32;$/;"	t
+s_32	types.h	/^typedef int   s_32;$/;"	t
+s_8	cfg.h	/^typedef char  s_8;$/;"	t
+s_8	inf_public.h	/^typedef char  s_8;$/;"	t
+s_8	types.h	/^typedef char  s_8;$/;"	t
+search	sysctrl.h	/^        search_t    search;$/;"	m	union:sysCtrl::__anon49
+search	sysctrl.h	/^        search_t search;$/;"	m	union:dataCtr::__anon47
+search_t	types.h	/^}search_t;$/;"	t	typeref:struct:condition
+serv_ip	cfg.h	/^	s_8 serv_ip[IP_LEN];$/;"	m	struct:ddns_struct
+serv_ip	types.h	/^	s_8 serv_ip[IP_LEN];$/;"	m	struct:ddns_struct
+serviceStatus	syscfg.h	/^	u_8     	serviceStatus; \/\/srv status $/;"	m	struct:_3G_WEB_INTERAC
+sigal	syscfg.h	/^	u_8			sigal;\/\/»°÷µ0-5£¨∂‘”¶Œﬁ–≈∫≈£¨≤Ó£¨“ª∞„£¨∫√£¨«ø£¨∑«≥£«ø$/;"	m	struct:_3G_WEB_INTERAC
+simExits	syscfg.h	/^	u_8     	simExits;      \/\/   1       umi exits  else 0$/;"	m	struct:_3G_WEB_INTERAC
+slave_no	inf_public.h	/^    u_8 slave_no;    $/;"	m	struct:__anon32
+slv_work_t	inf_public.h	/^}slv_work_t;$/;"	t	typeref:struct:__anon32
+sn_mac	macro.h	/^typedef struct sn_mac$/;"	s
+snapTime	syscfg.h	/^	u_32			snapTime[6];$/;"	m	struct:__anon45
+softWareVer	syscfg.h	/^	char      softWareVer[128];   \/\/software version$/;"	m	struct:_3G_WEB_INTERAC
+ssidName	syscfg.h	/^	char		ssidName[34];$/;"	m	struct:_LI_WF_NET_CONFIG
+stImage	inf_public.h	/^    Image_Param_S stImage;$/;"	m	struct:__anon33
+stMainPress	inf_public.h	/^    Compress_Param_S stMainPress;$/;"	m	struct:__anon33
+stMoirPress	inf_public.h	/^    Compress_Param_S stMoirPress;$/;"	m	struct:__anon33
+start	log.h	/^	void * start;$/;"	m	struct:log_queue
+stat	sysstat.h	/^    u_8  stat;     \/* 0: idle, 1: work, 2: full, 3: error, 4: no *\/$/;"	m	struct:diskStat
+status	sysctrl.h	/^	}status;$/;"	m	union:dvdrwCtrl::__anon48	typeref:struct:dvdrwCtrl::__anon48::status
+status	sysctrl.h	/^        struct status			\/*≤È—Ø√¸¡Óªÿ”¶*\/$/;"	s	union:dvdrwCtrl::__anon48
+stream_type_t	inf_public.h	/^}stream_type_t;$/;"	t	typeref:enum:__anon19
+subMask	syscfg.h	/^	char		subMask[32];$/;"	m	struct:_LI_WF_NET_CONFIG
+subStatus	inf_public.h	/^    u_8  subStatus;\/*◊”¬Î¡˜*\/$/;"	m	struct:__anon33
+sub_type	types.h	/^    u_8 sub_type;\/*0-kvm,1-—”≥§œﬂ*\/$/;"	m	struct:__anon54
+sw_ver	sysstat.h	/^    s_8    hw_ver[64], sw_ver[64];$/;"	m	struct:kvmStat
+sysCtrl	sysctrl.h	/^typedef struct sysCtrl {$/;"	s
+sysCtrl_t	sysctrl.h	/^}sysCtrl_t, SysCtr_t;$/;"	t	typeref:struct:sysCtrl
+sysID	types.h	/^    s_8 sysID[64];$/;"	m	struct:__anon64
+sysName	types.h	/^    s_8 sysName[64];$/;"	m	struct:__anon64
+sysstat	sysstat.h	/^typedef struct sysstat {$/;"	s
+sysstat_t	sysstat.h	/^} sysstat_t, SysStat_t;$/;"	t	typeref:struct:sysstat
+systemCtrl	types.h	/^typedef struct systemCtrl{$/;"	s
+systemCtrl_t	types.h	/^}systemCtrl_t;$/;"	t	typeref:struct:systemCtrl
+sz3gApn	syscfg.h	/^	char        sz3gApn[32];				\/\/3g apn $/;"	m	struct:_3G_WEB_INTERAC
+t	cfg.h	/^    struct tm t; \/\/tmœµÕ≥ ±º‰Ω·ππÃÂ$/;"	m	struct:kLoginInfo	typeref:struct:kLoginInfo::tm
+t	log.h	/^    time_t     t;\/\/»’÷æ ±º‰$/;"	m	struct:LogIndex
+t	log.h	/^    time_t t;$/;"	m	struct:log
+t	syscfg.h	/^    struct tm t;$/;"	m	struct:kLoginInfo	typeref:struct:kLoginInfo::tm
+t	sysctrl.h	/^    time_t t;$/;"	m	struct:timeCtr
+t	sysctrl.h	/^    u_32 t;        $/;"	m	struct:recordCtr
+t	types.h	/^    u_32 t;                 \/* screen protect time *\/$/;"	m	struct:__anon64
+t1	sysctrl.h	/^    time_t t1, t2;$/;"	m	struct:logSearch
+t1	types.h	/^    time_t   t1;      \/\/¬ºœÒø™ º ±º‰$/;"	m	struct:RecFileIndex
+t1	types.h	/^    time_t t1, t2;$/;"	m	struct:condition
+t2	sysctrl.h	/^    time_t t1, t2;$/;"	m	struct:logSearch
+t2	types.h	/^    time_t   t2;      \/\/¬ºœÒÕ£÷π ±º‰$/;"	m	struct:RecFileIndex
+t2	types.h	/^    time_t t1, t2;$/;"	m	struct:condition
+tBoot	sysstat.h	/^    time_t tBoot;$/;"	m	struct:kvmStat
+tCur	sysctrl.h	/^    time_t        tStart, tCur, tEnd; $/;"	m	struct:playCtr
+tEnd	sysctrl.h	/^    time_t        tStart, tCur, tEnd; $/;"	m	struct:playCtr
+tEnd	types.h	/^    time_t tStart,tEnd;          \/* create time *\/$/;"	m	struct:fileInfo
+tOff	cfg.h	/^    time_t    tOn, tOff;$/;"	m	struct:UserInfo
+tOff	types.h	/^    time_t    tOn, tOff;$/;"	m	struct:UserInfo
+tOn	cfg.h	/^    time_t    tOn, tOff;$/;"	m	struct:UserInfo
+tOn	types.h	/^    time_t    tOn, tOff;$/;"	m	struct:UserInfo
+tStart	sysctrl.h	/^    time_t        tStart, tCur, tEnd; $/;"	m	struct:playCtr
+tStart	types.h	/^    time_t tStart,tEnd;          \/* create time *\/$/;"	m	struct:fileInfo
+tail	log.h	/^	u_32 tail;$/;"	m	struct:log_queue
+talk_in	types.h	/^    u_8 talk_in;    \/*÷ß≥÷”Ô“Ù∂‘Ω≤ ˝*\/$/;"	m	struct:__anon54
+talk_num	inf_public.h	/^    u_8 talk_num;        \/*∏√dspæﬂ”–∂‡…Ÿ¬∑”Ô“Ù∂‘Ω≤ƒ‹¡¶*\/    $/;"	m	struct:__anon32
+thread_t	inf_public.h	/^typedef pthread_t           thread_t;$/;"	t
+ticks	inf_public.h	/^    u_32   ticks;\/*“Ù∆µ ±±Í,÷ªº«¬ºµÕŒª32Œª£¨∏ﬂ32Œª≤ªº«¬º*\/$/;"	m	struct:__anon37
+ticks	inf_public.h	/^    u_32 ticks;\/*ƒ…√ÎŒ™µ•Œª*\/$/;"	m	struct:__anon35
+time	sysctrl.h	/^        timeCtr_t   time;$/;"	m	union:sysCtrl::__anon49
+timeCtr	sysctrl.h	/^typedef struct timeCtr {$/;"	s
+timeCtr_t	sysctrl.h	/^} timeCtr_t;$/;"	t	typeref:struct:timeCtr
+timespec_t	inf_public.h	/^typedef struct timespec timespec_t;$/;"	t	typeref:struct:timespec
+timestamp	inf_public.h	/^    u_32 timestamp;$/;"	m	struct:__anon35
+timeval_t	inf_public.h	/^typedef struct timeval  timeval_t;$/;"	t	typeref:struct:timeval
+timezone_t	inf_public.h	/^typedef struct timezone timezone_t;$/;"	t	typeref:struct:timezone
+tm_t	inf_public.h	/^typedef struct tm       tm_t;$/;"	t	typeref:struct:tm
+to	syscfg.h	/^    u_8  to;                  \/* 0x1 local, 0x2: net, 0x3; local & net *\/$/;"	m	struct:record
+total_ch	types.h	/^    u_8 total_ch;\/*µ±«∞À˘”–Õ®µ¿*\/$/;"	m	struct:__anon54
+true	macro.h	30;"	d
+type_mode	types.h	/^    u_32 type_mode;\/*KVM–Õ∫≈£¨»Á3061µ»*\/$/;"	m	struct:__anon54
+u16Height	inf_public.h	/^    u_16 u16Width,u16Height;$/;"	m	struct:area
+u16Width	inf_public.h	/^    u_16 u16Width,u16Height;$/;"	m	struct:area
+u16X	inf_public.h	/^    u_16 u16X,u16Y;$/;"	m	struct:area
+u16Y	inf_public.h	/^    u_16 u16X,u16Y;$/;"	m	struct:area
+u32ALostframeNum	inf_public.h	/^    u_32 u32ALostframeNum;$/;"	m	struct:__anon34
+u32ATransLostNum	inf_public.h	/^    u_32 u32ATransLostNum;    $/;"	m	struct:__anon34
+u32ATransNum	inf_public.h	/^    u_32 u32ATransNum;$/;"	m	struct:__anon34
+u32AframeNo	inf_public.h	/^    u_32 u32AframeNo;$/;"	m	struct:__anon34
+u32H	inf_public.h	/^    u_32 u32H; $/;"	m	struct:VideoZoom
+u32PackId	inf_public.h	/^    u_32 u32PackId:24;$/;"	m	struct:DSPtoCPUHead
+u32SN	inf_public.h	/^    u_32 u32SN;$/;"	m	struct:PacketHead
+u32VMainLostframeNum	inf_public.h	/^    u_32 u32VMainLostframeNum;$/;"	m	struct:__anon34
+u32VMainTransLostNum	inf_public.h	/^    u_32 u32VMainTransLostNum;$/;"	m	struct:__anon34
+u32VMainTransNum	inf_public.h	/^    u_32 u32VMainTransNum;$/;"	m	struct:__anon34
+u32VMainframeNo	inf_public.h	/^    u_32 u32VMainframeNo;$/;"	m	struct:__anon34
+u32VSubLostframeNum	inf_public.h	/^    u_32 u32VSubLostframeNum;$/;"	m	struct:__anon34
+u32VSubTransLostNum	inf_public.h	/^    u_32 u32VSubTransLostNum;$/;"	m	struct:__anon34
+u32VSubTransNum	inf_public.h	/^    u_32 u32VSubTransNum;$/;"	m	struct:__anon34
+u32VSubframeNo	inf_public.h	/^    u_32 u32VSubframeNo;$/;"	m	struct:__anon34
+u32W	inf_public.h	/^    u_32 u32W; $/;"	m	struct:VideoZoom
+u32len	inf_public.h	/^    u_32 u32len;    $/;"	m	struct:PacketHead
+u32x	inf_public.h	/^    u_32 u32x; $/;"	m	struct:VideoZoom
+u32y	inf_public.h	/^    u_32 u32y; $/;"	m	struct:VideoZoom
+u8Aduio	inf_public.h	/^    u_8 u8Aduio;                        \/*Õ®µ¿“Ù∆µ,0~16£¨0xffŒ™≤ª ‰≥ˆ“Ù∆µ*\/$/;"	m	struct:__anon30
+u8Aduio	inf_public.h	/^    u_8 u8Aduio;                        \/*Õ®µ¿“Ù∆µ,0~16£¨0xffŒ™≤ª ‰≥ˆ“Ù∆µ*\/$/;"	m	struct:__anon31
+u8AlarmType	inf_public.h	/^      u_8 u8AlarmType;\/\/ 0:video lossed; 1:moving detected; 2:shelter detectd$/;"	m	struct:ALARM_INFO
+u8AudioStatus	inf_public.h	/^    u_8  u8AudioStatus;     $/;"	m	struct:__anon33
+u8BitRateType	inf_public.h	/^    u_8 u8BitRateType;        \/*0-varible,1-constant*\/$/;"	m	struct:__anon28
+u8Brightness	inf_public.h	/^   u_8 u8Brightness;$/;"	m	struct:__anon29
+u8CMDMode	inf_public.h	/^    u_8 u8CMDMode;\/*0-÷˜øÿ«Î«Û£¨1-DSP”¶¥,2-DSP«Î«Û£¨3-÷˜øÿ”¶¥*\/$/;"	m	struct:PacketHead
+u8Ch	inf_public.h	/^    u_8 u8Ch;$/;"	m	struct:VideoZoom
+u8Ch	inf_public.h	/^    u_8 u8Ch;$/;"	m	struct:__anon36
+u8ChNum	inf_public.h	/^    u_8 u8ChNum;        \/*0~15*\/$/;"	m	struct:__anon28
+u8ChNum	inf_public.h	/^    u_8 u8ChNum;$/;"	m	struct:Motion_Obstruct_Cfg
+u8ChNum	inf_public.h	/^   u_8 u8ChNum;$/;"	m	struct:__anon29
+u8Chan	inf_public.h	/^      u_8 u8Chan;$/;"	m	struct:ALARM_INFO
+u8ChnNum	inf_public.h	/^    u_8  u8ChnNum;$/;"	m	struct:__anon35
+u8Color	inf_public.h	/^   u_8 u8Color; $/;"	m	struct:__anon29
+u8Contrast	inf_public.h	/^   u_8 u8Contrast; $/;"	m	struct:__anon29
+u8Cover	inf_public.h	/^    u_8  u8Cover;    \/* ”∆µ’⁄µ≤◊¥Ã¨*\/$/;"	m	struct:__anon33
+u8DisplayMode	inf_public.h	/^    u_8 u8DisplayMode;                  \/* 0, 1, 2, 4, 6, 8, 9 ,13, 16 *\/    $/;"	m	struct:__anon30
+u8DisplayMode	inf_public.h	/^    u_8 u8DisplayMode;                  \/* 0, 1, 2, 4, 6, 8, 9 ,13, 16 *\/   $/;"	m	struct:__anon31
+u8Enable	inf_public.h	/^    u_8 u8Enable;                       $/;"	m	struct:__anon30
+u8Enable	inf_public.h	/^    u_8 u8Enable;     \/* 0: disable, 1: enable *\/$/;"	m	struct:__anon28
+u8Format	inf_public.h	/^    u_8 u8Format;$/;"	m	struct:PacketOSD
+u8FrameLen_H	inf_public.h	/^    u_8  u8FrameLen_H;$/;"	m	struct:__anon35
+u8FrameLen_L	inf_public.h	/^    u_8  u8FrameLen_L;$/;"	m	struct:__anon35
+u8FrameLen_M	inf_public.h	/^    u_8  u8FrameLen_M;$/;"	m	struct:__anon35
+u8FrameRate	inf_public.h	/^    u_8  u8FrameRate;$/;"	m	struct:__anon35
+u8FrameRate	inf_public.h	/^    u_8 u8FrameRate;        \/*1~25*\/$/;"	m	struct:__anon28
+u8FrameType	inf_public.h	/^    u_8  u8FrameType;\/\/ 0:I; 1:p$/;"	m	struct:__anon35
+u8FrameType	inf_public.h	/^    u_8 u8FrameType;    $/;"	m	struct:__anon28
+u8IFrameInterval	inf_public.h	/^    u_8 u8IFrameInterval;       \/*IP rate*\/ $/;"	m	struct:__anon28
+u8ImageQuality	inf_public.h	/^    u_8 u8ImageQuality;     \/*0~4*\/$/;"	m	struct:__anon28
+u8Init	inf_public.h	/^    u_8  u8Init;      \/* «∑Ò∆Ù∂ØÕÍ≥…*\/$/;"	m	struct:__anon33
+u8IsUp	inf_public.h	/^    u_8 u8IsUp;          \/* «∑Ò“—æ≠∆Ù∂Ø≥…π¶*\/    $/;"	m	struct:__anon32
+u8Loss	inf_public.h	/^    u_8  u8Loss;     \/* ”∆µ∂™ ß◊¥Ã¨*\/$/;"	m	struct:__anon33
+u8MaxBitRate	inf_public.h	/^    u_8 u8MaxBitRate;    \/* Max bit rate >> 4*\/ $/;"	m	struct:__anon28
+u8Mode	inf_public.h	/^    u_8  u8Mode;\/\/ 0:PAL; 1:NTSC$/;"	m	struct:__anon35
+u8Mon	inf_public.h	/^    u_8  u8Mon;$/;"	m	struct:__anon35
+u8Mon	inf_public.h	/^    u_8 u8Mon;$/;"	m	struct:__anon36
+u8Monitor	inf_public.h	/^    u_8 u8Monitor;                      \/*0~2*\/$/;"	m	struct:__anon30
+u8Monitor	inf_public.h	/^    u_8 u8Monitor;                      \/*0~2*\/$/;"	m	struct:__anon31
+u8Motion	inf_public.h	/^    u_8  u8Motion;   \/*“∆∂Ø’Ï≤‚◊¥Ã¨*\/$/;"	m	struct:__anon33
+u8On	inf_public.h	/^    u_8 u8On; $/;"	m	struct:VideoZoom
+u8On	inf_public.h	/^    u_8 u8On;$/;"	m	struct:Motion_Obstruct_Cfg
+u8Place	inf_public.h	/^    u_8 u8Place[16];       \/*∏˜∏ˆª≠√ÊÕ®µ¿µƒŒª÷√*\/$/;"	m	struct:__anon31
+u8Place	inf_public.h	/^    u_8 u8Place[DVR_CH];       \/*∏˜∏ˆª≠√ÊÕ®µ¿µƒŒª÷√*\/$/;"	m	struct:__anon30
+u8PriArea	inf_public.h	/^    u_8  u8PriArea;  \/*“˛ÀΩ«¯”Ú…Ë÷√◊¥Ã¨*\/$/;"	m	struct:__anon33
+u8Rate	inf_public.h	/^    u_8 u8Rate;$/;"	m	struct:__anon31
+u8Res	inf_public.h	/^      u_8 u8Res;$/;"	m	struct:ALARM_INFO
+u8Res	inf_public.h	/^    u_8 u8Res;$/;"	m	struct:__anon36
+u8Res	inf_public.h	/^    u_8 u8Res[2];$/;"	m	struct:VideoZoom
+u8Res	inf_public.h	/^   u_8 u8Res[3]; $/;"	m	struct:__anon29
+u8Resolution	inf_public.h	/^    u_8  u8Resolution;$/;"	m	struct:__anon35
+u8Resolution	inf_public.h	/^    u_8 u8Resolution; $/;"	m	struct:__anon28
+u8Saturation	inf_public.h	/^   u_8 u8Saturation;$/;"	m	struct:__anon29
+u8Sensitivity	inf_public.h	/^    u_8 u8Sensitivity; \/\/for privacy area invalid$/;"	m	struct:Motion_Obstruct_Cfg
+u8Status	inf_public.h	/^      u_8 u8Status;\/\/ 1:no alarm to alarm; 0:alarm to no alarm$/;"	m	struct:ALARM_INFO
+u8StreamType	inf_public.h	/^    u_8  u8StreamType;\/\/ 0:main; 1:sub	$/;"	m	struct:__anon35
+u8StreamType	inf_public.h	/^    u_8 u8StreamType;   \/*0 = main 1 = sub*\/$/;"	m	struct:__anon28
+u8Subtype	inf_public.h	/^    u_8 u8Subtype;$/;"	m	struct:PacketHead
+u8Type	inf_public.h	/^    u_8 u8Type;$/;"	m	struct:PacketHead
+u8VGARes	inf_public.h	/^    u_8 u8VGARes;                       \/*VGA∑÷±Ê¬ £¨Ωˆ∂‘vga ‰≥ˆ…Ë÷√”––ß*\/$/;"	m	struct:__anon30
+u8VencStatus	inf_public.h	/^    u_8  u8VencStatus;$/;"	m	struct:__anon33
+u8Vga	inf_public.h	/^    u_8 u8Vga;               \/*vga «∑ÒŒ™÷˜º‡ ”∆˜*\/$/;"	m	struct:__anon30
+u8ViStatus	inf_public.h	/^    u_8  u8ViStatus;$/;"	m	struct:__anon33
+u8VideoRes	inf_public.h	/^    u_8 u8VideoRes[16];    \/*ªÿ∑≈∏˜∏ˆÕ®µ¿∑÷±Ê¬ *\/ $/;"	m	struct:__anon31
+u8Week	inf_public.h	/^    u_8 u8Week;$/;"	m	struct:PacketOSD
+u8ch	inf_public.h	/^    u_8  u8ch;$/;"	m	struct:__anon33
+u8ch	inf_public.h	/^    u_8  u8ch;$/;"	m	struct:__anon34
+u8dspId	inf_public.h	/^    u_8  u8dspId;$/;"	m	struct:__anon34
+u8lang	inf_public.h	/^    u_8 u8lang;$/;"	m	struct:PacketOSD
+u8res	inf_public.h	/^    u_8 u8res;$/;"	m	struct:Motion_Obstruct_Cfg
+u8resettime	inf_public.h	/^    u_8  u8resettime;\/*÷ÿ∆Ù¥Œ ˝*\/    $/;"	m	struct:__anon34
+u8rev	inf_public.h	/^    u_8 u8rev;$/;"	m	struct:PacketHead
+u8rev	inf_public.h	/^    u_8 u8rev;$/;"	m	struct:PacketOSD
+uDiscSpace	sysctrl.h	/^	    u_64 uDiscSpace;		\/*π‚≈Ã»›¡ø*\/$/;"	m	struct:dvdrwCtrl::__anon48::status
+uDiscType	sysctrl.h	/^	    u_32 uDiscType;			\/*π‚≈Ã¿‡–Õ*\/$/;"	m	struct:dvdrwCtrl::__anon48::status
+uDriveStatus	sysctrl.h	/^	    u_32 uDriveStatus;		\/*π‚«˝◊¥Ã¨ *\/	$/;"	m	struct:dvdrwCtrl::__anon48::status
+uErrCode	sysctrl.h	/^    u_32 uErrCode;			\/*¥ÌŒÛ¬Î*\/$/;"	m	struct:dvdrwCtrl
+uPackNo	sysctrl.h	/^    u_32 uPackNo;			\/*∞¸–Ú∫≈*\/$/;"	m	struct:dvdrwCtrl
+uPackTotal	sysctrl.h	/^    u_32 uPackTotal;		\/*∞¸◊‹ ˝(fileinfo)*\/$/;"	m	struct:dvdrwCtrl
+uProcess	sysctrl.h	/^	u_32 uProcess;			\/*Ω¯∂» 0 ~ 100*\/	$/;"	m	union:dvdrwCtrl::__anon48
+uUsedSpace	sysctrl.h	/^	    u_64 uUsedSpace;		\/*“—”√ø’º‰*\/$/;"	m	struct:dvdrwCtrl::__anon48::status
+u_16	cfg.h	/^typedef unsigned short u_16;$/;"	t
+u_16	inf_public.h	/^typedef unsigned short u_16;$/;"	t
+u_16	types.h	/^typedef unsigned short u_16;$/;"	t
+u_32	cfg.h	/^typedef unsigned int   u_32;$/;"	t
+u_32	inf_public.h	/^typedef unsigned int   u_32;$/;"	t
+u_32	types.h	/^typedef unsigned int   u_32;$/;"	t
+u_64	cfg.h	/^typedef unsigned long long   u_64;$/;"	t
+u_64	inf_public.h	/^typedef unsigned long long   u_64;$/;"	t
+u_64	types.h	/^typedef unsigned long long   u_64;$/;"	t
+u_8	cfg.h	/^typedef unsigned char  u_8;$/;"	t
+u_8	inf_public.h	/^typedef unsigned char  u_8;$/;"	t
+u_8	types.h	/^typedef unsigned char  u_8;$/;"	t
+uart_num	types.h	/^    u_8 uart_num;       \/*¥Æø⁄ ˝*\/$/;"	m	struct:__anon54
+update	sysctrl.h	/^        update_t    update;$/;"	m	union:sysCtrl::__anon49
+update	sysctrl.h	/^typedef struct update {$/;"	s
+update_t	sysctrl.h	/^} update_t, Update_t;$/;"	t	typeref:struct:update
+usb_num	types.h	/^    u_8 usb_num;        \/*USB ˝*\/$/;"	m	struct:__anon54
+userNum	cfg.h	/^    s_16  userNum;$/;"	m	struct:__anon9
+userNum	types.h	/^    s_16  userNum;$/;"	m	struct:__anon69
+usr_name	cfg.h	/^	s_8 usr_name[NAME_LEN];$/;"	m	struct:ddns_struct
+usr_name	types.h	/^	s_8 usr_name[NAME_LEN];$/;"	m	struct:ddns_struct
+venc_res_max	inf_public.h	/^    u_8 venc_res_max;   \/*∏√dspæﬂ”–◊Ó¥Û∑÷±Ê¬ *\/$/;"	m	struct:__anon32
+verify	types.h	/^    verifyWay   verify;$/;"	m	struct:verifyCfg
+verifyCfg	types.h	/^typedef struct verifyCfg{$/;"	s
+verifyWay	types.h	/^}verifyWay;$/;"	t	typeref:enum:__anon89
+video	sysstat.h	/^        videoStat_t video;$/;"	m	union:sysstat::__anon51
+videoStat	sysstat.h	/^typedef struct videoStat {$/;"	s
+videoStat_t	sysstat.h	/^} videoStat_t;$/;"	t	typeref:struct:videoStat
+video_enc_num	inf_public.h	/^    u_8 video_enc_num;  \/*∏√dspæﬂ”–∂‡…Ÿ¬∑±‡¬Îƒ‹¡¶*\/    $/;"	m	struct:__anon32
+video_frame_type_t	inf_public.h	/^}video_frame_type_t;$/;"	t	typeref:enum:__anon15
+video_mode	inf_public.h	/^    u_8 video_mode;      \/*0-pal ,1-ntsc*\/   $/;"	m	struct:__anon32
+video_mode_t	inf_public.h	/^}video_mode_t;$/;"	t	typeref:enum:__anon14
+video_res_t	inf_public.h	/^}video_res_t;$/;"	t	typeref:enum:__anon12
+video_stream_type_t	inf_public.h	/^}video_stream_type_t;$/;"	t	typeref:enum:__anon17
+video_t	types.h	/^}video_t;$/;"	t	typeref:struct:__anon56
+view	cfg.h	/^        u_32 view[MAX_PORT_ACCESS_NUM];$/;"	m	struct:__anon9::__anon10
+virMediaPriv	cfg.h	/^	}virMediaPriv;$/;"	m	struct:__anon9	typeref:struct:__anon9::__anon11
+virMediaPriv	types.h	/^	}virMediaPriv;$/;"	m	struct:__anon69	typeref:struct:__anon69::__anon73
+vo_num	inf_public.h	/^    u_8 vo_num;          \/*∏√dspæﬂ”–∂‡…Ÿ¬∑VO ‰≥ˆƒ‹¡¶*\/  $/;"	m	struct:__anon32
+vo_vga_t	inf_public.h	/^}vo_vga_t;$/;"	t	typeref:enum:__anon16
+wRev	types.h	/^    u_8 wRev;$/;"	m	struct:__anon64
+wfAuthType	syscfg.h	/^	u_8		wfAuthType;					$/;"	m	struct:_LI_WF_NET_CONFIG
+wfOpen	syscfg.h	/^	unsigned char		wfOpen;$/;"	m	struct:_LI_WF_NET_CONFIG

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>日期时间设置</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="kiben" content="no-cache">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/datetime.css">
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="assets/artTemplate/template.js"></script>
+    <script src="My97DatePicker/WdatePicker.js"></script>
+    <script src="js/datetime.js"></script>
+ </head>
+<body>
+    <div class="right_content_top">
+        <a href="#">首页  ></a>
+        <a href="#">系统设置 ></a>
+        日期时间设置
+    </div>
+    <div class="search">日期时间设置</div>
+    <div style="margin:0 3%;" id="errorInfo"></div>
+    <form action="" method="post" id="myForm" >
+        <div class="firstpage">
+         
+        </div>
+        <div class="submit">
+            <input name="" type="submit" class="confirm fl" value="确定"  onclick="setDate();"/>    
+            <input name="" type="button" class="cancel  fl" value="取消" onclick="history.back();" />    
+        </div>
+         <input type="hidden" id="message" value="" />    
+        <input type="hidden" name="timeId" value="tim001"/>    
+        <div class="clear"></div>
+    </form>
+</body>
+<script type="text/html" id="dataInfo">
+    <div class="usergroup">
+                <div class="nature_time">
+                    <div class="nature_bq">
+                        <input type="radio" id="userSetTime" name="timeSetway" value="0" {{if timeSetWay==0}}checked{{/if}}
+ onClick="userSet();" />    
+                        &nbsp;&nbsp;&nbsp; 用户制定时间
+                    </div>
+                    <div class="nature_nr_cc">
+                        <table width="660" border="0">
+                            <tr>
+                                <td width="130">设置日期：</td>
+                            </tr>
+                            <tr>
+                                <td width="211">
+                                    <label for="textfield2"></label>
+                                    <input class="kkkke timeR" type="text" onClick="WdatePicker();" name="currentDate" id="currentDate" value=""  {{if timeSetWay==1}}disabled{{/if}}
+/>    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="130">设置时间 ：</td>
+                            </tr>
+                            <tr>
+                                <td width="258" style="padding-bottom:10px;">
+                                    <label for="textfield2"></label>
+                                    <input type="text" class="kkkke timeR" id="currentTime" name="currentTime" value="" onClick="WdatePicker({dateFmt:'HH:mm'});" {{if timeSetWay==1}}disabled{{/if}}
+ />    
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="nature_2">
+                    <div class="nature_bq">
+                        <input type="radio" name="timeSetway" id="useNtpServer" value="1" {{if timeSetWay==1}}checked{{/if}} onClick="useNtp();" />    
+                        &nbsp;&nbsp;&nbsp; 与NTP服务器同步
+                    </div>
+                    <div class="nature_nr_cc">
+                        <table width="309" border="0">
+                            <tr>
+                                <td width="130">时间服务器：</td>
+                            </tr>
+                            <tr>
+                                <td width="211" style="padding-bottom:5px;">
+                                    <label for="textfield2"></label>
+                                    <input type="text" class="kkkke timeS" id="hostTimeServer"  name="hostTimeServer" value="{{hostTimeServer}}"  {{if timeSetWay==0}}disabled{{/if}}
+/>    
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+    </div>
+</script>
+</html>

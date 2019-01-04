@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+	 <head>      
+     <meta charset="utf-8">
+		 <title>主目录</title>
+		 <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+		 <link rel="stylesheet" href="/css/common.css">
+		 <link rel="stylesheet" href="/css/index.css">
+		 <script src="/assets/jquery/jquery.min.js"></script>
+		 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		 <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+     <script src="/assets/artTemplate/template.js"></script>
+		  <script src="/js/common.js"></script>
+     <script src="/js/index.js"></script>
+	 </head>
+    <body>
+     
+    </body>
+    <script type="text/html" id="sideInfo">
+         <!-- 通栏 -->
+      <div class="banner clearfix">
+        <span class="fl">
+          您好，欢迎进入秦安科技leaCloud管理系统!
+        </span>
+        <div class="exit fr clearfix">
+          <a href="#" id="exit" data-toggle="modal"  data-target="#myModal">
+            <img src="images/exit.png" height="10" width="13" alt="">
+              退出
+          </a>
+        </div>
+      </div>
+      <!--  侧边栏开始部分 -->
+      <div class="c_aside">
+          <div class="left_content">
+              <!-- 挖坑 -->
+               <div class="left_avatar">
+              <div class="profile">
+                <img src="uploads/default.jpg"  alt="">
+              </div>
+              <h4>{{loginUser}}</h4>
+            </div>
+            <div class="left_top">
+              <table width="90%" border="0">
+                <tr>
+                  <td width="69" style="color:#cfcfcf">用&nbsp;&nbsp;户&nbsp;名</td>
+                  <td>：</td>
+                  <td width="175"  style="font-weight:bold">{{loginUser}}</td>
+                </tr>
+                <tr>
+                  <td style="color:#cfcfcf">本&nbsp;机&nbsp;I&nbsp;P</td>
+                  <td>：</td>
+                  <td style="font-weight:bold">{{curLogin_ip}}</td>
+                </tr>
+                <tr>
+                  <td style="color:#cfcfcf">上次登录</td>
+                  <td>：</td>
+                  <td style="font-weight:bold" height="34">
+               2000-02-01 03:56:49
+                    <br/>        
+                    192.168.0.22
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:#cfcfcf">当前时间</td>
+                  <td>：</td>
+                  <td id="times" style="font-weight:bold">{{curLogin_time}}</td>
+                </tr>
+              </table>
+            </div>
+            <div class="left_mid">
+              <div class="left_m1">
+                <span>
+                  <a class="fr">
+                    <img src="images/arrow1.png" height="6" width="10" alt="">  
+                  </a>
+                </span>
+                设备信息
+              </div>
+              <table width="90%" border="0">
+                <tr>
+                  <td width="32%">设备名称</td>
+                  <td>：</td>
+          <td width="68%" style=" color:#1c66a4; font-weight:bold;">{{cKvmName}}</td>
+                </tr>
+                 <tr>
+                  <td>硬件版本</td>
+                  <td>：</td>
+                  <td class="yabse">{{cHardware}}</td>
+                </tr>
+
+                <tr>
+                  <td>固件版本</td>
+                  <td>：</td>
+          <td class="yabse">{{cFirmware}}</td>
+                </tr>
+                
+                <tr>
+                  <td>设备型号</td>
+                  <td>：</td>
+          <td class="yabse">{{cKvmModel}}</td>
+                </tr>
+                 <tr>
+                  <td>网口1 IP</td>
+                  <td>：</td>
+          <td class="yabse">{{cNetWork1}}</td>
+                </tr>
+
+                 <tr>
+                  <td>网口2 IP</td>
+                  <td>：</td>
+          <td class="yabse">{{cNetWork2}}</td>
+                </tr>
+
+                <tr>
+                  <td>电源输入</td>
+                  <td>：</td>
+          <td style=" color:#ff0101;">{{cPowerIn}}</td>
+                </tr>
+              </table>
+            </div>
+         </div>
+      </div>
+       <!--  侧边栏结束部分 -->
+      <div class="main">
+        <div class="container-fluid">
+        <!-- 导航部分开始部分 -->
+          <div class="c_navs fr">
+            <div class="navbar">
+              <div class="navbar-left">
+              {{if portPrivilege==1}}
+                <div class="div-nav div-1">
+                  <a href="port.html" target='iframepage' onmouseover="menu(this);">
+                    <div class="xd_top_2h">
+                      <span>端口访问</span>
+                    </div>
+                  </a>
+                </div>
+              {{/if}}
+              {{if userMngPrivilege==1}}
+                <div class="div-nav div-2">
+                  <a onmouseover="menu(this);" style="cursor:pointer;">
+                    <div class="xd_top_2h">
+                      <span>用户管理</span>
+                    </div>
+                  </a>
+                  <ul style="display:none;">
+                    <li onclick="menuDis(this);">
+                      <a href="userlist.html" target='iframepage'>用户列表</a>
+                    </li>
+                    <li onclick="menuDis(this);" >
+                      <a href="usergrouplist.html" target='iframepage'>用户组列表</a>
+                    </li>
+                    <li onclick="menuDis(this);" style="border-bottom: none;">
+                      <a href="changepassword.html" target='iframepage'>修改密码</a>
+                    </li>
+                  </ul>
+                </div>
+                {{/if}}
+                {{if sysSetPrivilege==1}}
+                <div class="div-nav div-3" >
+                  <a onmouseover="menu(this);" style="cursor:pointer;">
+                    <div class="xd_top_2h">
+                      <span>系统设置</span>
+                    </div>
+                  </a>
+                  <ul style="display:none;" >
+                    <li onclick="menuDis(this);">
+                      <a href="netsetting.html" target="iframepage">网络设置</a>
+                    </li>
+                    <li onclick="menuDis(this);">
+                      <a href="datetime.html" target="iframepage">日期时间</a>
+                    </li>
+                     <li onclick="menuDis(this);">
+                        <a href="deviceSetup.html" target="iframepage">设备设置</a>
+
+                    </li>
+                    <li onclick="menuDis(this);">
+                      <a href="eventmanage.html" target="iframepage">事件管理</a>
+                    </li>
+                    <li onclick="menuDis(this);">
+                      <a href="localport.html" target="iframepage">本地端口</a>
+                    </li>
+                    <!-- <li onclick="menuDis(this);" style="border-bottom: none;">
+                      <a href="workconfig.html" target="iframepage">工作站配置</a>
+                    </li> -->
+                  </ul>
+                </div >
+                {{/if}}
+                {{if securePrivilege==1}}
+                <div class="div-nav div-4" >
+                  <a onmouseover="menu(this);" style="cursor:pointer;">
+                    <div class="xd_top_2h">
+                      <span>安全管理</span>
+                    </div>
+                  </a>
+                  <ul style="display:none;">
+                    <li onclick="menuDis(this);">
+                      <a href="safesetting.html" target="iframepage">安全设置</a>
+                    </li>
+                    <li onclick="menuDis(this);">
+                      <a href="confirmsetting.html" target="iframepage">验证设置</a>
+                    </li>
+                    <li onclick="menuDis(this);" style="border-bottom: none;">
+                      <a href="auditlog.html" target="iframepage">审计日志</a>
+                    </li>
+                  </ul>
+                </div>
+                {{/if}}
+                {{if sysMntPrivilege==1}}
+                <div class="div-nav div-5" >
+                  <a onmouseover="menu(this);" style="cursor:pointer;">
+                    <div class="xd_top_2h">
+                      <span>系统维护</span>
+                    </div>
+                  </a>
+                  <ul style="display:none;">
+                   
+                    <li onclick="menuDis(this);">
+                      <a href="Backuprecovery.html" target="iframepage">备份恢复</a>
+                    </li>
+                    <li onclick="menuDis(this);">
+                      <a href="pinghost.html" target="iframepage">Ping主机</a>
+                    </li>
+                    <li onclick="menuDis(this);">
+                      <a href="factoryreset.html" target="iframepage">恢复出厂</a>
+                    </li>
+                    <li onclick="menuDis(this);">
+                      <a href="reboot.html" target="iframepage">重启设备</a>
+                    </li>
+                     <li onclick="menuDis(this);">
+                      <a href="shutdown.html" target="iframepage">关闭设备</a>
+                    </li>
+                    <li onclick="menuDis(this);" style="border-bottom: none;">
+                      <a href="remoteupgrade.html" target="iframepage">远程升级</a>
+                    </li>
+                  </ul>
+                </div>
+                {{/if}}
+                <div class="div-nav div-6">
+                    <a href="disk.html" target='iframepage' onmouseover="menu(this);">
+                    <div class="xd_top_2h">
+                      <span>磁盘状态</span>
+                    </div>
+                  </a>
+                </div>
+                 <div class="div-nav div-7">
+                    <a href="#" style="cursor:pointer;">
+                    <div class="xd_top_2h">
+                      <span>录像回放</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="div-nav div-8">
+                  <a style="cursor:pointer;" id="help">
+                    <div class="xd_top_2h">
+                      <span>帮助</span>
+                    </div>
+                  </a>
+                  <div class="box" id="box" >
+                      <div class="bigBox" id="bigBox" style="display:none">
+                      <div class="boxTop">
+                        <a href="#">
+                          <span>关于凌云</span>
+                          <button id="topButton">×</button>
+                        </a>
+                      </div>
+                      <div class="boxMid">
+                        <div class="boxLeft">
+                          <img src="images/l.fw.png" height="178" width="178" alt="">
+                        </div>
+                        <div class="boxRight">
+                          <img src="images/2.fw.png" height="36" width="130" alt="">
+                          <div class="content">
+                            <p>第一版<span style="color:red">最近更新</span></p>
+                            <p>深圳市秦安科技有限公司</p>
+                            <p>leaCloud已是最新</p>
+                            <p>leaCloud诞生于秦安科技。我们是一家专业的,集kvm研发、生产、销售于一体的国家高新技术企业</p>
+                            <p><span>想更加深入的了解我们欢迎点击链接</span>
+                            <a href="http://www.szkinan.com " target="_blank"  style="color:red">http://www.szkinan.com</a></p>
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="boxBottom">
+                        <p>leaCloud以及leaCloud标志均为秦安科技自创商标</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+             <!--  <div class="navbar-header fr">
+                <a href="#" class="navbar-brand">
+                  <img src="images/brand.png" height="25" width="25" alt=""></a>
+              </div> -->
+            </div>
+            
+          </div>
+           
+        <!-- 导航部分结束部分 -->
+        <!--  主体开始部分 -->
+          <div class="c_section">
+            <div class="c-main">
+              <div class="c-about">
+                <iframe id="iframepage" name="iframepage" style="width:100%;height:85%;margin:0; padding:0;border:none;overflow:none;" frameborder=0 src="port.html" onmouseover="allMenuDis();">
+                </iframe >
+              </div>
+            </div>
+          </div>
+        <!--  主体结束部分 -->
+        </div>
+      </div>
+      <!-- 模态框 -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog" style="width: 450px;">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="panel-title">退出信息</h4>
+                </div>
+                <div class="panel-body">
+                    确定退出登录？
+                </div>
+                <div class="modal-footer" id="modalFooter">
+                  <button type="button" class="btn btn-primary btnSave">确定</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+
+                </div>
+            </div>
+        </div>
+    </div>          
+  </script>
+</html>

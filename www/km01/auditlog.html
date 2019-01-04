@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>审计日志</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="kiben" content="no-cache">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="YhhDataTable/css/jquery.paginate.css" />
+    <link rel="stylesheet" href="YhhDataTable/css/jquery.yhhDataTable.css" />
+    <link rel="stylesheet" href="css/auditlog.css">
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="My97DatePicker/WdatePicker.js"></script>
+    <script src="assets/artTemplate/template.js"></script>
+    <script type="text/javascript" src="YhhDataTable/js/jquery.paginate.js" ></script>
+    <script type="text/javascript" src="YhhDataTable/js/jquery.yhhDataTable.js" ></script>
+    <script src="js/auditlog.js"></script>
+
+</head>
+<body>
+    <div class="right_content_top">
+        <a href="#">首页  ></a>
+        <a href="#">安全管理  ></a>
+        审计日志
+    </div>
+    <div class="firstpage_1">
+        <form  action="" method="" class="main clearfix" name="form1" id="myForm">
+          <div class="mainText fl">主类型：</div>
+          <select name="mainType" id="mainType" onChange="getData()" class="fl">
+            <option value="0">全部</option>
+            <option value="1">警告</option>
+            <option value="2">异常</option>
+            <option value="3">配置</option>
+            <option value="4">操作</option>
+            <option value="5">预览</option>
+            <option value="6">录像</option>
+          </select>
+          <div class="sonText fl">子类型：</div>
+          <select name="sonType" id="sonType" class="fl">
+               <option value="0">全部</option>
+          </select>
+          <div class="dateChoose fl">
+             <!-- 挖坑 -->
+          </div>
+          <input type="button" value="搜索" class="searchBtn fl" >
+          <input type="hidden" id="starttimeM2" name="starttimeM2" value="">
+          <input type="hidden" id="endtimeM2" name="endtimeM2" value="">
+
+        </form>
+         <div class="firstpage_2_log">
+              <div class="audit">
+                <table id="logIn" width="100%" border="0" cellspacing="0" cellpadding="0">
+                   <thead>
+                    <tr>
+                        <th width="45px">编号</th>
+                        <th style="text-align:left;">日期</th>
+                        <th  style="text-align:left;">主类型</th>
+                        <th  style="text-align:left;">次类型</th>
+                        <th style="text-align:left;">说明</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                     <!--  挖坑 -->
+                  </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+  <script type="text/html" id="auditIn">
+       <span width="15%">日期选泽：</span>
+       <input type="text" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss'})" class="fl" name="startTime" value="{{start_time}}" id="startTime">
+       <span width="5%">&nbsp;至&nbsp;</span> 
+      <input type="text" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss'})" class="fl" name="endTime" value="{{end_time}}" id="endTime">
+  </script>
+</html>

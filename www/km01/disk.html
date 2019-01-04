@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>磁盘状态</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="kiben" content="no-cache">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/disk.css">
+        <script src="assets/jquery/jquery.js"></script>
+        <script src="/assets/jquery-cookie/jquery.cookie.js"></script>
+        <script src="/js/common.js"></script>
+        <script src="assets/artTemplate/template.js"></script>
+        <script src="js/disk.js"></script>
+    </head>
+    <body>
+        <div class="right_content_top">
+          <a href="#">首页  ></a>
+          <a href="#">系统维护></a>
+          磁盘状态
+        </div>
+        <div class="search">磁盘状态</div>
+        <form action="" method="post" id="myForm">
+          <div class="form_top">
+            <div class="form_top_th">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0"  class="">
+              <tr>
+                  <th width="5%">
+                   <input type="checkbox" name="checkbox"  id="ifAll" onclick="checkAll();"></th>
+                  <th width="15%" align="center">磁盘名称&nbsp;</th>
+                  <th width="15%" align="center">属性 &nbsp;</th>
+                  <th width="15%"  align="center">&nbsp;size(M)</th>
+                  <th width="15%"  align="center">&nbsp;used(M)</th>
+                  <th width="15%"  align="center">&nbsp;free(M)</th>
+                  <th width="15%"  align="center">&nbsp;格式化操作</th>
+              </tr>
+            </table>
+          </div>
+            <div class="form_top_body">
+              <div class="form_top_tr">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0"  class="dis">
+                  </table>
+              </div>
+               <div class="fy">
+                   <div class="fy_right fr">
+                     <a href="#" id="add" onclick="getFormatt();">格式化</a>
+                     <a href="#" id="remove" onclick="selectCancel()">取消</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </form>
+        <div class="clear"></div>
+    
+    </body>
+    <script type="text/html" id="diskIn">
+        {{each data as value}}
+        <tr>
+          <td width="5%" align="center" ><input type="checkbox" value="{{value.diskName}}" name="selectFlag" onclick="checkBox(this)"></td>
+          <td  width="15%"  align="center" >{{value.diskName}}</td>
+          <td  width="15%"  align="center">{{value.nature}}</td>
+          <td  width="15%" align="center">{{value.size}}</td>
+          <td  width="15%" align="center">{{value.used}}</td>
+          <td  width="15%" align="center">{{value.free}}</td>
+          <td  width="15%" align="center" class="form_option">{{value.option}}</td>
+        </tr>
+        {{/each}}
+    </script>
+</html>
